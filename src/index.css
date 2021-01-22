@@ -207,6 +207,7 @@ header #HeaderContentWrapper #HeaderDesc button {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   margin: 4px 0px;
+  color: cyan;
 }
 
 header #HeaderContentWrapper #HeaderDesc button a {
@@ -214,10 +215,16 @@ header #HeaderContentWrapper #HeaderDesc button a {
   font-size: 1.2rem;
   font-family: 'Titillium Web', sans-serif;
   color: cyan;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+header #HeaderContentWrapper #HeaderDesc button:hover {
+  background: cyan;
+  color: white !important;
 }
 
 header #HeaderContentWrapper #HeaderDesc button:hover a {
-  background: cyan;
   color: white;
 }
 
