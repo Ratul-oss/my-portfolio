@@ -1,13 +1,1669 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Texturina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  width: 0px;
 }
+
+::-webkit-scrollbar-track {
+  background: #fff6f600;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(223, 223, 223, 0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0);
+}
+
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background: transparent;
+  color: black;
+}
+
+button {
+  outline: none !important;
+}
+
+section {
+  border-bottom: 2px solid #ddd;
+}
+
+section:last-child {
+  border-bottom: none !important;
+}
+
+button {
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#Container {
+  width: 950px;
+  margin: auto;
+}
+
+.active {
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+nav {
+  padding: 5px 50px;
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: -webkit-gradient(linear, right top, left top, from(#bc01fbc2), to(#160316d3));
+  background: linear-gradient(to left, #bc01fbc2, #160316d3);
+  border-bottom: 1px solid #5a5a5a;
+}
+
+nav #NavContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav #NavContentWrapper #NavLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0px !important;
+}
+
+nav #NavContentWrapper #NavLinks li {
+  margin: 0px 18px;
+  list-style: none;
+}
+
+nav #NavContentWrapper #NavLinks li a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav #NavContentWrapper #NavLinks li a:hover {
+  text-shadow: 0px 0px 10px white;
+}
+
+nav #NavContentWrapper #NavTitle {
+  font-size: 2rem;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  background: -webkit-gradient(linear, right top, left top, from(#00ffaa), to(#00ccff));
+  background: linear-gradient(to left, #00ffaa, #00ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+nav #NavContentWrapper #Bar {
+  display: none;
+}
+
+header {
+  padding: 50px 0px 30px 0px;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#000000), to(#00000013)), url(./Components/img/HeaderBg.jpg);
+  background: linear-gradient(to right, #000000, #00000013), url(./Components/img/HeaderBg.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header #HeaderContentWrapper #HeaderDesc {
+  margin: 5px 0px;
+}
+
+header #HeaderContentWrapper #HeaderDesc h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  font-family: 'Merriweather', serif;
+  background: url(./Components/img/H1.jpeg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header #HeaderContentWrapper #HeaderDesc p {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #8d00b5;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+header #HeaderContentWrapper #HeaderDesc h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 400;
+  font-family: 'Texturina', serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+header #HeaderContentWrapper #HeaderDesc button {
+  padding: 5px 30px;
+  background: transparent;
+  border: 2px solid cyan;
+  color: cyan;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 4px 0px;
+}
+
+header #HeaderContentWrapper #HeaderDesc button:hover {
+  background: cyan;
+  color: white;
+}
+
+#About {
+  padding: 50px 0px;
+}
+
+#About #AboutCOntentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#About #AboutCOntentWrapper #AboutDesc {
+  width: 570px;
+}
+
+#About #AboutCOntentWrapper #AboutDesc h2 {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(45deg, #00a2b8, #00eeff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+#About #AboutCOntentWrapper #AboutDesc P {
+  font-family: 'Yusei Magic', sans-serif;
+  padding: 5px 0px;
+}
+
+#About #AboutCOntentWrapper #AboutDesc a {
+  padding: 5px 30px;
+  font-size: 1.3rem;
+  border: 3px solid purple;
+  color: purple;
+  text-decoration: none;
+  font-family: 'Yusei Magic', sans-serif;
+  overflow: hidden;
+  display: inline-block;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: -webkit-gradient(linear, right top, left top, from(#00000052), to(#0000009d)), url(./Components/img/H1.jpeg);
+  background: linear-gradient(to left, #00000052, #0000009d), url(./Components/img/H1.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 0% 0%;
+  color: purple;
+  margin: 10px 0px;
+}
+
+#About #AboutCOntentWrapper #AboutDesc a:hover {
+  color: white;
+  background-size: 30% 30%;
+}
+
+#About #AboutCOntentWrapper #AboutImage {
+  width: 380px;
+}
+
+#About #AboutCOntentWrapper #AboutImage img {
+  width: 100%;
+  -webkit-animation: ShortAbout 3s ease infinite alternate;
+          animation: ShortAbout 3s ease infinite alternate;
+}
+
+@-webkit-keyframes ShortAbout {
+  from {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  to {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+@keyframes ShortAbout {
+  from {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  to {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+#AboutPage {
+  padding: 80px 0px 30px 0px;
+}
+
+#AboutPage #AboutPageImage {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#AboutPage #AboutPageImage img {
+  width: 100%;
+}
+
+#AboutPage #AboutPageDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#AboutPage #AboutPageDesc #Desc {
+  width: 760px;
+}
+
+#AboutPage #AboutPageDesc #Desc p {
+  font-family: 'Yusei Magic', sans-serif;
+  padding: 5px 0px;
+}
+
+#AboutPage #AboutPageDesc #Desc h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  background: url(./Components/img/Title.jpg);
+  background-size: 20% 20%;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#AboutPage #AboutPageDesc #AboutTable {
+  width: 142.5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#AboutPage #AboutPageDesc #AboutTable table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#AboutPage #AboutPageDesc #AboutTable table tr th {
+  padding: 30px 0px;
+  border: 1px solid cyan;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#AboutPage #AboutPageDesc #AboutTable table tr th:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#AboutPage #AboutPageDesc #AboutTable table tr th:hover {
+  background: #d2ffff;
+}
+
+#AboutPage #AboutPageDesc #AboutTable table tr th img {
+  width: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.custom-shape-divider-top-1610786056 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1610786056 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 61px;
+}
+
+.custom-shape-divider-top-1610786056 .shape-fill {
+  fill: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-top-1610786056 svg {
+    width: calc(100% + 1.3px);
+    height: 44px;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1610786056 svg {
+    width: calc(100% + 1.3px);
+    height: 32px;
+  }
+}
+
+#Footer {
+  position: relative;
+  padding: 150px 0px 100px 0px;
+  background: -webkit-gradient(linear, right top, left top, from(#0d1117da), to(#0d1117)), url(./Components/img/FooterBg.jpg);
+  background: linear-gradient(to left, #0d1117da, #0d1117), url(./Components/img/FooterBg.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#Footer #FooterContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+#Footer #FooterContentWrapper #FooterSingleCotent {
+  margin: 20px 10px;
+}
+
+#Footer #FooterContentWrapper #FooterSingleCotent h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  background: -webkit-gradient(linear, right top, left top, from(#00ffdd), to(#0059ff));
+  background: linear-gradient(to left, #00ffdd, #0059ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Lora', serif;
+}
+
+#Footer #FooterContentWrapper #FooterSingleCotent ol li,
+#Footer #FooterContentWrapper #FooterSingleCotent ul li {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+#Footer #FooterContentWrapper #FooterSingleCotent ol li:hover a,
+#Footer #FooterContentWrapper #FooterSingleCotent ul li:hover a {
+  color: cyan;
+}
+
+#Footer #FooterContentWrapper #FooterSingleCotent ol li:hover i,
+#Footer #FooterContentWrapper #FooterSingleCotent ul li:hover i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  color: white;
+}
+
+#Footer #FooterContentWrapper #FooterSingleCotent ol li i,
+#Footer #FooterContentWrapper #FooterSingleCotent ul li i {
+  padding: 0px 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: cyan;
+}
+
+#Footer #FooterContentWrapper #FooterSingleCotent ol li a,
+#Footer #FooterContentWrapper #FooterSingleCotent ul li a {
+  text-decoration: none;
+  color: #7caeca;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.1rem;
+}
+
+#Footer #ShareButtons {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+#Footer #ShareButtons .a2a_kit a {
+  margin: 5px 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0px;
+  background: #242424;
+  color: whitesmoke;
+  letter-spacing: 2px;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+#SectionTitle {
+  text-align: center;
+  margin: 30px auto 50px auto;
+}
+
+#SectionTitle h2 {
+  font-size: 2.5rem;
+  background: url(./Components/img/Title.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: 'Acme', sans-serif;
+  text-transform: capitalize;
+}
+
+#SectionTitle p {
+  width: 60%;
+  margin: 5px auto 10px auto;
+  font-weight: 900;
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+#SectionTitle #line {
+  width: 100px;
+  margin: auto auto;
+  height: 6px;
+  background: url(./Components/img/Title.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  border-radius: 5px;
+}
+
+#ShortService {
+  padding: 50px 0px;
+}
+
+#ShortService #ShortServiceContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#ShortService #ShortServiceContentWrapper #SingleShortService {
+  padding: 30px 20px;
+  text-align: center;
+  width: 290px;
+  border: 0.1px solid #ddd;
+  border-radius: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 30px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  transition: 0.2s;
+}
+
+#ShortService #ShortServiceContentWrapper #SingleShortService:nth-child(3) #ServiceImage {
+  width: 40% !important;
+}
+
+#ShortService #ShortServiceContentWrapper #SingleShortService:hover {
+  -webkit-box-shadow: 1px 2px 20px black;
+          box-shadow: 1px 2px 20px black;
+  border: none;
+}
+
+#ShortService #ShortServiceContentWrapper #SingleShortService:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#ShortService #ShortServiceContentWrapper #SingleShortService #ServiceShortDesc h2 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  margin: 5px 0px 10px 0px;
+  font-family: 'Raleway', sans-serif;
+  background: -webkit-gradient(linear, right top, left top, from(red), to(#003cff));
+  background: linear-gradient(to left, red, #003cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#ShortService #ShortServiceContentWrapper #SingleShortService #ServiceShortDesc P {
+  text-transform: capitalize;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding: 0px 5px;
+  line-height: 23px;
+}
+
+#ShortService #ShortServiceContentWrapper #SingleShortService #ServiceImage {
+  width: 60%;
+  margin: auto auto 10px auto;
+}
+
+#ShortService #ShortServiceContentWrapper #SingleShortService #ServiceImage img {
+  width: 100%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#LinkToMainPage {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#LinkToMainPage a {
+  padding: 5px 30px;
+  font-size: 1.3rem;
+  border: 3px solid purple;
+  color: purple;
+  text-decoration: none;
+  font-family: 'Yusei Magic', sans-serif;
+  overflow: hidden;
+  display: inline-block;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: url(./Components/img/H1.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 0% 0%;
+  color: purple;
+}
+
+#LinkToMainPage a:hover {
+  color: white;
+  background-size: 30% 30%;
+}
+
+#Service {
+  padding: 50px 0px;
+}
+
+#Service #ServiceContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#Service #ServiceContentWrapper #SingleService {
+  padding: 30px 20px;
+  text-align: center;
+  width: 290px;
+  border: 0.1px solid #ddd;
+  border-radius: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 30px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  transition: 0.2s;
+}
+
+#Service #ServiceContentWrapper #SingleService:nth-child(3) #ServiceImage {
+  width: 40% !important;
+}
+
+#Service #ServiceContentWrapper #SingleService:nth-child(4) #ServiceImage {
+  width: 40% !important;
+}
+
+#Service #ServiceContentWrapper #SingleService:nth-child(6) #ServiceImage {
+  width: 40% !important;
+}
+
+#Service #ServiceContentWrapper #SingleService:hover {
+  -webkit-box-shadow: 1px 2px 20px black;
+          box-shadow: 1px 2px 20px black;
+  border: none;
+}
+
+#Service #ServiceContentWrapper #SingleService:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Service #ServiceContentWrapper #SingleService #ServiceDesc h2 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  margin: 5px 0px 10px 0px;
+  font-family: 'Raleway', sans-serif;
+  background: -webkit-gradient(linear, right top, left top, from(red), to(#003cff));
+  background: linear-gradient(to left, red, #003cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#Service #ServiceContentWrapper #SingleService #ServiceDesc P {
+  text-transform: capitalize;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding: 0px 5px;
+  line-height: 23px;
+}
+
+#Service #ServiceContentWrapper #SingleService #ServiceImage {
+  width: 60%;
+  margin: auto auto 10px auto;
+}
+
+#Service #ServiceContentWrapper #SingleService #ServiceImage img {
+  width: 100%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#ShortProjects {
+  padding: 50px 0px;
+}
+
+#ShortProjects #ProjectContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject {
+  position: relative;
+  width: 50%;
+  margin-top: -4px;
+  overflow: hidden;
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject img {
+  width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 450px;
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc p {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc a {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #000000e5;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: cyan;
+  text-shadow: 1px 2px 20px cyan;
+  text-transform: capitalize;
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc p {
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.2rem;
+  width: 60%;
+  text-align: center;
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-transform: capitalize;
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc a {
+  color: white;
+  display: inline-block;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: #8400ff;
+}
+
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc a:hover {
+  color: cyan;
+}
+
+#Projects {
+  padding: 50px 0px;
+}
+
+#Projects #ProjectContentWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#Projects #ProjectContentWrapper #SingleProject {
+  position: relative;
+  overflow: hidden;
+  margin-top: -4px;
+}
+
+#Projects #ProjectContentWrapper #SingleProject img {
+  width: 100%;
+  height: 450px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Projects #ProjectContentWrapper #SingleProject:hover #ProjectDesc {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+#Projects #ProjectContentWrapper #SingleProject:hover #ProjectDesc p {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#Projects #ProjectContentWrapper #SingleProject:hover #ProjectDesc a {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#Projects #ProjectContentWrapper #SingleProject #ProjectDesc {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #000000e5;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#Projects #ProjectContentWrapper #SingleProject #ProjectDesc h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: cyan;
+  text-shadow: 1px 2px 20px cyan;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#Projects #ProjectContentWrapper #SingleProject #ProjectDesc p {
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.2rem;
+  width: 60%;
+  text-align: center;
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-transform: capitalize;
+}
+
+#Projects #ProjectContentWrapper #SingleProject #ProjectDesc a {
+  color: white;
+  display: inline-block;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: #8400ff;
+}
+
+#Projects #ProjectContentWrapper #SingleProject #ProjectDesc a:hover {
+  color: cyan;
+}
+
+#ShortSkill {
+  padding: 50px 0px;
+}
+
+#SkillContentWrappper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#SkillContentWrappper #SingleSkill {
+  padding: 20px 20px;
+  border: 1px solid rgba(221, 221, 221, 0.164);
+  -webkit-box-shadow: 1px 1px 10px rgba(117, 117, 117, 0.747);
+          box-shadow: 1px 1px 10px rgba(117, 117, 117, 0.747);
+  border-radius: 100%;
+  display: -ms-grid;
+  display: grid;
+  margin: 20px 10px;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 150px;
+  margin: 20px 20px;
+  border-radius: 100%;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#SkillContentWrappper #SingleSkill:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#SkillContentWrappper #SingleSkill:hover {
+  -webkit-box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.459);
+          box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.459);
+}
+
+#SkillContentWrappper #SingleSkill img {
+  width: 100%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#Top {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  z-index: 7;
+  margin: 0px 10px;
+}
+
+#Top a {
+  color: #00ffea;
+  padding: 5px;
+  border: 3px solid cyan;
+  display: inline-block;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Top a:hover {
+  background: cyan;
+  color: white;
+}
+
+#SkillsPage {
+  padding: 50px 0px;
+}
+
+#SkillsPage #SkillPageContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#SkillsPage #SkillPageContentWrapper #SingleSkillsInPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 1px 2px 10px rgba(37, 37, 37, 0.705);
+          box-shadow: 1px 2px 10px rgba(37, 37, 37, 0.705);
+  border-radius: 5px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 465px;
+  margin: 10px 0px;
+  padding: 10px 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgba(196, 196, 196, 0.733);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#SkillsPage #SkillPageContentWrapper #SingleSkillsInPage:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-width: 0.1;
+}
+
+#SkillsPage #SkillPageContentWrapper #SingleSkillsInPage #SkllImg {
+  width: 186px;
+}
+
+#SkillsPage #SkillPageContentWrapper #SingleSkillsInPage #SkllImg img {
+  width: 100%;
+}
+
+#SkillsPage #SkillPageContentWrapper #SingleSkillsInPage #SkillDesc {
+  padding: 0px 10px;
+}
+
+#SkillsPage #SkillPageContentWrapper #SingleSkillsInPage #SkillDesc h2 {
+  background: -webkit-gradient(linear, right top, left top, from(#00e1ff), to(#006eff));
+  background: linear-gradient(to left, #00e1ff, #006eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#SkillsPage #SkillPageContentWrapper #SingleSkillsInPage #SkillDesc P {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+
+#Contact {
+  padding: 50px 0px;
+  border-bottom: none;
+}
+
+#Contact #ContactContentWrapper #InputFields {
+  width: 60%;
+  margin: 10px auto;
+}
+
+#Contact #ContactContentWrapper #InputFields:nth-child(1) input {
+  color: green;
+}
+
+#Contact #ContactContentWrapper #InputFields input,
+#Contact #ContactContentWrapper #InputFields textarea {
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  border: 1px solid #ddd;
+  resize: none;
+  border-radius: 3px;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1.3rem;
+  -webkit-box-shadow: inset 2px 3px 5px -1px #ddd;
+          box-shadow: inset 2px 3px 5px -1px #ddd;
+}
+
+#Contact #ContactContentWrapper #InputFields button {
+  width: 100%;
+  display: block;
+  padding: 5px 0px;
+  outline: none;
+  border: none;
+  background: url(./Components/img/Title.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-size: 2rem;
+  border-radius: 5px;
+  font-family: 'Yusei Magic', sans-serif;
+  margin: auto;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#Contact #ContactContentWrapper #InputFields button:hover {
+  background: cyan;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#Contact #ContactContentWrapper #InputFields textarea {
+  text-transform: capitalize;
+}
+
+#outputmessage {
+  width: 100%;
+  text-align: center;
+  margin: 20px 5px;
+  padding: 20px 0px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 10px;
+  display: none;
+}
+
+#outputmessage h2 {
+  padding: 5px 0px;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+#NavButton {
+  cursor: pointer !important;
+}
+
+#Filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#Filter select {
+  padding: 5px 20px;
+  font-family: 'Yusei Magic', sans-serif;
+  outline: none;
+  background: #dddddd;
+  border-radius: 3px;
+  margin: 10px 0px;
+  font-size: 1.2rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#Filter select {
+  border: 2px solid white;
+  width: 30%;
+}
+
+#Filter select:focus {
+  border-color: cyan;
+}
+
+#Subscribe {
+  height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  background: -webkit-gradient(linear, right top, left top, from(#00000090), to(#00000090)), url(./Components/img/Subscribe.jpg);
+  background: linear-gradient(to left, #00000090, #00000090), url(./Components/img/Subscribe.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#Subscribe #SubscribeContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#Subscribe #SubscribeContentWrapper #AfterText {
+  font-size: 2.5rem;
+  color: lime;
+  margin-bottom: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  display: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#Subscribe #SubscribeContentWrapper #AfterText p {
+  font-size: 1.8rem;
+  margin-top: 5px;
+  color: cyan;
+}
+
+#Subscribe #SubscribeContentWrapper #AfterText button {
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  background: -webkit-gradient(linear, right top, left top, from(orange), to(#ff5100));
+  background: linear-gradient(to left, orange, #ff5100);
+  color: white;
+  border: none;
+  outline: none;
+  font-family: 'Yusei Magic', sans-serif;
+  border-radius: 10px;
+  margin: 10px 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#Subscribe #SubscribeContentWrapper #AfterText button:hover {
+  background: white;
+  color: red;
+}
+
+#Subscribe #SubscribeContentWrapper #SubscribeTitle {
+  font-size: 2.5rem;
+  color: cyan;
+  margin-bottom: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField {
+  width: 30vw;
+  margin: 10px 0px 5px 0px;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input {
+  width: 100%;
+  outline: none;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background: transparent;
+  border: 2px solid white;
+  font-family: 'Yusei Magic', sans-serif;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: black;
+  background: white;
+  -webkit-box-shadow: 1px 10px 10px black;
+          box-shadow: 1px 10px 10px black;
+  border-color: white !important;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input:focus::-webkit-input-placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input:focus:-ms-input-placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input:focus::-ms-input-placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input:focus::placeholder {
+  color: black !important;
+  opacity: 0.8;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input::-webkit-input-placeholder {
+  color: white;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input:-ms-input-placeholder {
+  color: white;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input::-ms-input-placeholder {
+  color: white;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input::placeholder {
+  color: white;
+}
+
+#Subscribe #SubscribeContentWrapper #InputField input:hover {
+  border-color: cyan;
+}
+
+#Subscribe #SubscribeContentWrapper #SubsButton {
+  width: 50%;
+  margin: auto;
+  margin: 15px auto;
+}
+
+#Subscribe #SubscribeContentWrapper #SubsButton button {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 1.1rem;
+  font-family: 'Yusei Magic', sans-serif;
+  background: transparent;
+  color: white;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Subscribe #SubscribeContentWrapper #SubsButton button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 1px 10px 10px black;
+          box-shadow: 1px 10px 10px black;
+  background: white;
+  color: black;
+}
+
+#Review {
+  padding: 50px 0px;
+}
+
+#Review #ReviewContentWrapper {
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding: 20px 20px;
+}
+
+#Review #ReviewContentWrapper::-webkit-scrollbar {
+  height: 10px;
+  cursor: pointer;
+}
+
+#Review #ReviewContentWrapper::-webkit-scrollbar-track {
+  background: #eeeeee;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+}
+
+#Review #ReviewContentWrapper::-webkit-scrollbar-thumb {
+  background: #ffdede;
+  border-radius: 10px;
+}
+
+#Review #ReviewContentWrapper::-webkit-scrollbar-thumb:hover {
+  background: #ffdede;
+}
+
+#Review #ReviewContentWrapper #SingleReview {
+  width: 350px;
+  white-space: normal;
+  text-align: center;
+  margin: 10px 15px;
+  padding: 20px 25px;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 0.1px dashed #cacaca;
+}
+
+#Review #ReviewContentWrapper #SingleReview:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 1px 2px 20px #272727;
+          box-shadow: 1px 2px 20px #272727;
+}
+
+#Review #ReviewContentWrapper #SingleReview:nth-child(even) {
+  -webkit-box-shadow: 1px 0px 20px #535353;
+          box-shadow: 1px 0px 20px #535353;
+}
+
+#Review #ReviewContentWrapper #SingleReview:nth-child(even):hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+#Review #ReviewContentWrapper #SingleReview #ReviewImage {
+  width: 100px;
+  margin: auto;
+  border: 1px dashed #ddd;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+#Review #ReviewContentWrapper #SingleReview #ReviewImage img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+#Review #ReviewContentWrapper #SingleReview #ReviewDesc {
+  width: 100%;
+}
+
+#Review #ReviewContentWrapper #SingleReview #ReviewDesc h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 5px 0px 10px 0px;
+}
+
+#Review #ReviewContentWrapper #SingleReview #ReviewDesc h4 {
+  color: #464646;
+  font-size: 1.2rem;
+}
+
+#Review #ReviewContentWrapper #SingleReview #ReviewDesc p {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+#Review #ReviewContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0px;
+}
+
+#Review #ReviewContact #SingleContact {
+  width: 50px;
+  margin: 0px 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 100%;
+}
+
+#Review #ReviewContact #SingleContact:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#Review #ReviewContact #SingleContact img {
+  width: 100%;
+}
+
+#HomeMe {
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+  margin: 0px 10px;
+  z-index: 7;
+}
+
+#HomeMe #HomeMenu {
+  display: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: -webkit-gradient(linear, right top, left top, from(#0077ffdc), to(#01b4fbe1));
+  background: linear-gradient(to left, #0077ffdc, #01b4fbe1);
+  text-align: center;
+  padding: 15px 50px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+#HomeMe #HomeMenu li {
+  margin: 15px 0px;
+  list-style: none;
+}
+
+#HomeMe #HomeMenu li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+#HomeMe #HomeMenu li a:hover {
+  color: cyan;
+  text-shadow: 1px 2px 8px cyan;
+}
+
+#Blog {
+  padding: 50px 0px;
+}
+
+#Blog #BlogContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#Blog #BlogContentWrapper #SingleBlog {
+  width: 48%;
+  border-radius: 10px;
+  margin: 20px 0px;
+  border: 1px solid #c9c9c9;
+  -webkit-box-shadow: 1px 2px 10px #3f3f3f;
+          box-shadow: 1px 2px 10px #3f3f3f;
+  overflow: hidden;
+}
+
+#Blog #BlogContentWrapper #SingleBlog:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Blog #BlogContentWrapper #SingleBlog:last-child img {
+  height: 500px;
+}
+
+#Blog #BlogContentWrapper #SingleBlog img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0.1px solid #ddd;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+#Blog #BlogContentWrapper #SingleBlog #BlogDesc {
+  padding: 10px 20px;
+}
+
+#Blog #BlogContentWrapper #SingleBlog #BlogDesc h3 {
+  text-align: right;
+  font-family: 'PT Serif', serif;
+  color: #7700ff;
+}
+
+#Blog #BlogContentWrapper #SingleBlog #BlogDesc h2 {
+  margin: 5px 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ff7300;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+#Blog #BlogContentWrapper #SingleBlog #BlogDesc p {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+#Blog #BlogContentWrapper #SingleBlog #BlogDesc a {
+  font-family: 'Yusei Magic', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 0px;
+  font-size: 1.1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #7700ff;
+  text-transform: capitalize;
+}
+
+#Blog #BlogContentWrapper #SingleBlog #BlogDesc a:hover {
+  color: cyan;
+  text-shadow: 1px 1px 9px cyan;
+}
+/*# sourceMappingURL=index.css.map */

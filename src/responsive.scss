@@ -1,0 +1,279 @@
+@media screen and (max-width: 768px) {
+  #Container {
+    width: 90% !important;
+  }
+  a,
+  button {
+    cursor: default !important;
+  }
+  nav {
+    padding: 5px 20px;
+  }
+  #NavLinks {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(to left, #be01fb, #160316);
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: 5;
+    transition: 0.5s;
+    li {
+      a {
+        font-size: 1.3rem !important;
+      }
+    }
+  }
+  #Bar {
+    display: block !important;
+    z-index: 5;
+    i {
+      font-size: 1.5rem;
+      color: white;
+    }
+  }
+  #AboutCOntentWrapper {
+    flex-direction: column-reverse;
+    justify-content: center !important;
+    align-items: center !important;
+    #AboutDesc {
+      width: 90% !important;
+      text-align: center !important;
+    }
+    #AboutImage {
+      width: 60% !important;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+  }
+  #AboutTable {
+    display: none !important;
+  }
+  #Desc {
+    text-align: left !important;
+    width: 100% !important;
+  }
+  #AboutPageImage {
+    width: 90% !important;
+  }
+  #SingleShortService {
+    width: 450px !important;
+  }
+  #SingleService {
+    width: 450px !important;
+  }
+  #SectionTitle {
+    p {
+      width: 100% !important;
+    }
+  }
+  #SingleSkill {
+    width: 35% !important;
+  }
+  #Top {
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+  }
+  #SingleSkillsInPage {
+    width: 500px !important;
+    margin: 10px auto !important;
+  }
+  #InputFields {
+    width: 100% !important;
+    input,
+    textarea,
+    button {
+      font-size: 1.1rem !important;
+    }
+  }
+  #NavButton {
+    cursor: default !important;
+  }
+  select {
+    width: 45% !important;
+  }
+  #Subscribe {
+    #InputField {
+      width: 50vw !important;
+    }
+    #SubsButton {
+      width: 150px !important;
+    }
+  }
+  #SingleReview {
+    width: 320px !important;
+    margin: 0px 10px !important;
+  }
+  #BlogDesc {
+    p {
+      width: 100% !important;
+    }
+    h2 {
+      font-size: 1.4rem !important;
+    }
+    a {
+      font-size: 1rem !important;
+    }
+  }
+  #SingleBlog {
+    img {
+      height: 16rem !important;
+    }
+    &:last-child {
+      img {
+        height: auto !important;
+      }
+    }
+  }
+  #ReviewContentWrapper {
+    padding: 20px 0px !important;
+  }
+  #ProjectContentWrapper {
+    grid-template-columns: 1fr !important;
+    #SingleProject {
+      img {
+        height: auto !important;
+      }
+      #ProjectDesc {
+        p {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  #SingleShortProject {
+    width: 100% !important;
+    img {
+      height: auto !important;
+    }
+    #SingleShortProjectDesc {
+      p {
+        width: 100% !important;
+      }
+    }
+  }
+  #SingleBlog {
+    width: 70% !important;
+    img {
+      height: auto !important;
+    }
+  }
+}
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  #SingleSkillsInPage {
+    width: 100% !important;
+  }
+  select {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 748px) {
+  #ProjectContentWrapper {
+    flex-direction: column !important;
+    #SingleProject {
+      width: 100% !important;
+      h2 {
+        font-size: 1.8rem !important;
+      }
+      p {
+        font-size: 1.2rem !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  #ProjectContentWrapper {
+    flex-direction: column !important;
+    #SingleProject {
+      width: 100% !important;
+      h2 {
+        font-size: 1.5rem !important;
+      }
+      p {
+        font-size: 1.1rem !important;
+        width: 100% !important;
+      }
+    }
+  }
+  select {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 296px) {
+  #SingleSkill {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 384px) {
+  #SingleSkillsInPage {
+    flex-direction: column !important;
+  }
+  #SkllImg {
+    margin-bottom: 10px !important;
+  }
+  #SkillDesc {
+    p {
+      width: 100% !important;
+    }
+  }
+  select {
+    width: 100% !important;
+  }
+  #SingleProject {
+    img {
+      height: auto !important;
+    }
+    #ProjectDesc {
+      p {
+        width: 100% !important;
+        font-size: 1rem !important;
+      }
+      h2 {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 598px) {
+  #HomeMe {
+    bottom: 0% !important;
+    margin: 20px 0px;
+    #HomeMenu {
+      padding: 5px 50px !important;
+      margin-top: 5px !important;
+    }
+  }
+  #Subscribe {
+    #InputField {
+      width: 80vw !important;
+    }
+    #SubsButton {
+      width: 150px !important;
+    }
+  }
+  #SingleShortProjectDesc {
+    p {
+      width: 100% !important;
+      font-size: 1rem !important;
+    }
+    h2 {
+      font-size: 1.5rem !important;
+    }
+  }
+  #SingleBlog {
+    width: 95% !important;
+    img {
+      height: auto !important;
+    }
+  }
+}

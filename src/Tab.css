@@ -1,0 +1,61 @@
+@media screen and (max-width: 1024px) {
+  #Container {
+    width: 750px !important;
+  }
+  nav {
+    padding: 5px 10px;
+  }
+  #NavLinks {
+    margin: 0px 40px;
+  }
+  #NavLinks li {
+    margin: 0px 9px !important;
+  }
+  #HeaderDesc {
+    text-align: center;
+  }
+  #HeaderDesc p {
+    text-shadow: 1px 1px 1px black;
+  }
+  #AboutCOntentWrapper #AboutDesc {
+    width: 450px !important;
+  }
+  #AboutCOntentWrapper #AboutImage {
+    width: 300px !important;
+  }
+  #Desc {
+    width: 75% !important;
+    text-align: justify;
+  }
+  #AboutTable {
+    width: 20% !important;
+  }
+  #SingleSkillsInPage {
+    width: 365px !important;
+  }
+  #InputFields {
+    width: 85% !important;
+  }
+  select {
+    width: 30% !important;
+  }
+  #Subscribe #InputField {
+    width: 50vw !important;
+  }
+  #Subscribe #SubsButton {
+    width: 40% !important;
+  }
+  #SingleProject img {
+    height: 300px !important;
+  }
+  #SingleShortProject img {
+    height: 300px !important;
+  }
+  #SingleBlog {
+    width: 49% !important;
+  }
+  #SingleBlog img {
+    height: auto !important;
+  }
+}
+/*# sourceMappingURL=Tab.css.map */

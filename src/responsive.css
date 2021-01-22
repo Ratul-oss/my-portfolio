@@ -1,0 +1,285 @@
+@media screen and (max-width: 768px) {
+  #Container {
+    width: 90% !important;
+  }
+  a,
+  button {
+    cursor: default !important;
+  }
+  nav {
+    padding: 5px 20px;
+  }
+  #NavLinks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: -webkit-gradient(linear, right top, left top, from(#be01fb), to(#160316));
+    background: linear-gradient(to left, #be01fb, #160316);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    z-index: 5;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  #NavLinks li a {
+    font-size: 1.3rem !important;
+  }
+  #Bar {
+    display: block !important;
+    z-index: 5;
+  }
+  #Bar i {
+    font-size: 1.5rem;
+    color: white;
+  }
+  #AboutCOntentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  #AboutCOntentWrapper #AboutDesc {
+    width: 90% !important;
+    text-align: center !important;
+  }
+  #AboutCOntentWrapper #AboutImage {
+    width: 60% !important;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  #AboutTable {
+    display: none !important;
+  }
+  #Desc {
+    text-align: left !important;
+    width: 100% !important;
+  }
+  #AboutPageImage {
+    width: 90% !important;
+  }
+  #SingleShortService {
+    width: 450px !important;
+  }
+  #SingleService {
+    width: 450px !important;
+  }
+  #SectionTitle p {
+    width: 100% !important;
+  }
+  #SingleSkill {
+    width: 35% !important;
+  }
+  #Top {
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+  }
+  #SingleSkillsInPage {
+    width: 500px !important;
+    margin: 10px auto !important;
+  }
+  #InputFields {
+    width: 100% !important;
+  }
+  #InputFields input,
+  #InputFields textarea,
+  #InputFields button {
+    font-size: 1.1rem !important;
+  }
+  #NavButton {
+    cursor: default !important;
+  }
+  select {
+    width: 45% !important;
+  }
+  #Subscribe #InputField {
+    width: 50vw !important;
+  }
+  #Subscribe #SubsButton {
+    width: 150px !important;
+  }
+  #SingleReview {
+    width: 320px !important;
+    margin: 0px 10px !important;
+  }
+  #BlogDesc p {
+    width: 100% !important;
+  }
+  #BlogDesc h2 {
+    font-size: 1.4rem !important;
+  }
+  #BlogDesc a {
+    font-size: 1rem !important;
+  }
+  #SingleBlog img {
+    height: 16rem !important;
+  }
+  #SingleBlog:last-child img {
+    height: auto !important;
+  }
+  #ReviewContentWrapper {
+    padding: 20px 0px !important;
+  }
+  #ProjectContentWrapper {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  #ProjectContentWrapper #SingleProject img {
+    height: auto !important;
+  }
+  #ProjectContentWrapper #SingleProject #ProjectDesc p {
+    width: 100% !important;
+  }
+  #SingleShortProject {
+    width: 100% !important;
+  }
+  #SingleShortProject img {
+    height: auto !important;
+  }
+  #SingleShortProject #SingleShortProjectDesc p {
+    width: 100% !important;
+  }
+  #SingleBlog {
+    width: 70% !important;
+  }
+  #SingleBlog img {
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  #SingleSkillsInPage {
+    width: 100% !important;
+  }
+  select {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  #ProjectContentWrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #ProjectContentWrapper #SingleProject {
+    width: 100% !important;
+  }
+  #ProjectContentWrapper #SingleProject h2 {
+    font-size: 1.8rem !important;
+  }
+  #ProjectContentWrapper #SingleProject p {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #ProjectContentWrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #ProjectContentWrapper #SingleProject {
+    width: 100% !important;
+  }
+  #ProjectContentWrapper #SingleProject h2 {
+    font-size: 1.5rem !important;
+  }
+  #ProjectContentWrapper #SingleProject p {
+    font-size: 1.1rem !important;
+    width: 100% !important;
+  }
+  select {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 296px) {
+  #SingleSkill {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  #SingleSkillsInPage {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #SkllImg {
+    margin-bottom: 10px !important;
+  }
+  #SkillDesc p {
+    width: 100% !important;
+  }
+  select {
+    width: 100% !important;
+  }
+  #SingleProject img {
+    height: auto !important;
+  }
+  #SingleProject #ProjectDesc p {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+  #SingleProject #ProjectDesc h2 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  #HomeMe {
+    bottom: 0% !important;
+    margin: 20px 0px;
+  }
+  #HomeMe #HomeMenu {
+    padding: 5px 50px !important;
+    margin-top: 5px !important;
+  }
+  #Subscribe #InputField {
+    width: 80vw !important;
+  }
+  #Subscribe #SubsButton {
+    width: 150px !important;
+  }
+  #SingleShortProjectDesc p {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+  #SingleShortProjectDesc h2 {
+    font-size: 1.5rem !important;
+  }
+  #SingleBlog {
+    width: 95% !important;
+  }
+  #SingleBlog img {
+    height: auto !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
