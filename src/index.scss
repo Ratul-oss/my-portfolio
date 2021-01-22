@@ -163,6 +163,9 @@ header {
         transition: 0.2s;
         margin: 4px 0px;
         color: cyan;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.1rem;
         &:hover {
           background: cyan;
           color: white !important;
