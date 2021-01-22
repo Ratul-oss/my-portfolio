@@ -163,13 +163,12 @@ header {
         transition: 0.2s;
         margin: 4px 0px;
         a {
-          color: white;
           text-decoration: none;
           font-size: 1.2rem;
           font-family: 'Titillium Web', sans-serif;
           color: cyan;
         }
-        &:hover {
+        &:hover a {
           background: cyan;
           color: white;
         }
