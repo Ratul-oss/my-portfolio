@@ -1,5 +1,4 @@
 import Review1 from './img/Review1.png'
-import Review2 from './img/Review2.jpg'
 import Review3 from './img/Review3.png'
 import Review4 from './img/Review4.jpg'
 
@@ -9,12 +8,6 @@ const RData = [
     title: 'James_lu',
     desc:
       ' This guy is a really cool designer and developer. And he is also very friendly. He made a cool landing page for my bussiness. Will hire him again. ',
-  },
-  {
-    src: Review2,
-    title: 'michellebaker',
-    desc:
-      ' He is a really cool developer. I felt so much comfortable working with him. I really liked his work. I really liked that guy. I recommend that guy to others. ',
   },
   {
     src: Review3,
