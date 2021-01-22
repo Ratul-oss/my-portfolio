@@ -75,8 +75,8 @@ const Home = () => {
                 <span className="wrap">Hi I am Ratul</span>
               </h3>
               <button>
-              <a target='blank' href='m.me/DevR1111'>
-                Contact
+                <a target="blank" href="http://m.me/DevR1111">
+                  Contact
                 </a>
               </button>
             </div>
