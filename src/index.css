@@ -199,7 +199,7 @@ header #HeaderContentWrapper #HeaderDesc h3 {
   word-spacing: 2px;
 }
 
-header #HeaderContentWrapper #HeaderDesc button {
+header #HeaderContentWrapper #HeaderDesc a {
   padding: 5px 30px;
   background: transparent;
   border: 2px solid cyan;
@@ -210,22 +210,9 @@ header #HeaderContentWrapper #HeaderDesc button {
   color: cyan;
 }
 
-header #HeaderContentWrapper #HeaderDesc button a {
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-family: 'Titillium Web', sans-serif;
-  color: cyan;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-header #HeaderContentWrapper #HeaderDesc button:hover {
+header #HeaderContentWrapper #HeaderDesc a:hover {
   background: cyan;
   color: white !important;
-}
-
-header #HeaderContentWrapper #HeaderDesc button:hover a {
-  color: white;
 }
 
 #About {

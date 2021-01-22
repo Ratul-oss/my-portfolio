@@ -74,11 +74,10 @@ const Home = () => {
               >
                 <span className="wrap">Hi I am Ratul</span>
               </h3>
-              <button>
-                <a target="blank" href="http://m.me/DevR1111">
-                  Contact
-                </a>
-              </button>
+
+              <a target="blank" href="http://m.me/DevR1111">
+                Contact
+              </a>
             </div>
           </div>
         </div>

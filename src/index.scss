@@ -155,7 +155,7 @@ header {
         letter-spacing: 1px;
         word-spacing: 2px;
       }
-      button {
+      a {
         padding: 5px 30px;
         background: transparent;
         border: 2px solid cyan;
@@ -163,19 +163,9 @@ header {
         transition: 0.2s;
         margin: 4px 0px;
         color: cyan;
-        a {
-          text-decoration: none;
-          font-size: 1.2rem;
-          font-family: 'Titillium Web', sans-serif;
-          color: cyan;
-          transition: 0.2s;
-        }
         &:hover {
           background: cyan;
           color: white !important;
-        }
-        &:hover a {
-          color: white;
         }
       }
     }
