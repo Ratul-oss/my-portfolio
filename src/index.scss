@@ -159,12 +159,16 @@ header {
         padding: 5px 30px;
         background: transparent;
         border: 2px solid cyan;
-        color: cyan;
         border-radius: 20px;
-        font-size: 1.2rem;
-        font-family: 'Titillium Web', sans-serif;
         transition: 0.2s;
         margin: 4px 0px;
+        a {
+          color: white;
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-family: 'Titillium Web', sans-serif;
+          color: cyan;
+        }
         &:hover {
           background: cyan;
           color: white;
