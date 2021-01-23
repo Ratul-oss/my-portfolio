@@ -7,7 +7,8 @@
     cursor: default !important;
   }
   nav {
-    justify-content: space-between;
+    justify-content: space-between !important;
+    padding: 5px !important;
   }
   #NavLinks {
     flex-direction: column;
