@@ -7,12 +7,12 @@ const Nav = () => {
   const [icon, setIcon] = useState(false)
   const [open, setClose] = useState(false)
   function Nav() {
-    document.querySelector('#NavLinks').style.transform = 'scaleX(1)'
+    document.querySelector('#NavLinks').style.transform = 'translateX(0)'
     setClose(!open)
     setIcon(!icon)
   }
   function NavClose() {
-    document.querySelector('#NavLinks').style.transform = 'scaleX(0)'
+    document.querySelector('#NavLinks').style.transform = 'translateX(100%)'
     setClose(!open)
     setIcon(!icon)
   }

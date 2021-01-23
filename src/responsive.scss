@@ -20,8 +20,9 @@
     width: 100%;
     padding: 2rem;
     background: linear-gradient(to left, #be01fb, #160316);
-    transform-origin: right;
-    transform: scaleX(0);
+    // transform-origin: right;
+    // transform: scaleX(0);
+    transform: translateX(100%);
     z-index: 5;
     transition: 0.5s;
     li {
