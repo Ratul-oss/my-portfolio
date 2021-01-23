@@ -83,7 +83,7 @@ button {
 }
 
 nav {
-  padding: 5px 50px;
+  padding: 5px 0px;
   z-index: 9;
   position: fixed;
   top: 0;
@@ -98,9 +98,8 @@ nav #NavContentWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
