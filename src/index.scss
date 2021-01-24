@@ -661,7 +661,7 @@ footer {
           color: white;
           display: inline-block;
           transition: 0.6s;
-          color: rgb(132, 0, 255);
+          color: rgb(255, 255, 255);
           &:hover {
             color: cyan;
           }
@@ -736,7 +736,7 @@ footer {
           color: white;
           display: inline-block;
           transition: 0.6s;
-          color: rgb(132, 0, 255);
+          color: rgb(255, 255, 255);
           &:hover {
             color: cyan;
           }
@@ -1197,11 +1197,6 @@ footer {
       overflow: hidden;
       &:hover img {
         transform: scale(1.1);
-      }
-      &:last-child {
-        img {
-          height: 500px;
-        }
       }
       img {
         width: 100%;

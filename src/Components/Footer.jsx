@@ -34,11 +34,20 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/minhazurrahaman.ratul/"
+                    href="https://stackblitz.com/@Ratul-oss"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-facebook"></i> Facebook
+                    <i className="far fa-folder"></i> StackBlitz
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://dev.to/ratuloss"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-dev"></i> Dev
                   </a>
                 </li>
                 <li>
@@ -66,15 +75,6 @@ const Footer = () => {
                     rel="noopener noreferrer"
                   >
                     <i className="fas fa-hand-holding-usd"></i> Fiverr
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/channel/UChFKGpa-QeSG-c-XFn-lZTg"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-youtube"></i> YouTube
                   </a>
                 </li>
               </ol>

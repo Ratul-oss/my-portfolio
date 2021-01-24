@@ -19,7 +19,9 @@ const ShortProject = () => {
             <h2> {prop.title} </h2>
             <p> {prop.desc} </p>
             <a href={prop.link} target="_blank" rel="noopener noreferrer">
-              <GitHubIcon style={{ fontSize: ' 3rem ' }} />
+              <GitHubIcon
+                style={{ fontSize: ' 2.5rem ', margin: '10px 0px' }}
+              />
             </a>
           </div>
         </div>

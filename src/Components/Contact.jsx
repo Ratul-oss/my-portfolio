@@ -27,7 +27,9 @@ const Contact = () => {
       data.message.includes('I need a website') ||
       data.message.includes('I want') ||
       data.message.includes('can you') ||
-      data.message.includes('Can you')
+      data.message.includes('Can you') ||
+      data.message.includes('make a') ||
+      data.message.includes('Make a')
     ) {
       Swal.fire(
         'Wrong',
