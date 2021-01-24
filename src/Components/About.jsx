@@ -27,7 +27,8 @@ const About = () => {
   //   imageHeight: 200,
   //   imageAlt: 'Custom image',
   // })
-
+  const year = new Date().getFullYear()
+  const myExperience = year - 2020
   return (
     <>
       <section id="AboutPage">
@@ -38,22 +39,22 @@ const About = () => {
               <div id="Desc" data-aos="fade-right">
                 <h2>About Me</h2>
                 <p>
-                  Hi there, Whatt is up! I am Ratul. I am a MERN stack Web
-                  developer. I will Design and Develop your websites and web
-                  applications. Which will be super fast compatible and
+                  Hi there, Hope you are doing well. I am Ratul. I am a MERN
+                  stack Web developer. I will Design and Develop your websites
+                  and web applications. Which will be super fast compatible and
                   responsive in every type of devices. Bugs will never seen your
                   website. I really love that work so I never feel bored when
                   doing my projects.
                 </p>
                 <p>
-                  I have more than 1 years experinece as a Front-End Engineer. I
-                  have Designed and Developed many websites, applications and
-                  some super simple games. I have also a nice experience in web
-                  development. I use ReactJs to build the UI of websites. Which
-                  is very light and fast. I use sass, Css, Bootstrap and some
-                  other designing techs like Figma to design your website. Which
-                  will make your website resposnsive and compatible in every
-                  type of devices.
+                  I have more than {myExperience} years experinece as a
+                  Front-End Engineer. I have Designed and Developed many
+                  websites, applications and some super simple games. I have
+                  also a nice experience in web development. I use ReactJs to
+                  build the UI of websites. Which is very light and fast. I use
+                  sass, Css, Bootstrap and some other designing techs like Figma
+                  to design your website. Which will make your website
+                  resposnsive and compatible in every type of devices.
                 </p>
                 <p>
                   My Coding is w3validated, seo optimised and also hand coded.

@@ -1,8 +1,9 @@
 import React from 'react'
-import LinkRoundedIcon from '@material-ui/icons/LinkRounded'
+// import LinkRoundedIcon from '@material-ui/icons/LinkRounded'
 import ProjectData from './ProjectData'
 import Title from './Title'
 import Footer from './Footer'
+import GitHubIcon from '@material-ui/icons/GitHub'
 // import Swal from 'sweetalert2'
 // import SwalImg from './img/WebDesign.png'
 
@@ -24,7 +25,7 @@ const Project = () => {
             <h2> {prop.title} </h2>
             <p> {prop.desc} </p>
             <a href={prop.link} target="_blank" rel="noopener noreferrer">
-              <LinkRoundedIcon style={{ fontSize: ' 3rem ' }} />
+              <GitHubIcon style={{ fontSize: ' 3rem ' }} />
             </a>
           </div>
         </div>

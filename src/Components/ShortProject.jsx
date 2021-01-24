@@ -1,5 +1,6 @@
 import React from 'react'
-import LinkRoundedIcon from '@material-ui/icons/LinkRounded'
+// import LinkRoundedIcon from '@material-ui/icons/LinkRounded'
+import GitHubIcon from '@material-ui/icons/GitHub'
 import SpData from './SpData'
 import Title from './Title'
 import { Link } from 'react-router-dom'
@@ -18,7 +19,7 @@ const ShortProject = () => {
             <h2> {prop.title} </h2>
             <p> {prop.desc} </p>
             <a href={prop.link} target="_blank" rel="noopener noreferrer">
-              <LinkRoundedIcon style={{ fontSize: ' 3rem ' }} />
+              <GitHubIcon style={{ fontSize: ' 3rem ' }} />
             </a>
           </div>
         </div>

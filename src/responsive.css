@@ -7,7 +7,10 @@
     cursor: default !important;
   }
   nav {
-    padding: 5px 20px;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+    padding: 5px !important;
   }
   #NavLinks {
     -webkit-box-orient: vertical;
@@ -27,10 +30,8 @@
     padding: 2rem;
     background: -webkit-gradient(linear, right top, left top, from(#be01fb), to(#160316));
     background: linear-gradient(to left, #be01fb, #160316);
-    -webkit-transform-origin: right;
-            transform-origin: right;
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
     z-index: 5;
     -webkit-transition: 0.5s;
     transition: 0.5s;

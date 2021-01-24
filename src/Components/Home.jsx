@@ -19,11 +19,11 @@ const Home = () => {
       <HomeMenu />
       <Header />
       <ShortAbout />
-      <ShortService />
       <ShortProject />
       <ShortSkill />
-      <Subscribe />
+      <ShortService />
       <Review />
+      <Subscribe />
       <Blog />
       <Footer />
     </>
