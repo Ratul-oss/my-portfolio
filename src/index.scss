@@ -40,7 +40,6 @@
 body,
 html {
   font-family: 'Roboto', sans-serif;
-  user-select: none;
   scroll-behavior: smooth;
   overflow-x: hidden;
   background: transparent;
@@ -59,6 +58,14 @@ button {
   outline: none;
   text-decoration: none;
   cursor: pointer;
+}
+h1,
+h2,
+h3,
+button,
+a,
+img {
+  user-select: none;
 }
 #Container {
   width: 950px;

@@ -42,10 +42,6 @@
 body,
 html {
   font-family: 'Roboto', sans-serif;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
   scroll-behavior: smooth;
   overflow-x: hidden;
   background: transparent;
@@ -68,6 +64,18 @@ button {
   outline: none;
   text-decoration: none;
   cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+button,
+a,
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #Container {
