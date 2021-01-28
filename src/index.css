@@ -642,8 +642,8 @@ footer {
   text-transform: capitalize;
   margin: 5px 0px 10px 0px;
   font-family: 'Raleway', sans-serif;
-  background: -webkit-gradient(linear, right top, left top, from(red), to(#003cff));
-  background: linear-gradient(to left, red, #003cff);
+  background: -webkit-gradient(linear, right top, left top, from(#ff00c8), to(#2600ff));
+  background: linear-gradient(to left, #ff00c8, #2600ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -774,8 +774,8 @@ footer {
   text-transform: capitalize;
   margin: 5px 0px 10px 0px;
   font-family: 'Raleway', sans-serif;
-  background: -webkit-gradient(linear, right top, left top, from(red), to(#003cff));
-  background: linear-gradient(to left, red, #003cff);
+  background: -webkit-gradient(linear, right top, left top, from(#ff00c8), to(#2600ff));
+  background: linear-gradient(to left, #ff00c8, #2600ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

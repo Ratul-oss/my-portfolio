@@ -10,12 +10,14 @@ import Subscribe from './Subscribe'
 import Review from './Review'
 import HomeMenu from './HomeMenu'
 import Blog from './Blog'
+import Loader from './Loader'
 
 const Home = () => {
   document.title = ' DevR - Home '
   return (
     <>
       <Top />
+      <Loader />
       <HomeMenu />
       <Header />
       <ShortAbout />

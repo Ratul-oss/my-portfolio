@@ -496,7 +496,11 @@ footer {
           text-transform: capitalize;
           margin: 5px 0px 10px 0px;
           font-family: 'Raleway', sans-serif;
-          background: linear-gradient(to left, rgb(255, 0, 0), rgb(0, 60, 255));
+          background: linear-gradient(
+            to left,
+            rgb(255, 0, 200),
+            rgb(38, 0, 255)
+          );
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -606,7 +610,11 @@ footer {
           text-transform: capitalize;
           margin: 5px 0px 10px 0px;
           font-family: 'Raleway', sans-serif;
-          background: linear-gradient(to left, rgb(255, 0, 0), rgb(0, 60, 255));
+          background: linear-gradient(
+            to left,
+            rgb(255, 0, 200),
+            rgb(38, 0, 255)
+          );
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
