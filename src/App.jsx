@@ -8,7 +8,6 @@ import Project from './Components/Project'
 import Skills from './Components/Skills'
 import Services from './Components/Services'
 import Contact from './Components/Contact'
-import Command from './Components/Command'
 
 const App = () => {
   // const location = useLocation()
@@ -37,7 +36,6 @@ const App = () => {
   })
   return (
     <>
-      <Command />
       <BrowserRouter>
         <Nav />
         <Switch>
