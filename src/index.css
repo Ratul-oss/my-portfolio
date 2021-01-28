@@ -1731,7 +1731,7 @@ footer {
   font-family: 'Raleway', sans-serif;
   color: white;
   text-shadow: 5px 5px 5px purple;
-  margin: 10px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 #Loader #LoaderContentWarpper #LoaderContent #LoaderName {
@@ -1757,5 +1757,18 @@ footer {
   font-size: 1.5rem;
   font-family: 'Yusei Magic', sans-serif;
   letter-spacing: 5px;
+}
+
+kbd {
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  z-index: 10;
+  display: inline-block;
+  font-family: 'consolas', monospace;
+  margin: 20px 10px;
+  text-shadow: none;
 }
 /*# sourceMappingURL=index.css.map */
