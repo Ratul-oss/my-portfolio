@@ -170,6 +170,12 @@
       height: auto !important;
     }
   }
+  #LoaderImg {
+    width: 50% !important;
+    img {
+      width: 100% !important;
+    }
+  }
 }
 @media screen and (max-width: 414px) {
   h1 {
