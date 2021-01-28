@@ -16,6 +16,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 * {
   margin: 0;
@@ -204,26 +205,39 @@ header {
         padding: 5px 0px;
       }
       a {
+        font-family: 'Didact Gothic', sans-serif;
         padding: 5px 30px;
-        font-size: 1.3rem;
-        border: 3px solid purple;
-        color: purple;
-        text-decoration: none;
-        font-family: 'Yusei Magic', sans-serif;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 2px;
+        position: relative;
+        z-index: 1;
         overflow: hidden;
+        transition: 0.3s;
         display: inline-block;
-        transform-origin: left;
-        transition: 0.5s;
-        background: linear-gradient(to left, #00000052, #0000009d),
-          url(./Components/img/H1.jpeg);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: 0% 0%;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 2px;
         color: purple;
+        border: 2px solid purple;
         margin: 10px 0px;
+        &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: purple;
+          transform: translateX(-100%);
+          z-index: -1;
+          transition: 0.3s;
+        }
+        &:hover:before {
+          transform: translateX(0);
+        }
         &:hover {
           color: white;
-          background-size: 30% 30%;
         }
       }
     }
@@ -511,24 +525,39 @@ footer {
   margin: 20px 0px;
   text-align: center;
   a {
+    font-family: 'Didact Gothic', sans-serif;
     padding: 5px 30px;
-    font-size: 1.3rem;
-    border: 3px solid purple;
-    color: purple;
-    text-decoration: none;
-    font-family: 'Yusei Magic', sans-serif;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
     overflow: hidden;
+    transition: 0.3s;
     display: inline-block;
-    transform-origin: left;
-    transition: 0.5s;
-    background: url(./Components/img/H1.jpeg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 0% 0%;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 2px;
     color: purple;
+    border: 2px solid purple;
+    margin: 10px 0px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: purple;
+      transform: translateX(-100%);
+      z-index: -1;
+      transition: 0.3s;
+    }
+    &:hover:before {
+      transform: translateX(0);
+    }
     &:hover {
       color: white;
-      background-size: 30% 30%;
     }
   }
 }

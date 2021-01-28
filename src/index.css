@@ -16,6 +16,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -263,30 +264,47 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 }
 
 #About #AboutCOntentWrapper #AboutDesc a {
+  font-family: 'Didact Gothic', sans-serif;
   padding: 5px 30px;
-  font-size: 1.3rem;
-  border: 3px solid purple;
-  color: purple;
-  text-decoration: none;
-  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 2px;
+  position: relative;
+  z-index: 1;
   overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   display: inline-block;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background: -webkit-gradient(linear, right top, left top, from(#00000052), to(#0000009d)), url(./Components/img/H1.jpeg);
-  background: linear-gradient(to left, #00000052, #0000009d), url(./Components/img/H1.jpeg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: 0% 0%;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 2px;
   color: purple;
+  border: 2px solid purple;
   margin: 10px 0px;
+}
+
+#About #AboutCOntentWrapper #AboutDesc a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: purple;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#About #AboutCOntentWrapper #AboutDesc a:hover:before {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 #About #AboutCOntentWrapper #AboutDesc a:hover {
   color: white;
-  background-size: 30% 30%;
 }
 
 #About #AboutCOntentWrapper #AboutImage {
@@ -657,28 +675,47 @@ footer {
 }
 
 #LinkToMainPage a {
+  font-family: 'Didact Gothic', sans-serif;
   padding: 5px 30px;
-  font-size: 1.3rem;
-  border: 3px solid purple;
-  color: purple;
-  text-decoration: none;
-  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 2px;
+  position: relative;
+  z-index: 1;
   overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   display: inline-block;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background: url(./Components/img/H1.jpeg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: 0% 0%;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 2px;
   color: purple;
+  border: 2px solid purple;
+  margin: 10px 0px;
+}
+
+#LinkToMainPage a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: purple;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#LinkToMainPage a:hover:before {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 #LinkToMainPage a:hover {
   color: white;
-  background-size: 30% 30%;
 }
 
 #Service {
