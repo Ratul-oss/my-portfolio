@@ -869,13 +869,11 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: #000000e5;
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 #ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc h2 {
@@ -938,8 +936,8 @@ footer {
 }
 
 #Projects #ProjectContentWrapper #SingleProject:hover #ProjectDesc {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 #Projects #ProjectContentWrapper #SingleProject:hover #ProjectDesc p {
@@ -977,10 +975,8 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: #000000e5;
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
@@ -1707,5 +1703,59 @@ footer {
 #Blog #BlogContentWrapper #SingleBlog #BlogDesc a:hover {
   color: cyan;
   text-shadow: 1px 1px 9px cyan;
+}
+
+#Loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: rgba(128, 0, 128, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  z-index: 10;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#Loader #LoaderContentWarpper #LoaderContent {
+  text-align: center;
+}
+
+#Loader #LoaderContentWarpper #LoaderContent h2 {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: 5px 5px 5px purple;
+  margin: 10px 0px 20px 0px;
+}
+
+#Loader #LoaderContentWarpper #LoaderContent #LoaderName {
+  font-size: 2.5rem;
+  background: -webkit-gradient(linear, right top, left top, from(#00ffaa), to(#00ccff));
+  background: linear-gradient(to left, #00ffaa, #00ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+#Loader #LoaderContentWarpper #LoaderContent #LoaderImg {
+  width: 10%;
+  margin: 20px auto;
+}
+
+#Loader #LoaderContentWarpper #LoaderContent #LoaderImg img {
+  width: 100%;
+}
+
+#Loader #LoaderContentWarpper #LoaderContent p {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Yusei Magic', sans-serif;
+  letter-spacing: 5px;
 }
 /*# sourceMappingURL=index.css.map */

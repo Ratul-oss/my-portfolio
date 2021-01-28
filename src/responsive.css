@@ -2,6 +2,9 @@
   #Container {
     width: 90% !important;
   }
+  * {
+    cursor: default;
+  }
   a,
   button {
     cursor: default !important;

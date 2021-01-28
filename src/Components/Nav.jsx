@@ -2,17 +2,20 @@ import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Mode from './Mode'
 import Button from '@material-ui/core/Button'
+import disableScroll from 'disable-scroll'
 
 const Nav = () => {
   const [icon, setIcon] = useState(false)
   const [open, setClose] = useState(false)
   function Nav() {
     document.querySelector('#NavLinks').style.transform = 'translateX(0)'
+    disableScroll.on()
     setClose(!open)
     setIcon(!icon)
   }
   function NavClose() {
     document.querySelector('#NavLinks').style.transform = 'translateX(100%)'
+    disableScroll.off()
     setClose(!open)
     setIcon(!icon)
   }
