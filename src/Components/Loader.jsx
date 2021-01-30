@@ -6,10 +6,6 @@ const Loader = () => {
   setTimeout(() => {
     document.querySelector('#Loader').style.transform = 'translateX(-100%)'
   }, 7000)
-  setTimeout(() => {
-    disableScroll.off()
-  }, 7000)
-  disableScroll.on()
   return (
     <>
       <section id="Loader">
