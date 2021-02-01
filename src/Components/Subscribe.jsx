@@ -9,7 +9,8 @@ const Subscribe = () => {
   // document.querySelector('#SubscribeForm').style.display = 'none'
   // document.querySelector('#SubscribeTitle').style.display = 'none'
   // document.querySelector('#AfterText').style.display = 'block'
-  const Submit = () => {
+  const Submit = (e) => {
+    e.preventDefault()
     Swal.fire({
       position: 'top-end',
       icon: 'success',
@@ -40,12 +41,7 @@ const Subscribe = () => {
               <button onClick={Unsubscribe}>Unsubscribe</button>
             </h2>
 
-            <form
-              onSubmit={Submit}
-              action="https://formspree.io/f/moqpbjep"
-              method="POST"
-              id="SubscribeForm"
-            >
+            <form onSubmit={Submit} id="SubscribeForm">
               <div id="InputField">
                 <input
                   type="email"
@@ -56,7 +52,7 @@ const Subscribe = () => {
                   placeholder="Enter Your Email"
                 />
               </div>
-              <div id="InputField">
+              {/* <div id="InputField">
                 <input
                   style={{ display: 'none' }}
                   type="text"
@@ -66,7 +62,7 @@ const Subscribe = () => {
                   required
                   placeholder="Enter Your Name"
                 />
-              </div>
+              </div> */}
               <div id="SubsButton">
                 <button name="submit" type="submit">
                   Subscribe
