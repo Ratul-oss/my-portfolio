@@ -41,9 +41,15 @@ const Subscribe = () => {
               <button onClick={Unsubscribe}>Unsubscribe</button>
             </h2>
 
-            <form onSubmit={Submit} id="SubscribeForm" autoComplete="off">
+            <form
+              onSubmit={Submit}
+              action="https://formspree.io/f/moqpbjep"
+              method="POST"
+              id="SubscribeForm"
+            >
               <div id="InputField">
                 <input
+                  name="_replyto"
                   onChange={GetData}
                   value={data}
                   required
