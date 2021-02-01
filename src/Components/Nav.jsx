@@ -55,7 +55,7 @@ const Nav = () => {
             </li>
             <li>
               <NavLink activeClassName="active" to="/contact">
-                Feedback
+                Contact
               </NavLink>
             </li>
             <li>

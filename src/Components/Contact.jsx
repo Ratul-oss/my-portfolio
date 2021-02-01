@@ -6,7 +6,7 @@ import Footer from './Footer'
 const Contact = () => {
   const [data, setData] = useState({
     yourName: '',
-    email: '',
+    _replyto: '',
     subject: '',
     message: '',
   })
@@ -18,39 +18,10 @@ const Contact = () => {
   }
   const ShowData = (e) => {
     e.preventDefault()
-    if (
-      data.message.includes('I need') ||
-      data.message.includes('I am looking') ||
-      data.message.includes('Make me') ||
-      data.message.includes('pay me') ||
-      data.message.includes('Pay me') ||
-      data.message.includes('I need a website') ||
-      data.message.includes('I want') ||
-      data.message.includes('can you') ||
-      data.message.includes('Can you') ||
-      data.message.includes('make a') ||
-      data.message.includes('Make a')
-    ) {
-      Swal.fire(
-        'Wrong',
-        `Don't give me proposal from here. Check out my Fiverr or Facebook. This message will not be sent.`,
-        'error',
-      )
-      document.querySelector('#outputmessage').style.display = 'block'
-      document.querySelector('#outputmessage').style.background =
-        'rgba(255, 0, 0, 0.808)'
-      document.querySelector('#outputmessage').style.color = 'orange'
-    } else if (data.message.includes('?')) {
-      Swal.fire('Wrong', `Don't Ask me questions here.`, 'error')
-      document.querySelector('#outputmessage').style.background =
-        'rgba(255, 0, 0, 0.808)'
-      document.querySelector('#outputmessage').style.color = 'orange'
-    } else {
-      Swal.fire('Sent', `Thanks ${data.yourName} for the feedback.`, 'success')
-      document.querySelector('#outputmessage').style.display = 'block'
-      document.querySelector('#outputmessage').style.background = 'greenyellow'
-      document.querySelector('#outputmessage').style.color = 'green'
-    }
+    Swal.fire('Sent', `Thanks ${data.yourName} for the feedback.`, 'success')
+    document.querySelector('#outputmessage').style.display = 'block'
+    document.querySelector('#outputmessage').style.background = 'greenyellow'
+    document.querySelector('#outputmessage').style.color = 'green'
   }
   document.title = 'DevR - Feedback'
 
@@ -59,11 +30,15 @@ const Contact = () => {
       <section id="Contact">
         <div id="Container">
           <Title
-            title="Feedback"
-            desc="How was your user experience! Don't ask any personal question and don't give me any proposal here."
+            title="Contact Me"
+            desc="Write anything here. Please don't spam. I will reply you as soon as possible"
           />
           <div data-aos="fade-left" id="ContactContentWrapper">
-            <form onSubmit={ShowData} autoComplete="off" method="get">
+            <form
+              onSubmit={ShowData}
+              action="https://formspree.io/f/xpzonqpb"
+              method="POST"
+            >
               <div id="InputFields">
                 <input
                   onChange={TakeData}
@@ -77,9 +52,9 @@ const Contact = () => {
               <div id="InputFields">
                 <input
                   onChange={TakeData}
-                  type="email"
                   placeholder="Your Email..."
-                  name="email"
+                  type="email"
+                  name="_replyto"
                   value={data.email}
                 />
               </div>
