@@ -17,7 +17,7 @@ const Loader = () => {
                 Try to use the shortcut's
                 <br />
                 <kbd>ctrl + m - Dark Mode</kbd>
-                <kbd>Any key - Exit Dark Mode</kbd>
+                <kbd>shift + e - Exit</kbd>
               </h2>
 
               <div id="LoaderImg">

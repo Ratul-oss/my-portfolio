@@ -24,7 +24,7 @@ const App = () => {
       ).style.display = 'none'
       document.querySelector('html').style.color = ' white '
       document.querySelector('body').style.color = ' white '
-    } else {
+    } else if (event.key === 'E') {
       document.querySelector('html').style.background = ' #fff '
       document.querySelector('body').style.background = ' #fff '
       document.querySelector('html').style.color = ' #000 '
