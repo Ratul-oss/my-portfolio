@@ -21,6 +21,7 @@ const Contact = () => {
     // document.querySelector('#outputmessage').style.display = 'block'
     // document.querySelector('#outputmessage').style.background = 'greenyellow'
     // document.querySelector('#outputmessage').style.color = 'green'
+    setData({ yourName: '', _replyto: '', subject: '', message: '' })
   }
   document.title = 'DevR - Contact'
 
