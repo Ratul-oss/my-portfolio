@@ -9,8 +9,7 @@ const Subscribe = () => {
   // document.querySelector('#SubscribeForm').style.display = 'none'
   // document.querySelector('#SubscribeTitle').style.display = 'none'
   // document.querySelector('#AfterText').style.display = 'block'
-  const Submit = (e) => {
-    e.preventDefault()
+  const Submit = () => {
     Swal.fire({
       position: 'top-end',
       icon: 'success',
@@ -49,16 +48,29 @@ const Subscribe = () => {
             >
               <div id="InputField">
                 <input
+                  type="email"
                   name="_replyto"
                   onChange={GetData}
                   value={data}
                   required
-                  type="email"
                   placeholder="Enter Your Email"
                 />
               </div>
+              <div id="InputField">
+                <input
+                  style={{ display: 'none' }}
+                  type="text"
+                  name="Message"
+                  // onChange={GetData}
+                  value={data}
+                  required
+                  placeholder="Enter Your Name"
+                />
+              </div>
               <div id="SubsButton">
-                <button>Subscribe</button>
+                <button name="submit" type="submit">
+                  Subscribe
+                </button>
               </div>
             </form>
           </div>

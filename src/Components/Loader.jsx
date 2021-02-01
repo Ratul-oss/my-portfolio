@@ -5,7 +5,7 @@ import disableScroll from 'disable-scroll'
 const Loader = () => {
   setTimeout(() => {
     document.querySelector('#Loader').style.transform = 'translateX(-100%)'
-  }, 7000)
+  }, 5000)
   return (
     <>
       <section id="Loader">

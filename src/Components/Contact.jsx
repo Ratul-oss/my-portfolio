@@ -16,14 +16,13 @@ const Contact = () => {
       return { ...preValue, [name]: value }
     })
   }
-  const ShowData = (e) => {
-    e.preventDefault()
+  const ShowData = () => {
     Swal.fire('Sent', `Thanks ${data.yourName} for the feedback.`, 'success')
-    document.querySelector('#outputmessage').style.display = 'block'
-    document.querySelector('#outputmessage').style.background = 'greenyellow'
-    document.querySelector('#outputmessage').style.color = 'green'
+    // document.querySelector('#outputmessage').style.display = 'block'
+    // document.querySelector('#outputmessage').style.background = 'greenyellow'
+    // document.querySelector('#outputmessage').style.color = 'green'
   }
-  document.title = 'DevR - Feedback'
+  document.title = 'DevR - Contact'
 
   return (
     <>
@@ -85,7 +84,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div
+          {/* <div
             style={{
               background: ' rgba(44, 187, 0, 0.685)',
               color: 'rgba(0, 128, 85, 0.925)',
@@ -93,10 +92,10 @@ const Contact = () => {
             id="outputmessage"
           >
             <h2> Your Name : {`${data.yourName}`} </h2>
-            <h2> Your Email : {`${data.email}`} </h2>
+            <h2> Your Email : {`${data._replyto}`} </h2>
             <h2> Your Subject : {`${data.subject}`}</h2>
             <h2> Your Message : {`${data.message}`}</h2>
-          </div>
+          </div> */}
         </div>
       </section>
       <Footer />
