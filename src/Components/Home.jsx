@@ -4,7 +4,6 @@ import ShortAbout from './ShortAbout'
 import ShortService from './ShortService'
 import ShortProject from './ShortProject'
 import ShortSkill from './ShortSkill'
-import Top from './Top'
 import Footer from './Footer'
 import Subscribe from './Subscribe'
 import Review from './Review'
@@ -14,9 +13,9 @@ import Loader from './Loader'
 
 const Home = () => {
   document.title = ' DevR - Home '
+  // window.scrollTo(0, 0)
   return (
     <>
-      <Top />
       <Loader />
       <HomeMenu />
       <Header />

@@ -1135,15 +1135,7 @@ footer {
       transition: 0.3s;
       border: 0.1px dashed rgb(202, 202, 202);
       &:hover {
-        transform: scale(1.05);
         box-shadow: 1px 2px 20px rgb(39, 39, 39);
-      }
-      &:nth-child(even) {
-        box-shadow: 1px 0px 20px rgb(83, 83, 83);
-        &:hover {
-          box-shadow: none;
-          transform: scale(0.9);
-        }
       }
       #ReviewImage {
         width: 100px;

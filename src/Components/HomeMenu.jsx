@@ -35,19 +35,19 @@ const HomeMenu = () => {
             <a href="#About">About</a>
           </li>
           <li>
-            <a href="#ShortService">Services</a>
-          </li>
-          <li>
             <a href="#ShortProjects">Projects</a>
           </li>
           <li>
             <a href="#ShortSkill">Skills</a>
           </li>
           <li>
-            <a href="#Subscribe">Subscribe</a>
+            <a href="#ShortService">Services</a>
           </li>
           <li>
             <a href="#Review">Reviews</a>
+          </li>
+          <li>
+            <a href="#Subscribe">Subscribe</a>
           </li>
           <li>
             <a href="#Blog">Blog</a>

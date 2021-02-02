@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   var TxtType = function (el, toRotate, period) {
@@ -75,9 +76,7 @@ const Home = () => {
                 <span className="wrap">Hi I am Ratul</span>
               </h3>
 
-              <a target="blank" href="http://m.me/DevR1111">
-                Contact
-              </a>
+              <Link to="/contact">Contact</Link>
             </div>
           </div>
         </div>

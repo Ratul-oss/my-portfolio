@@ -1504,22 +1504,8 @@ footer {
 }
 
 #Review #ReviewContentWrapper #SingleReview:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
   -webkit-box-shadow: 1px 2px 20px #272727;
           box-shadow: 1px 2px 20px #272727;
-}
-
-#Review #ReviewContentWrapper #SingleReview:nth-child(even) {
-  -webkit-box-shadow: 1px 0px 20px #535353;
-          box-shadow: 1px 0px 20px #535353;
-}
-
-#Review #ReviewContentWrapper #SingleReview:nth-child(even):hover {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
 }
 
 #Review #ReviewContentWrapper #SingleReview #ReviewImage {

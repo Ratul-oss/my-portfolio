@@ -52,17 +52,6 @@ const Subscribe = () => {
                   placeholder="Enter Your Email"
                 />
               </div>
-              {/* <div id="InputField">
-                <input
-                  style={{ display: 'none' }}
-                  type="text"
-                  name="Message"
-                  // onChange={GetData}
-                  value={data}
-                  required
-                  placeholder="Enter Your Name"
-                />
-              </div> */}
               <div id="SubsButton">
                 <button name="submit" type="submit">
                   Subscribe

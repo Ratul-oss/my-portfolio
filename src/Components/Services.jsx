@@ -7,14 +7,7 @@ import Footer from './Footer'
 
 const Services = () => {
   document.title = ' DevR - Services '
-  // Swal.fire({
-  //   title: 'Welcome to Services',
-  //   text: 'Reload This Page to have a better experience.',
-  //   imageUrl: SwalImg,
-  //   imageWidth: 400,
-  //   imageHeight: 200,
-  //   imageAlt: 'Custom image',
-  // })
+  window.scrollTo(0, 0)
   const SingleService = (prop) => {
     return (
       <div id="SingleService" data-aos="fade-right">

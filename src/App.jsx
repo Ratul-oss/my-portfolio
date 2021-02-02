@@ -7,6 +7,7 @@ import Project from './Components/Project'
 import Skills from './Components/Skills'
 import Services from './Components/Services'
 import Contact from './Components/Contact'
+import Top from './Components/Top'
 
 const App = () => {
   document.querySelector('body').addEventListener('keypress', (event) => {
@@ -42,6 +43,7 @@ const App = () => {
           <Redirect to="/" />
         </Switch>
       </BrowserRouter>
+      <Top />
     </>
   )
 }

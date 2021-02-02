@@ -1,8 +1,7 @@
 import React from 'react'
 import RData from './RData'
 import Title from './Title'
-import Fb from './img/Fb.png'
-import Fiverr from './img/Fiverr.png'
+import { Link } from 'react-router-dom'
 
 const Review = () => {
   const SingleReview = (prop) => {
@@ -40,25 +39,10 @@ const Review = () => {
               )
             })}
           </div>
-          <div id="ReviewContact">
-            <div id="SingleContact">
-              <a
-                href="https://www.facebook.com/minhazurrahaman.ratul/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Fb} alt="Error" />
-              </a>
-            </div>
-            <div id="SingleContact">
-              <a
-                href="https://www.fiverr.com/developer_azam?up_rollout=true"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Fiverr} alt="Error" />
-              </a>
-            </div>
+          <div id="LinkToMainPage">
+            <Link id="LinkToMainPage" to="/contact">
+              Contact Now
+            </Link>
           </div>
         </div>
       </section>

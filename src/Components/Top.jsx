@@ -5,7 +5,11 @@ const Top = () => {
   return (
     <>
       <div id="Top">
-        <a href="#Header">
+        <a
+          onClick={() => {
+            window.scrollTo(0, 0)
+          }}
+        >
           <EjectTwoToneIcon style={{ fontSize: '2rem' }} />
         </a>
       </div>

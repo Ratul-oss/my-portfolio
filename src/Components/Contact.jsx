@@ -10,6 +10,7 @@ const Contact = () => {
     subject: '',
     message: '',
   })
+  window.scrollTo(0, 0)
   const TakeData = (val) => {
     const { name, value } = val.target
     setData((preValue) => {
