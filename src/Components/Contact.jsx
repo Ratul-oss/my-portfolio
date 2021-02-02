@@ -6,7 +6,7 @@ import Footer from './Footer'
 const Contact = () => {
   const [data, setData] = useState({
     yourName: '',
-    _replyto: '',
+    email: '',
     subject: '',
     message: '',
   })
@@ -35,8 +35,9 @@ const Contact = () => {
           />
           <div data-aos="fade-left" id="ContactContentWrapper">
             <form
+              data-netlify="true"
               onSubmit={ShowData}
-              action="https://formspree.io/f/xpzonqpb"
+              // action="https://formspree.io/f/xpzonqpb"
               method="POST"
             >
               <div id="InputFields">
@@ -54,7 +55,7 @@ const Contact = () => {
                   onChange={TakeData}
                   placeholder="Your Email..."
                   type="email"
-                  name="_replyto"
+                  name="email"
                   value={data.email}
                 />
               </div>
