@@ -6,7 +6,7 @@ const SsData = [
   {
     title: 'Web Design',
     src: WebDesign,
-    desc: 'Qualified web UI designs which catches visitors eye.',
+    desc: 'Qualified web designs which catches visitors eye.',
   },
   {
     title: 'Responsive UI',
