@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
-// import { useLocation } from 'react-router-dom'
 import Nav from './Components/Nav'
 import Home from './Components/Home'
 import About from './Components/About'
@@ -10,11 +9,6 @@ import Services from './Components/Services'
 import Contact from './Components/Contact'
 
 const App = () => {
-  // const location = useLocation()
-
-  // useLayoutEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [location.pathname])
   document.querySelector('body').addEventListener('keypress', (event) => {
     if (event.key === 'Enter' && event.ctrlKey === true) {
       document.querySelector('html').style.background = '#0D1117'

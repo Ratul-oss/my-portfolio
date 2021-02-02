@@ -16,6 +16,7 @@ const Project = () => {
   //   imageHeight: 200,
   //   imageAlt: 'Custom image',
   // })
+  window.scrollTo(0, 0)
   const SingleProject = (prop) => {
     return (
       <>

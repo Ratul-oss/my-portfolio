@@ -6,7 +6,7 @@ import { CallMerge } from '@material-ui/icons'
 
 const Skills = () => {
   const [data, setData] = useState()
-
+  window.scrollTo(0, 0)
   document.title = ' DevR - Skills '
   const Filter = (val) => {
     setData(val.target.value)

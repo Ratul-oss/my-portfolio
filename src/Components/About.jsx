@@ -5,8 +5,6 @@ import AboutWevDev from './img/AboutWebDev.png'
 import WebDes from './img/AboutWebDes.png'
 import ResDes from './img/AboutResDes.png'
 import BugFix from './img/AboutBugFix.png'
-// import Swal from 'sweetalert2'
-// import SwalImg from './img/WebDesign.png'
 
 const AboutImg = () => {
   return (
@@ -19,14 +17,7 @@ const AboutImg = () => {
 }
 const About = () => {
   document.title = ' DevR - About '
-  // Swal.fire({
-  //   title: 'Welcome to About',
-  //   text: 'Reload This Page to have a better experience.',
-  //   imageUrl: SwalImg,
-  //   imageWidth: 400,
-  //   imageHeight: 200,
-  //   imageAlt: 'Custom image',
-  // })
+  window.scrollTo(0, 0)
   const year = new Date().getFullYear()
   const myExperience = year - 2020
   return (
