@@ -16,7 +16,7 @@ const Home = () => {
   // window.scrollTo(0, 0)
   return (
     <>
-      <Loader />
+      {/* <Loader /> */}
       <HomeMenu />
       <Header />
       <ShortAbout />
