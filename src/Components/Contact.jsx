@@ -35,8 +35,9 @@ const Contact = () => {
           />
           <div data-aos="fade-left" id="ContactContentWrapper">
             <form
+              name="contact"
               data-netlify="true"
-              onSubmit={ShowData}
+              // onSubmit={ShowData}
               // action="https://formspree.io/f/xpzonqpb"
               method="POST"
             >
