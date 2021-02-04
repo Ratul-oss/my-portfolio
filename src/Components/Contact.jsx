@@ -6,7 +6,7 @@ import Footer from './Footer'
 const Contact = () => {
   const [data, setData] = useState({
     yourName: '',
-    email: '',
+    _replyto: '',
     subject: '',
     message: '',
   })
@@ -19,6 +19,9 @@ const Contact = () => {
   }
   const ShowData = () => {
     Swal.fire('Sent', `Thanks ${data.yourName} for the feedback.`, 'success')
+    // document.querySelector('#outputmessage').style.display = 'block'
+    // document.querySelector('#outputmessage').style.background = 'greenyellow'
+    // document.querySelector('#outputmessage').style.color = 'green'
   }
   document.title = 'DevR - Contact'
 
@@ -32,12 +35,9 @@ const Contact = () => {
           />
           <div data-aos="fade-left" id="ContactContentWrapper">
             <form
-              name="contact"
-              data-netlify="true"
-              action="POST"
-              // onSubmit={ShowData}
-              // action="https://formspree.io/f/xpzonqpb"
-              // method="POST"
+              onSubmit={ShowData}
+              action="https://formspree.io/f/xpzonqpb"
+              method="POST"
             >
               <div id="InputFields">
                 <input
@@ -54,7 +54,7 @@ const Contact = () => {
                   onChange={TakeData}
                   placeholder="Your Email..."
                   type="email"
-                  name="email"
+                  name="_replyto"
                   value={data.email}
                 />
               </div>
@@ -85,6 +85,18 @@ const Contact = () => {
               </div>
             </form>
           </div>
+          {/* <div
+            style={{
+              background: ' rgba(44, 187, 0, 0.685)',
+              color: 'rgba(0, 128, 85, 0.925)',
+            }}
+            id="outputmessage"
+          >
+            <h2> Your Name : {`${data.yourName}`} </h2>
+            <h2> Your Email : {`${data._replyto}`} </h2>
+            <h2> Your Subject : {`${data.subject}`}</h2>
+            <h2> Your Message : {`${data.message}`}</h2>
+          </div> */}
         </div>
       </section>
       <Footer />
