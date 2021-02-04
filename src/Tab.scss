@@ -49,20 +49,28 @@
       width: 40% !important;
     }
   }
-  #SingleProject {
-    img {
-      height: 300px !important;
-    }
-  }
-  #SingleShortProject {
-    img {
-      height: 300px !important;
-    }
-  }
   #SingleBlog {
     width: 49% !important;
     img {
       height: auto !important;
+    }
+  }
+  #SingleShortProjectDesc {
+    h2 {
+      font-size: 1.4rem !important;
+    }
+    p {
+      font-size: 1rem !important;
+      width: 100% !important;
+    }
+  }
+  #ProjectDesc {
+    h2 {
+      font-size: 1.4rem !important;
+    }
+    p {
+      font-size: 1rem !important;
+      width: 100% !important;
     }
   }
 }
