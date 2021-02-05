@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Nav from './Components/Nav'
 import Home from './Components/Home'
 import About from './Components/About'
@@ -8,6 +8,7 @@ import Skills from './Components/Skills'
 import Services from './Components/Services'
 import Contact from './Components/Contact'
 import Top from './Components/Top'
+import ErrorPage from './Components/Error'
 
 const App = () => {
   document.querySelector('body').addEventListener('keypress', (event) => {
@@ -40,7 +41,7 @@ const App = () => {
           <Route path="/project" component={Project} />
           <Route path="/skill" component={Skills} />
           <Route path="/contact" component={Contact} />
-          <Redirect to="/" />
+          <Route component={ErrorPage} />
         </Switch>
       </BrowserRouter>
       <Top />

@@ -17,6 +17,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1753,5 +1754,46 @@ kbd {
   font-family: 'consolas', monospace;
   margin: 20px 10px;
   text-shadow: none;
+}
+
+#Error {
+  padding: 50px 0px;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#Error #ContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Error #ContentWrapper #ErrorImg {
+  width: 50%;
+  margin: auto;
+}
+
+#Error #ContentWrapper #ErrorImg img {
+  width: 100%;
+}
+
+#Error #ContentWrapper h2 {
+  font-size: 2rem;
+  font-family: 'Sriracha', cursive;
+  color: red;
 }
 /*# sourceMappingURL=index.css.map */

@@ -17,6 +17,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 * {
   margin: 0;
@@ -1334,4 +1335,29 @@ kbd {
   font-family: 'consolas', monospace;
   margin: 20px 10px;
   text-shadow: none;
+}
+#Error {
+  padding: 50px 0px;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  #ContentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    #ErrorImg {
+      width: 50%;
+      margin: auto;
+      img {
+        width: 100%;
+      }
+    }
+    h2 {
+      font-size: 2rem;
+      font-family: 'Sriracha', cursive;
+      color: red;
+    }
+  }
 }
