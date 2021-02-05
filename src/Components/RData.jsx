@@ -9,30 +9,35 @@ const RData = [
     title: 'James_lu',
     desc:
       ' This guy is a really cool designer and developer. And he is also very friendly. He made a cool landing page for my bussiness. Will hire him again. ',
+    animation: 'fade-right',
   },
   {
     src: Review2,
     title: 'michellebaker',
     desc:
       ' I will definitely be working with you again! Communication was outstanding!! My website is amazing!! ',
+    animation: 'fade-left',
   },
   {
     src: Review3,
     title: 'aounawan931',
     desc:
       ' Incredible! Best Seller! So thrilled with his work, attention to detail. A true partner working alongside to make the vision a reality! ',
+    animation: 'fade-right',
   },
   {
     src: Review4,
     title: 'Mr.Toufiq',
     desc:
       ' Thank you so much DevR for delivering me so much nice website. I really like it. I really appreciate your work. Thanks a lot. Over all I am really happy hiring that guy. ',
+    animation: 'fade-left',
   },
   {
     src: Review1,
     title: 'You',
     desc:
       ' Hire me to be a memeber of this review section. 😜. Was joking over all, if you want to hire me, please contact me by clicking on the link below. ',
+    animation: 'fade-right',
   },
 ]
 export default RData

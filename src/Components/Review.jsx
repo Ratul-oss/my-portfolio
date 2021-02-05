@@ -7,7 +7,7 @@ const Review = () => {
   const SingleReview = (prop) => {
     return (
       <>
-        <div id="SingleReview">
+        <div id="SingleReview" data-aos={prop.animation}>
           <div id="ReviewImage">
             <img src={prop.src} alt="Error" />
           </div>
@@ -31,6 +31,7 @@ const Review = () => {
             {RData.map((data, index) => {
               return (
                 <SingleReview
+                  animation={data.animation}
                   key={index}
                   src={data.src}
                   title={data.title}

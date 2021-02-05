@@ -11,11 +11,11 @@ const Faq = () => {
         <div id="Container">
           <Title title="FAQ" desc="Frequently asked questions" />
           <div id="FaqContentWrapper">
-            <div id="FaqImg">
+            <div id="FaqImg" data-aos="fade-right">
               <img src={FaqImg} alt="Error" />
             </div>
             <div id="FaqContent">
-              <div id="SingleFaq">
+              <div id="SingleFaq" data-aos="fade-right">
                 <details>
                   <p>
                     I have more than {myExperience} years experience as a web
@@ -25,7 +25,7 @@ const Faq = () => {
                 </details>
               </div>
 
-              <div id="SingleFaq">
+              <div id="SingleFaq" data-aos="fade-left">
                 <details>
                   <p>
                     Yes. Your website will be reponsive in every type of devices
@@ -35,14 +35,14 @@ const Faq = () => {
                 </details>
               </div>
 
-              <div id="SingleFaq">
+              <div id="SingleFaq" data-aos="fade-right">
                 <details>
                   <p>Yes. I can</p>
                   <summary>Can you fix some bugs in my site?</summary>
                 </details>
               </div>
 
-              <div id="SingleFaq">
+              <div id="SingleFaq" data-aos="fade-left">
                 <details>
                   <p>Per page will take a day.</p>
                   <summary>
@@ -51,7 +51,7 @@ const Faq = () => {
                 </details>
               </div>
 
-              <div id="SingleFaq">
+              <div id="SingleFaq" data-aos="fade-right">
                 <details>
                   <p>
                     You will have a chance to customise anything of the the
