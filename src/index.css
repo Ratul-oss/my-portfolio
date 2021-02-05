@@ -18,6 +18,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1313,7 +1314,7 @@ footer {
 
 #Subscribe #SubscribeContentWrapper #AfterText {
   font-size: 2.5rem;
-  color: lime;
+  color: #00f7ff;
   margin-bottom: 10px;
   font-family: 'Orbitron', sans-serif;
   font-weight: 100;
@@ -1327,16 +1328,16 @@ footer {
 #Subscribe #SubscribeContentWrapper #AfterText p {
   font-size: 1.8rem;
   margin-top: 5px;
-  color: cyan;
+  color: white;
 }
 
 #Subscribe #SubscribeContentWrapper #AfterText button {
   padding: 10px 20px;
   font-size: 1.3rem;
-  background: -webkit-gradient(linear, right top, left top, from(orange), to(#ff5100));
-  background: linear-gradient(to left, orange, #ff5100);
+  background: -webkit-gradient(linear, right top, left top, from(#00eeff), to(#0099ff));
+  background: linear-gradient(to left, #00eeff, #0099ff);
   color: white;
-  border: none;
+  border: 2px solid white;
   outline: none;
   font-family: 'Yusei Magic', sans-serif;
   border-radius: 10px;
@@ -1464,33 +1465,17 @@ footer {
 }
 
 #Review #ReviewContentWrapper {
-  white-space: nowrap;
-  overflow-x: scroll;
-  padding: 20px 20px;
-}
-
-#Review #ReviewContentWrapper::-webkit-scrollbar {
-  height: 10px;
-  cursor: pointer;
-}
-
-#Review #ReviewContentWrapper::-webkit-scrollbar-track {
-  background: #eeeeee;
-  border-radius: 10px;
-  border: 1px solid #f1f1f1;
-}
-
-#Review #ReviewContentWrapper::-webkit-scrollbar-thumb {
-  background: #ffdede;
-  border-radius: 10px;
-}
-
-#Review #ReviewContentWrapper::-webkit-scrollbar-thumb:hover {
-  background: #ffdede;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #Review #ReviewContentWrapper #SingleReview {
-  width: 350px;
+  width: 400px;
   white-space: normal;
   text-align: center;
   margin: 10px 15px;
@@ -1795,5 +1780,72 @@ kbd {
   font-size: 2rem;
   font-family: 'Sriracha', cursive;
   color: red;
+}
+
+#Faq {
+  padding: 50px 0px;
+}
+
+#Faq #FaqContentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#Faq #FaqContentWrapper #FaqImg {
+  width: 40%;
+}
+
+#Faq #FaqContentWrapper #FaqImg img {
+  width: 100%;
+}
+
+#Faq #FaqContentWrapper #FaqContent {
+  width: 60%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+#Faq #FaqContentWrapper #FaqContent #SingleFaq {
+  width: 90%;
+  margin: 5px auto;
+  padding: 5px 10px;
+  border-left: 5px solid #0077ff;
+}
+
+#Faq #FaqContentWrapper #FaqContent #SingleFaq summary {
+  width: 100%;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: -webkit-gradient(linear, right top, left top, from(#00ffea), to(#006eff));
+  background: linear-gradient(to left, #00ffea, #006eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  outline: none;
+}
+
+#Faq #FaqContentWrapper #FaqContent #SingleFaq details p {
+  padding: 5px;
+  color: #292929;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
 }
 /*# sourceMappingURL=index.css.map */

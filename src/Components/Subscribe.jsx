@@ -6,9 +6,6 @@ const Subscribe = () => {
   const GetData = (val) => {
     setData(val.target.value)
   }
-  // document.querySelector('#SubscribeForm').style.display = 'none'
-  // document.querySelector('#SubscribeTitle').style.display = 'none'
-  // document.querySelector('#AfterText').style.display = 'block'
   const Submit = (e) => {
     e.preventDefault()
     Swal.fire({

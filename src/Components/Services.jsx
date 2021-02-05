@@ -2,8 +2,7 @@ import React from 'react'
 import ServiceData from './ServiceData'
 import Title from './Title'
 import Footer from './Footer'
-// import Swal from 'sweetalert2'
-// import SwalImg from './img/WebDesign.png'
+import Faq from './Faq'
 
 const Services = () => {
   document.title = ' DevR - Services '
@@ -43,6 +42,7 @@ const Services = () => {
           </div>
         </div>
       </section>
+      <Faq />
       <Footer />
     </>
   )

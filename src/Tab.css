@@ -65,5 +65,18 @@
     font-size: 1rem !important;
     width: 100% !important;
   }
+  #FaqImg {
+    width: 40% !important;
+    margin: auto;
+  }
+  #FaqContent {
+    width: 60% !important;
+  }
+  #FaqContent #SingleFaq {
+    width: 100% !important;
+  }
+  #SingleReview {
+    width: 45% !important;
+  }
 }
 /*# sourceMappingURL=Tab.css.map */

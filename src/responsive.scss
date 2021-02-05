@@ -3,7 +3,7 @@
     width: 90% !important;
   }
   * {
-    cursor: default;
+    cursor: default !important;
   }
   a,
   button {
@@ -113,8 +113,8 @@
     }
   }
   #SingleReview {
-    width: 320px !important;
-    margin: 0px 10px !important;
+    width: 90% !important;
+    margin: 15px auto !important;
   }
   #BlogDesc {
     p {
@@ -184,6 +184,23 @@
     h2 {
       font-size: 1.2rem !important;
       margin: 10px 0px !important;
+    }
+  }
+  #ErrorImg {
+    width: 90% !important;
+  }
+  #FaqContentWrapper {
+    flex-direction: column;
+    align-items: center;
+    #FaqImg {
+      width: 90% !important;
+      margin: auto;
+    }
+    #FaqContent {
+      width: 100% !important;
+      #SingleFaq {
+        width: 100% !important;
+      }
     }
   }
 }

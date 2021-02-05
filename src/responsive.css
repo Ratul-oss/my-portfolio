@@ -3,7 +3,7 @@
     width: 90% !important;
   }
   * {
-    cursor: default;
+    cursor: default !important;
   }
   a,
   button {
@@ -123,8 +123,8 @@
     width: 150px !important;
   }
   #SingleReview {
-    width: 320px !important;
-    margin: 0px 10px !important;
+    width: 90% !important;
+    margin: 15px auto !important;
   }
   #BlogDesc p {
     width: 100% !important;
@@ -182,6 +182,28 @@
   #LoaderContent h2 {
     font-size: 1.2rem !important;
     margin: 10px 0px !important;
+  }
+  #ErrorImg {
+    width: 90% !important;
+  }
+  #FaqContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #FaqContentWrapper #FaqImg {
+    width: 90% !important;
+    margin: auto;
+  }
+  #FaqContentWrapper #FaqContent {
+    width: 100% !important;
+  }
+  #FaqContentWrapper #FaqContent #SingleFaq {
+    width: 100% !important;
   }
 }
 
