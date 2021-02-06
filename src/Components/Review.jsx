@@ -25,7 +25,7 @@ const Review = () => {
         <div id="Container">
           <Title
             title="Custom reviews"
-            desc="Here are some great people's review with whom I have worked before. Hold Shift and then scroll to explore reviews."
+            desc="Here are some great people's review with whom I have worked before."
           />
           <div id="ReviewContentWrapper">
             {RData.map((data, index) => {
