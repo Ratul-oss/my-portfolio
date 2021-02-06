@@ -40,6 +40,15 @@ const Blog = () => {
             )
           })}
         </div>
+        <div id="LinkToMainPage">
+          <a
+            href="https://dev.to/ratuloss"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Tutorials
+          </a>
+        </div>
       </section>
     </>
   )

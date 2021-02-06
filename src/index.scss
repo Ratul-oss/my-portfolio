@@ -1160,26 +1160,6 @@ footer {
       }
     }
   }
-  #ReviewContact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 0px;
-    #SingleContact {
-      width: 50px;
-      margin: 0px 10px;
-      transition: 0.3s;
-      border-radius: 100%;
-      &:hover {
-        transform: rotate(360deg);
-        transform: scale(1.2);
-      }
-      img {
-        width: 100%;
-      }
-    }
-  }
 }
 #HomeMe {
   position: fixed;

@@ -8,7 +8,7 @@ import './Tab.css'
 import './responsive.css'
 
 AOS.init({
-  duration: 1500,
+  duration: 900,
 })
 ReactDOM.render(
   <>

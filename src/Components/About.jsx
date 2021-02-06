@@ -38,7 +38,7 @@ const About = () => {
                   doing my projects.
                 </p>
                 <p>
-                  I have more than {myExperience} years experinece as a
+                  I have more than {myExperience} years of experinece as a
                   Front-End Engineer. I have Designed and Developed many
                   websites, applications and some super simple games. I have
                   also a nice experience in web development. I use ReactJs to

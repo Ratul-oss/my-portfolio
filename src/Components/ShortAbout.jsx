@@ -19,7 +19,7 @@ const ShortAbout = () => {
                 in every type of devices.
               </p>
               <p>
-                I have more than {myExperience} years experinece as a web
+                I have more than {myExperience} years of experinece as a web
                 developer. I have Designed and Developed many websites,
                 applications and some super simple games.
               </p>

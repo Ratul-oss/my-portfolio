@@ -73,8 +73,7 @@
             align-items: center !important;
   }
   #AboutCOntentWrapper #AboutDesc {
-    width: 90% !important;
-    text-align: center !important;
+    width: 95% !important;
   }
   #AboutCOntentWrapper #AboutImage {
     width: 60% !important;
@@ -301,6 +300,18 @@
   #SingleProject #ProjectDesc h2 {
     font-size: 1.5rem !important;
   }
+  #SingleReview {
+    width: 95% !important;
+  }
+  #SubscribeTitle {
+    font-size: 1.7rem !important;
+  }
+  #InputField input {
+    font-size: 1rem !important;
+  }
+  nav ul li:first-child {
+    width: 80px !important;
+  }
 }
 
 @media screen and (max-width: 598px) {
@@ -330,6 +341,21 @@
   }
   #SingleBlog img {
     height: auto !important;
+  }
+  #AboutDesc {
+    width: 100% !important;
+  }
+  #AboutDesc h2 {
+    font-size: 1.4rem !important;
+  }
+  #HeaderDesc h1 {
+    font-size: 2rem !important;
+  }
+  #HeaderDesc p {
+    font-size: 1.5rem !important;
+  }
+  #HeaderDesc h3 {
+    font-size: 1rem !important;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
