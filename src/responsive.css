@@ -132,7 +132,7 @@
     width: 150px !important;
   }
   #SingleReview {
-    width: 90% !important;
+    width: 70% !important;
     margin: 15px auto !important;
   }
   #BlogDesc p {
@@ -315,6 +315,10 @@
 }
 
 @media screen and (max-width: 598px) {
+  #SingleReview {
+    width: 90% !important;
+    margin: 15px auto !important;
+  }
   #HomeMe {
     bottom: 0% !important;
     margin: 20px 0px;
