@@ -9,39 +9,49 @@
   button {
     cursor: default !important;
   }
-  nav {
-    justify-content: space-between !important;
-    padding: 5px !important;
+  .active {
+    padding-bottom: 2px;
+    border: none;
+    color: rgb(0, 255, 255) !important;
   }
-  #NavLinks {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    height: 100% !important;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 2rem;
-    background: linear-gradient(to left, #be01fb, #160316);
-    // transform-origin: right;
-    // transform: scaleX(0);
-    transform: translateX(100%);
-    z-index: 5;
-    transition: 0.5s;
-    li {
-      a {
-        font-size: 1.3rem !important;
+  nav {
+    ul {
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 70%;
+      height: 100vh;
+      background: purple;
+      justify-content: center !important;
+      transform: translate(100%);
+      transition: 0.3s;
+      li {
+        margin: 10px 0px !important;
+        &:first-child {
+          display: block !important;
+          width: 150px;
+          margin: auto;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    #Burger {
+      display: block !important;
+      z-index: 10;
+      div {
+        width: 25px;
+        height: 3px;
+        background: white;
+        margin: 5px 0px;
+        transition: 0.3s;
       }
     }
   }
-  #Bar {
-    display: block !important;
-    z-index: 5;
-    i {
-      font-size: 1.5rem;
-      color: white;
-    }
+  .nav-active {
+    transform: translate(0) !important;
   }
   #AboutCOntentWrapper {
     flex-direction: column-reverse;

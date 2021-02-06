@@ -1,24 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Mode from './Mode'
-import Button from '@material-ui/core/Button'
-import disableScroll from 'disable-scroll'
+import Logo from './img/favicon.ico'
 
 const Nav = () => {
-  const [icon, setIcon] = useState(false)
-  const [open, setClose] = useState(false)
-  function Nav() {
-    document.querySelector('#NavLinks').style.transform = 'translateX(0)'
-    disableScroll.on()
-    setClose(!open)
-    setIcon(!icon)
+  const Navfunc = () => {
+    document.querySelector('#NavLink').classList.toggle('nav-active')
+    document.querySelector('#Burger').classList.toggle('toogle')
   }
-  function NavClose() {
-    document.querySelector('#NavLinks').style.transform = 'translateX(100%)'
-    disableScroll.off()
-    setClose(!open)
-    setIcon(!icon)
-  }
+  // nav()
   return (
     <>
       <nav data-aos="fade-in">
@@ -27,7 +17,10 @@ const Nav = () => {
           <h2 id="NavTitle">
             <Link to="/">DevR</Link>
           </h2>
-          <ul id="NavLinks">
+          <ul id="NavLink">
+            <li>
+              <img src={Logo} alt="Logo" />
+            </li>
             <li>
               <NavLink exact activeClassName="active" to="/">
                 Home
@@ -62,19 +55,10 @@ const Nav = () => {
               <Mode />
             </li>
           </ul>
-          <div id="Bar">
-            <Button
-              id="NavButton"
-              variant="outlined"
-              color="primary"
-              onClick={open ? NavClose : Nav}
-            >
-              {icon ? (
-                <i className="fas fa-times"></i>
-              ) : (
-                <i className="fas fa-bars"></i>
-              )}
-            </Button>
+          <div onClick={Navfunc} id="Burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
           </div>
         </div>
         {/* </div> */}

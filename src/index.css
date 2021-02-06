@@ -116,7 +116,7 @@ nav #NavContentWrapper {
           align-items: center;
 }
 
-nav #NavContentWrapper #NavLinks {
+nav #NavContentWrapper #NavLink {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,12 +129,16 @@ nav #NavContentWrapper #NavLinks {
   margin-bottom: 0px !important;
 }
 
-nav #NavContentWrapper #NavLinks li {
+nav #NavContentWrapper #NavLink li {
   margin: 0px 18px;
   list-style: none;
 }
 
-nav #NavContentWrapper #NavLinks li a {
+nav #NavContentWrapper #NavLink li:first-child {
+  display: none;
+}
+
+nav #NavContentWrapper #NavLink li a {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -143,7 +147,7 @@ nav #NavContentWrapper #NavLinks li a {
   transition: 0.3s;
 }
 
-nav #NavContentWrapper #NavLinks li a:hover {
+nav #NavContentWrapper #NavLink li a:hover {
   text-shadow: 0px 0px 10px white;
 }
 
@@ -160,8 +164,22 @@ nav #NavContentWrapper #NavTitle {
   margin-bottom: 0px !important;
 }
 
-nav #NavContentWrapper #Bar {
+nav #NavContentWrapper #Burger {
   display: none;
+}
+
+.toogle .line1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+          transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toogle .line2 {
+  opacity: 0;
+}
+
+.toogle .line3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -6px);
+          transform: rotate(45deg) translate(-5px, -6px);
 }
 
 header {

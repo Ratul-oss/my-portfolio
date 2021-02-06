@@ -9,46 +9,56 @@
   button {
     cursor: default !important;
   }
-  nav {
-    -webkit-box-pack: justify !important;
-        -ms-flex-pack: justify !important;
-            justify-content: space-between !important;
-    padding: 5px !important;
+  .active {
+    padding-bottom: 2px;
+    border: none;
+    color: cyan !important;
   }
-  #NavLinks {
+  nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     position: fixed;
-    height: 100% !important;
     top: 0;
-    left: 0;
-    width: 100%;
-    padding: 2rem;
-    background: -webkit-gradient(linear, right top, left top, from(#be01fb), to(#160316));
-    background: linear-gradient(to left, #be01fb, #160316);
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-    z-index: 5;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    background: purple;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
-  #NavLinks li a {
-    font-size: 1.3rem !important;
+  nav ul li {
+    margin: 10px 0px !important;
   }
-  #Bar {
+  nav ul li:first-child {
     display: block !important;
-    z-index: 5;
+    width: 150px;
+    margin: auto;
   }
-  #Bar i {
-    font-size: 1.5rem;
-    color: white;
+  nav ul li:first-child img {
+    width: 100%;
+  }
+  nav #Burger {
+    display: block !important;
+    z-index: 10;
+  }
+  nav #Burger div {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 0px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .nav-active {
+    -webkit-transform: translate(0) !important;
+            transform: translate(0) !important;
   }
   #AboutCOntentWrapper {
     -webkit-box-orient: vertical;

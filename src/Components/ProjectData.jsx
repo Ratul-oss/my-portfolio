@@ -6,6 +6,9 @@ import Stream from './img/Stream.png'
 import Lamp from './img/Lamp.png'
 import Rps from './img/Rps.png'
 import MusicUI from './img/MusicUI.png'
+import Quiz from './img/QuizApp.png'
+import Ide from './img/IDE.png'
+import Keep from './img/KeepApp.png'
 
 const ProjectData = [
   {
@@ -63,6 +66,27 @@ const ProjectData = [
     link: 'https://music-player-ui.mrratul.repl.co/',
     src: MusicUI,
     animate: 'fade-left',
+  },
+  {
+    title: 'Quiz App',
+    desc: 'A Quiz App made with Js',
+    link: 'https://github.com/Ratul-oss/quiz-app',
+    src: Quiz,
+    animate: 'fade-right',
+  },
+  {
+    title: 'Coding Ide',
+    desc: 'A coding ide for developers',
+    link: 'https://github.com/Ratul-oss/coding-ide',
+    src: Ide,
+    animate: 'fade-left',
+  },
+  {
+    title: 'Note Keeping App',
+    desc: 'A note keeping app for keeping notes.',
+    link: 'https://github.com/Ratul-oss/dynamic-note-keeping-app',
+    src: Keep,
+    animate: 'fade-right',
   },
 ]
 export default ProjectData

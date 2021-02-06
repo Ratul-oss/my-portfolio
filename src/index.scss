@@ -93,7 +93,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    #NavLinks {
+    #NavLink {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -101,6 +101,9 @@ nav {
       li {
         margin: 0px 18px;
         list-style: none;
+        &:first-child {
+          display: none;
+        }
         a {
           text-decoration: none;
           font-family: 'Poppins', sans-serif;
@@ -124,10 +127,19 @@ nav {
       margin-top: 0px !important;
       margin-bottom: 0px !important;
     }
-    #Bar {
+    #Burger {
       display: none;
     }
   }
+}
+.toogle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toogle .line2 {
+  opacity: 0;
+}
+.toogle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 header {
   padding: 50px 0px 30px 0px;
