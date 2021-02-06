@@ -26,7 +26,7 @@ const BlogData = [
   {
     title: 'useState()',
     time: 'Feb 4 2021',
-    desc: 'Learn useState() in more easier way.',
+    desc: 'Learn useState() in a more easier way.',
     src: Blog3,
     linkText: 'Learn it',
     link: 'https://dev.to/ratuloss/learn-usestate-in-5minutes-4j7h',
