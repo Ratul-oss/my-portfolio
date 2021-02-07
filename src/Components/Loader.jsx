@@ -1,31 +1,22 @@
 import React from 'react'
-import LocaderImg from './img/favicon.ico'
+import LoaderImg from './img/Loader.gif'
 import disableScroll from 'disable-scroll'
 
 const Loader = () => {
-  setTimeout(() => {
-    document.querySelector('#Loader').style.transform = 'translateX(-100%)'
-  }, 3000)
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.querySelector('#Loader').style.transform = 'translateX(120%)'
+      disableScroll.off()
+    })
+  })
+  disableScroll.on()
   return (
     <>
       <section id="Loader">
-        <div id="Container">
-          <div id="LoaderContentWarpper">
-            <div id="LoaderContent">
-              <h2>Welcome To my website</h2>
-              <h2>
-                Try to use the shortcut's
-                <br />
-                <kbd>ctrl + m - Dark Mode</kbd>
-                <kbd>shift + e - Exit</kbd>
-              </h2>
-
-              <div id="LoaderImg">
-                <img src={LocaderImg} alt="Error" />
-              </div>
-              <h2 id="LoaderName">DevR</h2>
-              <p>Loading...</p>
-            </div>
+        <div id="LoaderImg">
+          <img src={LoaderImg} alt="Loading..." />
+          <div id="LoaderDesc">
+            <h2>Loading...</h2>
           </div>
         </div>
       </section>

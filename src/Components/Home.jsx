@@ -7,17 +7,14 @@ import ShortSkill from './ShortSkill'
 import Footer from './Footer'
 import Subscribe from './Subscribe'
 import Review from './Review'
-import HomeMenu from './HomeMenu'
 import Blog from './Blog'
 import Loader from './Loader'
 
 const Home = () => {
   document.title = ' DevR - Home '
-  // window.scrollTo(0, 0)
   return (
     <>
-      {/* <Loader /> */}
-      <HomeMenu />
+      <Loader />
       <Header />
       <ShortAbout />
       <ShortProject />

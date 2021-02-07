@@ -1658,60 +1658,6 @@ footer {
   text-shadow: 1px 1px 9px cyan;
 }
 
-#Loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-  background: rgba(128, 0, 128, 0.5);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  z-index: 10;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-#Loader #LoaderContentWarpper #LoaderContent {
-  text-align: center;
-}
-
-#Loader #LoaderContentWarpper #LoaderContent h2 {
-  font-size: 2rem;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  text-shadow: 5px 5px 5px purple;
-  margin: 20px 0px 20px 0px;
-}
-
-#Loader #LoaderContentWarpper #LoaderContent #LoaderName {
-  font-size: 2.5rem;
-  background: -webkit-gradient(linear, right top, left top, from(#00ffaa), to(#00ccff));
-  background: linear-gradient(to left, #00ffaa, #00ccff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: none;
-}
-
-#Loader #LoaderContentWarpper #LoaderContent #LoaderImg {
-  width: 10%;
-  margin: 20px auto;
-}
-
-#Loader #LoaderContentWarpper #LoaderContent #LoaderImg img {
-  width: 100%;
-}
-
-#Loader #LoaderContentWarpper #LoaderContent p {
-  color: white;
-  font-size: 1.5rem;
-  font-family: 'Yusei Magic', sans-serif;
-  letter-spacing: 5px;
-}
-
 kbd {
   padding: 5px 10px;
   font-size: 0.9rem;
@@ -1831,5 +1777,44 @@ details > summary {
 
 details > summary::-webkit-details-marker {
   display: none;
+}
+
+#Loader {
+  height: 100vh;
+  border-bottom: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  background: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#Loader #LoaderImg {
+  width: 50%;
+  margin: auto;
+}
+
+#Loader #LoaderImg img {
+  width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
