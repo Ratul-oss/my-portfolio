@@ -151,6 +151,7 @@ header {
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
   #HeaderContentWrapper {
     #HeaderDesc {
       margin: 5px 0px;
@@ -1364,5 +1365,51 @@ details > summary::-webkit-details-marker {
     img {
       width: 100%;
     }
+  }
+}
+.custom-shape-divider-bottom-1612692350 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612692535 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1612692535 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 41px;
+}
+
+.custom-shape-divider-bottom-1612692535 .shape-fill {
+  fill: #ffffff;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-bottom-1612692535 svg {
+    width: calc(100% + 1.3px);
+    height: 44px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1612692535 svg {
+    width: calc(100% + 1.3px);
+    height: 44px;
   }
 }

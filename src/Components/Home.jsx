@@ -8,13 +8,11 @@ import Footer from './Footer'
 import Subscribe from './Subscribe'
 import Review from './Review'
 import Blog from './Blog'
-// import Loader from './Loader'
 
 const Home = () => {
   document.title = ' DevR - Home '
   return (
     <>
-      {/* <Loader /> */}
       <Header />
       <ShortAbout />
       <ShortProject />
