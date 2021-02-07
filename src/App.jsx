@@ -9,6 +9,7 @@ import Services from './Components/Services'
 import Contact from './Components/Contact'
 import Top from './Components/Top'
 import ErrorPage from './Components/Error'
+import Loader from './Components/Loader'
 
 const App = () => {
   document.querySelector('body').addEventListener('keypress', (event) => {
@@ -32,6 +33,7 @@ const App = () => {
   })
   return (
     <>
+      <Loader />
       <BrowserRouter>
         <Nav />
         <Switch>
