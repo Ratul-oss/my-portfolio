@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Texturina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -76,9 +76,9 @@ button,
 a,
 img {
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #Container {
@@ -100,13 +100,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#bc01fbc2),
-    to(#160316d3)
-  );
+  background: -webkit-gradient(linear, right top, left top, from(#bc01fbc2), to(#160316d3));
   background: linear-gradient(to left, #bc01fbc2, #160316d3);
   border-bottom: 1px solid #5a5a5a;
 }
@@ -116,10 +110,10 @@ nav #NavContentWrapper {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav #NavContentWrapper #NavLink {
@@ -127,11 +121,11 @@ nav #NavContentWrapper #NavLink {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 0px !important;
 }
 
@@ -162,13 +156,7 @@ nav #NavContentWrapper #NavTitle {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 1px;
   word-spacing: 2px;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#00ffaa),
-    to(#00ccff)
-  );
+  background: -webkit-gradient(linear, right top, left top, from(#00ffaa), to(#00ccff));
   background: linear-gradient(to left, #00ffaa, #00ccff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -182,7 +170,7 @@ nav #NavContentWrapper #Burger {
 
 .toogle .line1 {
   -webkit-transform: rotate(-45deg) translate(-5px, 6px);
-  transform: rotate(-45deg) translate(-5px, 6px);
+          transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .toogle .line2 {
@@ -191,7 +179,7 @@ nav #NavContentWrapper #Burger {
 
 .toogle .line3 {
   -webkit-transform: rotate(45deg) translate(-5px, -6px);
-  transform: rotate(45deg) translate(-5px, -6px);
+          transform: rotate(45deg) translate(-5px, -6px);
 }
 
 header {
@@ -200,18 +188,10 @@ header {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#000000),
-      to(#00000013)
-    ),
-    url(./Components/img/HeaderBg.jpg);
-  background: linear-gradient(to right, #000000, #00000013),
-    url(./Components/img/HeaderBg.jpg);
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#000000), to(#00000013)), url(./Components/img/HeaderBg.jpg);
+  background: linear-gradient(to right, #000000, #00000013), url(./Components/img/HeaderBg.jpg);
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
@@ -277,13 +257,13 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #About #AboutCOntentWrapper #AboutDesc {
@@ -333,7 +313,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   height: 100%;
   background: purple;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
   z-index: -1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -341,7 +321,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 
 #About #AboutCOntentWrapper #AboutDesc a:hover:before {
   -webkit-transform: translateX(0);
-  transform: translateX(0);
+          transform: translateX(0);
 }
 
 #About #AboutCOntentWrapper #AboutDesc a:hover {
@@ -355,28 +335,28 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #About #AboutCOntentWrapper #AboutImage img {
   width: 100%;
   -webkit-animation: ShortAbout 3s ease infinite alternate;
-  animation: ShortAbout 3s ease infinite alternate;
+          animation: ShortAbout 3s ease infinite alternate;
 }
 
 @-webkit-keyframes ShortAbout {
   from {
     -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+            transform: translateY(-30px);
   }
   to {
     -webkit-transform: translateY(10px);
-    transform: translateY(10px);
+            transform: translateY(10px);
   }
 }
 
 @keyframes ShortAbout {
   from {
     -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+            transform: translateY(-30px);
   }
   to {
     -webkit-transform: translateY(10px);
-    transform: translateY(10px);
+            transform: translateY(10px);
   }
 }
 
@@ -399,13 +379,13 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #AboutPage #AboutPageDesc #Desc {
@@ -432,7 +412,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #AboutPage #AboutPageDesc #AboutTable {
   width: 142.5px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #AboutPage #AboutPageDesc #AboutTable table {
@@ -453,7 +433,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 
 #AboutPage #AboutPageDesc #AboutTable table tr th:hover img {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #AboutPage #AboutPageDesc #AboutTable table tr th:hover {
@@ -503,16 +483,8 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #Footer {
   position: relative;
   padding: 150px 0px 100px 0px;
-  background: -webkit-gradient(
-      linear,
-      right top,
-      left top,
-      from(#0d1117da),
-      to(#0d1117)
-    ),
-    url(./Components/img/FooterBg.jpg);
-  background: linear-gradient(to left, #0d1117da, #0d1117),
-    url(./Components/img/FooterBg.jpg);
+  background: -webkit-gradient(linear, right top, left top, from(#0d1117da), to(#0d1117)), url(./Components/img/FooterBg.jpg);
+  background: linear-gradient(to left, #0d1117da, #0d1117), url(./Components/img/FooterBg.jpg);
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -524,13 +496,13 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
 }
 
@@ -541,13 +513,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #Footer #FooterContentWrapper #FooterSingleCotent h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#00ffdd),
-    to(#0059ff)
-  );
+  background: -webkit-gradient(linear, right top, left top, from(#00ffdd), to(#0059ff));
   background: linear-gradient(to left, #00ffdd, #0059ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -568,7 +534,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #Footer #FooterContentWrapper #FooterSingleCotent ol li:hover i,
 #Footer #FooterContentWrapper #FooterSingleCotent ul li:hover i {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+          transform: rotate(360deg);
   color: white;
 }
 
@@ -658,9 +624,9 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #ShortService #ShortServiceContentWrapper #SingleShortService {
@@ -673,54 +639,37 @@ footer {
   transition: 0.2s;
   margin: 30px 10px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   transition: 0.2s;
 }
 
-#ShortService
-  #ShortServiceContentWrapper
-  #SingleShortService:nth-child(3)
-  #ServiceImage {
+#ShortService #ShortServiceContentWrapper #SingleShortService:nth-child(3) #ServiceImage {
   width: 40% !important;
 }
 
 #ShortService #ShortServiceContentWrapper #SingleShortService:hover {
   -webkit-box-shadow: 1px 2px 20px black;
-  box-shadow: 1px 2px 20px black;
+          box-shadow: 1px 2px 20px black;
   border: none;
 }
 
 #ShortService #ShortServiceContentWrapper #SingleShortService:hover img {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
-#ShortService
-  #ShortServiceContentWrapper
-  #SingleShortService
-  #ServiceShortDesc
-  h2 {
+#ShortService #ShortServiceContentWrapper #SingleShortService #ServiceShortDesc h2 {
   font-size: 1.8rem;
   text-transform: capitalize;
   margin: 5px 0px 10px 0px;
   font-family: 'Raleway', sans-serif;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#ff00c8),
-    to(#2600ff)
-  );
+  background: -webkit-gradient(linear, right top, left top, from(#ff00c8), to(#2600ff));
   background: linear-gradient(to left, #ff00c8, #2600ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#ShortService
-  #ShortServiceContentWrapper
-  #SingleShortService
-  #ServiceShortDesc
-  P {
+#ShortService #ShortServiceContentWrapper #SingleShortService #ServiceShortDesc P {
   text-transform: capitalize;
   font-family: 'Maven Pro', sans-serif;
   font-weight: 600;
@@ -735,11 +684,7 @@ footer {
   margin: auto auto 10px auto;
 }
 
-#ShortService
-  #ShortServiceContentWrapper
-  #SingleShortService
-  #ServiceImage
-  img {
+#ShortService #ShortServiceContentWrapper #SingleShortService #ServiceImage img {
   width: 100%;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -779,7 +724,7 @@ footer {
   height: 100%;
   background: purple;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
   z-index: -1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -787,7 +732,7 @@ footer {
 
 #LinkToMainPage a:hover:before {
   -webkit-transform: translateX(0);
-  transform: translateX(0);
+          transform: translateX(0);
 }
 
 #LinkToMainPage a:hover {
@@ -803,9 +748,9 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #Service #ServiceContentWrapper #SingleService {
@@ -818,7 +763,7 @@ footer {
   transition: 0.2s;
   margin: 30px 10px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   transition: 0.2s;
 }
 
@@ -836,13 +781,13 @@ footer {
 
 #Service #ServiceContentWrapper #SingleService:hover {
   -webkit-box-shadow: 1px 2px 20px black;
-  box-shadow: 1px 2px 20px black;
+          box-shadow: 1px 2px 20px black;
   border: none;
 }
 
 #Service #ServiceContentWrapper #SingleService:hover img {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #Service #ServiceContentWrapper #SingleService #ServiceDesc h2 {
@@ -850,13 +795,7 @@ footer {
   text-transform: capitalize;
   margin: 5px 0px 10px 0px;
   font-family: 'Raleway', sans-serif;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#ff00c8),
-    to(#2600ff)
-  );
+  background: -webkit-gradient(linear, right top, left top, from(#ff00c8), to(#2600ff));
   background: linear-gradient(to left, #ff00c8, #2600ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -892,9 +831,9 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #ShortProjects #ProjectContentWrapper #SingleShortProject {
@@ -910,36 +849,22 @@ footer {
   transition: 0.3s;
 }
 
-#ShortProjects
-  #ProjectContentWrapper
-  #SingleShortProject:hover
-  #SingleShortProjectDesc {
+#ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc {
   -webkit-transform: scaleY(1);
-  transform: scaleY(1);
+          transform: scaleY(1);
 }
 
-#ShortProjects
-  #ProjectContentWrapper
-  #SingleShortProject:hover
-  #SingleShortProjectDesc
-  p {
+#ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc p {
   -webkit-transform: translateX(0);
-  transform: translateX(0);
+          transform: translateX(0);
 }
 
-#ShortProjects
-  #ProjectContentWrapper
-  #SingleShortProject:hover
-  #SingleShortProjectDesc
-  a {
+#ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc a {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
-#ShortProjects
-  #ProjectContentWrapper
-  #SingleShortProject
-  #SingleShortProjectDesc {
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc {
   position: absolute;
   top: 0;
   width: 100%;
@@ -950,30 +875,26 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   background: #000000e5;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
   -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
-#ShortProjects
-  #ProjectContentWrapper
-  #SingleShortProject
-  #SingleShortProjectDesc
-  h2 {
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc h2 {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
@@ -983,28 +904,20 @@ footer {
   text-transform: capitalize;
 }
 
-#ShortProjects
-  #ProjectContentWrapper
-  #SingleShortProject
-  #SingleShortProjectDesc
-  p {
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc p {
   color: white;
   font-family: 'Maven Pro', sans-serif;
   font-size: 1.2rem;
   width: 60%;
   text-align: center;
   -webkit-transform: translateX(-150%);
-  transform: translateX(-150%);
+          transform: translateX(-150%);
   -webkit-transition: 1s;
   transition: 1s;
   text-transform: capitalize;
 }
 
-#ShortProjects
-  #ProjectContentWrapper
-  #SingleShortProject
-  #SingleShortProjectDesc
-  a {
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc a {
   color: white;
   display: inline-block;
   -webkit-transition: 0.6s;
@@ -1012,11 +925,7 @@ footer {
   color: white;
 }
 
-#ShortProjects
-  #ProjectContentWrapper
-  #SingleShortProject
-  #SingleShortProjectDesc
-  a:hover {
+#ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc a:hover {
   color: cyan;
 }
 
@@ -1028,7 +937,7 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 #Projects #ProjectContentWrapper #SingleProject {
@@ -1046,17 +955,17 @@ footer {
 
 #Projects #ProjectContentWrapper #SingleProject:hover #ProjectDesc {
   -webkit-transform: translateY(0);
-  transform: translateY(0);
+          transform: translateY(0);
 }
 
 #Projects #ProjectContentWrapper #SingleProject:hover #ProjectDesc p {
   -webkit-transform: translateX(0);
-  transform: translateX(0);
+          transform: translateX(0);
 }
 
 #Projects #ProjectContentWrapper #SingleProject:hover #ProjectDesc a {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 #Projects #ProjectContentWrapper #SingleProject #ProjectDesc {
@@ -1066,26 +975,26 @@ footer {
   height: 100%;
   left: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   padding: 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   background: #000000e5;
   -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
+          transform: translateY(-100%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
@@ -1109,7 +1018,7 @@ footer {
   width: 60%;
   text-align: center;
   -webkit-transform: translateX(-150%);
-  transform: translateX(-150%);
+          transform: translateX(-150%);
   -webkit-transition: 1s;
   transition: 1s;
   text-transform: capitalize;
@@ -1136,26 +1045,26 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #SkillContentWrappper #SingleSkill {
   padding: 20px 20px;
   border: 1px solid rgba(221, 221, 221, 0.164);
   -webkit-box-shadow: 1px 1px 10px rgba(117, 117, 117, 0.747);
-  box-shadow: 1px 1px 10px rgba(117, 117, 117, 0.747);
+          box-shadow: 1px 1px 10px rgba(117, 117, 117, 0.747);
   border-radius: 100%;
   display: -ms-grid;
   display: grid;
   margin: 20px 10px;
   display: grid;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   width: 150px;
   margin: 20px 20px;
   border-radius: 100%;
@@ -1166,12 +1075,12 @@ footer {
 
 #SkillContentWrappper #SingleSkill:hover img {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #SkillContentWrappper #SingleSkill:hover {
   -webkit-box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.459);
-  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.459);
+          box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.459);
 }
 
 #SkillContentWrappper #SingleSkill img {
@@ -1196,8 +1105,8 @@ footer {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 5px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1217,10 +1126,10 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #SkillsPage #SkillPageContentWrapper #SingleSkillsInPage {
@@ -1228,18 +1137,18 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 1px 2px 10px rgba(37, 37, 37, 0.705);
-  box-shadow: 1px 2px 10px rgba(37, 37, 37, 0.705);
+          box-shadow: 1px 2px 10px rgba(37, 37, 37, 0.705);
   border-radius: 5px;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 465px;
   margin: 10px 0px;
   padding: 10px 5px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid rgba(196, 196, 196, 0.733);
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1247,7 +1156,7 @@ footer {
 
 #SkillsPage #SkillPageContentWrapper #SingleSkillsInPage:hover {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border-width: 0.1;
 }
 
@@ -1264,13 +1173,7 @@ footer {
 }
 
 #SkillsPage #SkillPageContentWrapper #SingleSkillsInPage #SkillDesc h2 {
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#00e1ff),
-    to(#006eff)
-  );
+  background: -webkit-gradient(linear, right top, left top, from(#00e1ff), to(#006eff));
   background: linear-gradient(to left, #00e1ff, #006eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1307,7 +1210,7 @@ footer {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 1.3rem;
   -webkit-box-shadow: inset 2px 3px 5px -1px #ddd;
-  box-shadow: inset 2px 3px 5px -1px #ddd;
+          box-shadow: inset 2px 3px 5px -1px #ddd;
 }
 
 #Contact #ContactContentWrapper #InputFields button {
@@ -1364,13 +1267,13 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #Filter select {
@@ -1399,19 +1302,11 @@ footer {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 50px;
-  background: -webkit-gradient(
-      linear,
-      right top,
-      left top,
-      from(#00000090),
-      to(#00000090)
-    ),
-    url(./Components/img/Subscribe.jpg);
-  background: linear-gradient(to left, #00000090, #00000090),
-    url(./Components/img/Subscribe.jpg);
+  background: -webkit-gradient(linear, right top, left top, from(#00000090), to(#00000090)), url(./Components/img/Subscribe.jpg);
+  background: linear-gradient(to left, #00000090, #00000090), url(./Components/img/Subscribe.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -1422,17 +1317,17 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 
@@ -1458,13 +1353,7 @@ footer {
 #Subscribe #SubscribeContentWrapper #AfterText button {
   padding: 10px 20px;
   font-size: 1.3rem;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#00eeff),
-    to(#0099ff)
-  );
+  background: -webkit-gradient(linear, right top, left top, from(#00eeff), to(#0099ff));
   background: linear-gradient(to left, #00eeff, #0099ff);
   color: white;
   border: 2px solid white;
@@ -1513,34 +1402,25 @@ footer {
 
 #Subscribe #SubscribeContentWrapper #InputField input:focus {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
   color: black;
   background: white;
   -webkit-box-shadow: 1px 10px 10px black;
-  box-shadow: 1px 10px 10px black;
+          box-shadow: 1px 10px 10px black;
   border-color: white !important;
 }
 
-#Subscribe
-  #SubscribeContentWrapper
-  #InputField
-  input:focus::-webkit-input-placeholder {
+#Subscribe #SubscribeContentWrapper #InputField input:focus::-webkit-input-placeholder {
   color: black !important;
   opacity: 0.8;
 }
 
-#Subscribe
-  #SubscribeContentWrapper
-  #InputField
-  input:focus:-ms-input-placeholder {
+#Subscribe #SubscribeContentWrapper #InputField input:focus:-ms-input-placeholder {
   color: black !important;
   opacity: 0.8;
 }
 
-#Subscribe
-  #SubscribeContentWrapper
-  #InputField
-  input:focus::-ms-input-placeholder {
+#Subscribe #SubscribeContentWrapper #InputField input:focus::-ms-input-placeholder {
   color: black !important;
   opacity: 0.8;
 }
@@ -1550,10 +1430,7 @@ footer {
   opacity: 0.8;
 }
 
-#Subscribe
-  #SubscribeContentWrapper
-  #InputField
-  input::-webkit-input-placeholder {
+#Subscribe #SubscribeContentWrapper #InputField input::-webkit-input-placeholder {
   color: white;
 }
 
@@ -1595,9 +1472,9 @@ footer {
 
 #Subscribe #SubscribeContentWrapper #SubsButton button:hover {
   -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+          transform: scale(1.05);
   -webkit-box-shadow: 1px 10px 10px black;
-  box-shadow: 1px 10px 10px black;
+          box-shadow: 1px 10px 10px black;
   background: white;
   color: black;
 }
@@ -1611,9 +1488,9 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #Review #ReviewContentWrapper #SingleReview {
@@ -1630,7 +1507,7 @@ footer {
 
 #Review #ReviewContentWrapper #SingleReview:hover {
   -webkit-box-shadow: 1px 2px 20px #272727;
-  box-shadow: 1px 2px 20px #272727;
+          box-shadow: 1px 2px 20px #272727;
 }
 
 #Review #ReviewContentWrapper #SingleReview #ReviewImage {
@@ -1676,13 +1553,7 @@ footer {
   display: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#0077ffdc),
-    to(#01b4fbe1)
-  );
+  background: -webkit-gradient(linear, right top, left top, from(#0077ffdc), to(#01b4fbe1));
   background: linear-gradient(to left, #0077ffdc, #01b4fbe1);
   text-align: center;
   padding: 15px 50px;
@@ -1718,9 +1589,9 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #Blog #BlogContentWrapper #SingleBlog {
@@ -1729,13 +1600,13 @@ footer {
   margin: 20px 0px;
   border: 1px solid #c9c9c9;
   -webkit-box-shadow: 1px 2px 10px #3f3f3f;
-  box-shadow: 1px 2px 10px #3f3f3f;
+          box-shadow: 1px 2px 10px #3f3f3f;
   overflow: hidden;
 }
 
 #Blog #BlogContentWrapper #SingleBlog:hover img {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #Blog #BlogContentWrapper #SingleBlog img {
@@ -1746,7 +1617,7 @@ footer {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
 }
 
 #Blog #BlogContentWrapper #SingleBlog #BlogDesc {
@@ -1814,17 +1685,17 @@ kbd {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #Error #ContentWrapper #ErrorImg {
@@ -1851,10 +1722,10 @@ kbd {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #Faq #FaqContentWrapper #FaqImg {
@@ -1886,16 +1757,10 @@ kbd {
   width: 100%;
   cursor: pointer;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(#00ffea),
-    to(#006eff)
-  );
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: -webkit-gradient(linear, right top, left top, from(#00ffea), to(#006eff));
   background: linear-gradient(to left, #00ffea, #006eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1922,17 +1787,17 @@ details > summary::-webkit-details-marker {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -1954,52 +1819,39 @@ details > summary::-webkit-details-marker {
   width: 100%;
 }
 
-.custom-shape-divider-bottom-1612692350 {
+.custom-shape-divider-bottom-1612693460 {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1612692535 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1612692535 svg {
+.custom-shape-divider-bottom-1612693460 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 41px;
+  height: 24px;
 }
 
-.custom-shape-divider-bottom-1612692535 .shape-fill {
+.custom-shape-divider-bottom-1612693460 .shape-fill {
   fill: #ffffff;
 }
 
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-  .custom-shape-divider-bottom-1612692535 svg {
+  .custom-shape-divider-bottom-1612693460 svg {
     width: calc(100% + 1.3px);
-    height: 44px;
+    height: 29px;
   }
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
-  .custom-shape-divider-bottom-1612692535 svg {
+  .custom-shape-divider-bottom-1612693460 svg {
     width: calc(100% + 1.3px);
-    height: 44px;
+    height: 27px;
   }
 }
 /*# sourceMappingURL=index.css.map */
