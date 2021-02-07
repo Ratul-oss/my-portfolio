@@ -62,7 +62,7 @@ const Home = () => {
   return (
     <>
       <header id="Header">
-        <div class="custom-shape-divider-bottom-1612693460">
+        <div class="custom-shape-divider-bottom-1612693670">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
