@@ -14,6 +14,13 @@
     border: none;
     color: rgb(0, 255, 255) !important;
   }
+  header {
+    background: linear-gradient(to right, #000000, #00000063),
+      url(./Components/img/mobileheaderbg.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
   nav {
     ul {
       flex-direction: column;

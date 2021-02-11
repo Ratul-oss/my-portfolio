@@ -14,6 +14,13 @@
     border: none;
     color: cyan !important;
   }
+  header {
+    background: -webkit-gradient(linear, left top, right top, from(#000000), to(#00000063)), url(./Components/img/mobileheaderbg.jpg);
+    background: linear-gradient(to right, #000000, #00000063), url(./Components/img/mobileheaderbg.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
   nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

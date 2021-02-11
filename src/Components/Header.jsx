@@ -84,7 +84,7 @@ const Home = () => {
               <h3
                 className="typewrite"
                 data-period="2000"
-                data-type='[ "Hi, I am Ratul.", "I will Do Web Design and Development.", "I Love Designing Websites.", "I Love to Develop New Things."]'
+                data-type='[ "Hi, I am Ratul.", "I will Do web development", "I love coding", "I love creating new stuffs"]'
               >
                 <span className="wrap">Hi I am Ratul</span>
               </h3>
