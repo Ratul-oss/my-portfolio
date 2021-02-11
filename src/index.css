@@ -513,8 +513,8 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #Footer #FooterContentWrapper #FooterSingleCotent h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  background: -webkit-gradient(linear, right top, left top, from(#00ffdd), to(#0059ff));
-  background: linear-gradient(to left, #00ffdd, #0059ff);
+  background: -webkit-gradient(linear, right top, left top, from(#00ffea), to(#006eff));
+  background: linear-gradient(to left, #00ffea, #006eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Lora', serif;
@@ -605,8 +605,8 @@ footer {
 
 #SectionTitle #line {
   width: 100px;
-  margin: auto auto;
-  height: 6px;
+  margin: 20px auto;
+  height: 5px;
   background: url(./Components/img/Title.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -651,6 +651,8 @@ footer {
   -webkit-box-shadow: 1px 2px 20px black;
           box-shadow: 1px 2px 20px black;
   border: none;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 #ShortService #ShortServiceContentWrapper #SingleShortService:hover img {
@@ -663,8 +665,8 @@ footer {
   text-transform: capitalize;
   margin: 5px 0px 10px 0px;
   font-family: 'Raleway', sans-serif;
-  background: -webkit-gradient(linear, right top, left top, from(#ff00c8), to(#2600ff));
-  background: linear-gradient(to left, #ff00c8, #2600ff);
+  background: -webkit-gradient(linear, right top, left top, from(#00d9ff), to(#ff0095));
+  background: linear-gradient(to left, #00d9ff, #ff0095);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -783,6 +785,8 @@ footer {
   -webkit-box-shadow: 1px 2px 20px black;
           box-shadow: 1px 2px 20px black;
   border: none;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 #Service #ServiceContentWrapper #SingleService:hover img {
@@ -795,8 +799,8 @@ footer {
   text-transform: capitalize;
   margin: 5px 0px 10px 0px;
   font-family: 'Raleway', sans-serif;
-  background: -webkit-gradient(linear, right top, left top, from(#ff00c8), to(#2600ff));
-  background: linear-gradient(to left, #ff00c8, #2600ff);
+  background: -webkit-gradient(linear, right top, left top, from(#00d9ff), to(#ff0095));
+  background: linear-gradient(to left, #00d9ff, #ff0095);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1298,7 +1302,7 @@ footer {
 }
 
 #Subscribe {
-  height: 60vh;
+  height: 65vh;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -1497,17 +1501,21 @@ footer {
   width: 400px;
   white-space: normal;
   text-align: center;
-  margin: 10px 15px;
+  margin: 15px 0px;
   padding: 20px 25px;
   display: inline-block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border: 0.1px dashed #cacaca;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 #Review #ReviewContentWrapper #SingleReview:hover {
-  -webkit-box-shadow: 1px 2px 20px #272727;
-          box-shadow: 1px 2px 20px #272727;
+  -webkit-box-shadow: 1px 2px 10px #1b1b1b;
+          box-shadow: 1px 2px 10px #1b1b1b;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 #Review #ReviewContentWrapper #SingleReview #ReviewImage {
@@ -1539,6 +1547,15 @@ footer {
 
 #Review #ReviewContentWrapper #SingleReview #ReviewDesc p {
   font-family: 'Yusei Magic', sans-serif;
+}
+
+#Review #ReviewContentWrapper #SingleReview #ReviewRank {
+  width: 100px;
+  margin: 10px auto;
+}
+
+#Review #ReviewContentWrapper #SingleReview #ReviewRank img {
+  width: 100%;
 }
 
 #HomeMe {
@@ -1602,11 +1619,18 @@ footer {
   -webkit-box-shadow: 1px 2px 10px #3f3f3f;
           box-shadow: 1px 2px 10px #3f3f3f;
   overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #Blog #BlogContentWrapper #SingleBlog:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+#Blog #BlogContentWrapper #SingleBlog:hover {
+  -webkit-box-shadow: 1px 2px 10px black;
+          box-shadow: 1px 2px 10px black;
 }
 
 #Blog #BlogContentWrapper #SingleBlog img {

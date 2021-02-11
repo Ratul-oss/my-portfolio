@@ -4,7 +4,7 @@ import App from './App'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './index.css'
-import './Tab.css'
+import './tab.css'
 import './responsive.css'
 
 AOS.init({

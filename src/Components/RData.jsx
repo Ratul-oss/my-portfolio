@@ -8,35 +8,35 @@ const RData = [
     src: Review1,
     title: 'James_lu',
     desc:
-      ' This guy is a really cool designer and developer. And he is also very friendly. He made a cool landing page for my bussiness. Will hire him again. ',
+      'This guy is a really cool designer and developer. And he is also very friendly.',
     animation: 'fade-right',
   },
   {
     src: Review2,
     title: 'michellebaker',
     desc:
-      ' I will definitely be working with you again! Communication was outstanding!! My website is amazing!! ',
+      'I will definitely be working with you again! Communication was outstanding!! My website is amazing!!',
     animation: 'fade-left',
   },
   {
     src: Review3,
     title: 'aounawan931',
     desc:
-      ' Incredible! Best Seller! So thrilled with his work, attention to detail. A true partner working alongside to make the vision a reality! ',
+      'Incredible! Best Seller! So thrilled with his work, attention to detail. A true partner working alongside to make the vision a reality!',
     animation: 'fade-right',
   },
   {
     src: Review4,
     title: 'Mr.Toufiq',
     desc:
-      ' Thank you so much DevR for delivering me so much nice website. I really like it. I really appreciate your work. Thanks a lot. Over all I am really happy hiring that guy. ',
+      'Nice developer. Has a nice experience. I would like to work with him again',
     animation: 'fade-left',
   },
   {
     src: Review1,
     title: 'You',
     desc:
-      ' Hire me to be a memeber of this review section. 😜. Was joking over all, if you want to hire me, please contact me by clicking on the link below. ',
+      'If you are interested to hire me, please leave a message. I will reply you as soon as possible.',
     animation: 'fade-right',
   },
 ]

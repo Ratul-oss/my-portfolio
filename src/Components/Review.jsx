@@ -2,6 +2,7 @@ import React from 'react'
 import RData from './RData'
 import Title from './Title'
 import { Link } from 'react-router-dom'
+import Stars from './img/stars.png'
 
 const Review = () => {
   const SingleReview = (prop) => {
@@ -10,6 +11,9 @@ const Review = () => {
         <div id="SingleReview" data-aos={prop.animation}>
           <div id="ReviewImage">
             <img src={prop.src} alt="Error" />
+          </div>
+          <div id="ReviewRank">
+            <img src={Stars} alt="5 Stars" />
           </div>
           <div id="ReviewDesc">
             <h2> {prop.title} </h2>
@@ -31,7 +35,6 @@ const Review = () => {
             {RData.map((data, index) => {
               return (
                 <SingleReview
-                  animation={data.animation}
                   key={index}
                   src={data.src}
                   title={data.title}

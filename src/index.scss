@@ -388,7 +388,11 @@ header {
       h2 {
         font-size: 2rem;
         margin-bottom: 10px;
-        background: linear-gradient(to left, rgb(0, 255, 221), rgb(0, 89, 255));
+        background: linear-gradient(
+          to left,
+          rgb(0, 255, 234),
+          rgb(0, 110, 255)
+        );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: 'Lora', serif;
@@ -466,8 +470,8 @@ footer {
   }
   #line {
     width: 100px;
-    margin: auto auto;
-    height: 6px;
+    margin: 20px auto;
+    height: 5px;
     background: url(./Components/img/Title.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -500,6 +504,7 @@ footer {
       &:hover {
         box-shadow: 1px 2px 20px black;
         border: none;
+        transform: translateY(-10px);
       }
 
       &:hover img {
@@ -513,8 +518,8 @@ footer {
           font-family: 'Raleway', sans-serif;
           background: linear-gradient(
             to left,
-            rgb(255, 0, 200),
-            rgb(38, 0, 255)
+            rgb(0, 217, 255),
+            rgb(255, 0, 149)
           );
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -614,6 +619,7 @@ footer {
       &:hover {
         box-shadow: 1px 2px 20px black;
         border: none;
+        transform: translateY(-10px);
       }
 
       &:hover img {
@@ -627,8 +633,8 @@ footer {
           font-family: 'Raleway', sans-serif;
           background: linear-gradient(
             to left,
-            rgb(255, 0, 200),
-            rgb(38, 0, 255)
+            rgb(0, 217, 255),
+            rgb(255, 0, 149)
           );
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -996,7 +1002,7 @@ footer {
   }
 }
 #Subscribe {
-  height: 60vh;
+  height: 65vh;
   display: grid;
   align-items: center;
   margin-bottom: 50px;
@@ -1126,13 +1132,15 @@ footer {
       width: 400px;
       white-space: normal;
       text-align: center;
-      margin: 10px 15px;
+      margin: 15px 0px;
       padding: 20px 25px;
       display: inline-block;
       transition: 0.3s;
       border: 0.1px dashed rgb(202, 202, 202);
+      transition: 0.2s;
       &:hover {
-        box-shadow: 1px 2px 20px rgb(39, 39, 39);
+        box-shadow: 1px 2px 10px rgb(27, 27, 27);
+        transform: translateY(-10px);
       }
       #ReviewImage {
         width: 100px;
@@ -1157,6 +1165,13 @@ footer {
         }
         p {
           font-family: 'Yusei Magic', sans-serif;
+        }
+      }
+      #ReviewRank {
+        width: 100px;
+        margin: 10px auto;
+        img {
+          width: 100%;
         }
       }
     }
@@ -1208,8 +1223,12 @@ footer {
       border: 1px solid rgb(201, 201, 201);
       box-shadow: 1px 2px 10px rgb(63, 63, 63);
       overflow: hidden;
+      transition: 0.3s;
       &:hover img {
         transform: scale(1.1);
+      }
+      &:hover {
+        box-shadow: 1px 2px 10px black;
       }
       img {
         width: 100%;

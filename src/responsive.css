@@ -74,6 +74,7 @@
   }
   #AboutCOntentWrapper #AboutDesc {
     width: 95% !important;
+    text-align: center !important;
   }
   #AboutCOntentWrapper #AboutImage {
     width: 60% !important;
@@ -100,7 +101,8 @@
     width: 100% !important;
   }
   #SingleSkill {
-    width: 35% !important;
+    width: 18% !important;
+    padding: 10px 10px !important;
   }
   #Top {
     bottom: 0;
@@ -214,6 +216,15 @@
   #FaqContentWrapper #FaqContent #SingleFaq {
     width: 100% !important;
   }
+  #AfterText {
+    font-size: 1.7rem !important;
+  }
+  #AfterText p {
+    font-size: 1.2rem !important;
+  }
+  #AfterText button {
+    font-size: 1.1rem !important;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -270,7 +281,7 @@
 
 @media screen and (max-width: 296px) {
   #SingleSkill {
-    width: 80% !important;
+    width: 30% !important;
   }
 }
 
@@ -316,7 +327,8 @@
 
 @media screen and (max-width: 598px) {
   #SingleReview {
-    width: 90% !important;
+    width: 100% !important;
+    padding: 30px 7px !important;
     margin: 15px auto !important;
   }
   #HomeMe {
