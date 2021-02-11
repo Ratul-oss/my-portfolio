@@ -14,18 +14,17 @@ const ShortAbout = () => {
               <h2>Few Words About Me</h2>
               <p>
                 Hi there, Hope you are doing well. I am Ratul. I am a MERN stack
-                Web developer. I will Design and Develop your websites and web
-                applications. Which will be super fast compatible and responsive
-                in every type of devices.
-              </p>
-              <p>
-                I have more than {myExperience} years of experinece as a web
+                web developer. I love developing web and mobile applications. I
+                have more than {myExperience} years of experinece as a web
                 developer. I have Designed and Developed many websites,
                 applications and some super simple games.
               </p>
               <p>
-                My Coding is w3validated, seo optimised and also hand coded. My
-                Designs are simple fresh and Clean. My Coding is also bug free.
+                I love coding soo much and I take it as a passion. And I really
+                love my passion. I have never felt frustrated or boring when I
+                am coding. Coding makes me happy. I love to learn new things and
+                I always try to keep my skills updated. My favourite language is
+                Javascript.
               </p>
               <Link to="/about">Read More</Link>
             </div>

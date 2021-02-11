@@ -20,6 +20,7 @@ const About = () => {
   window.scrollTo(0, 0)
   const year = new Date().getFullYear()
   const myExperience = year - 2020
+  const myAge = year - 2005
   return (
     <>
       <section id="AboutPage">
@@ -31,31 +32,29 @@ const About = () => {
                 <h2>About Me</h2>
                 <p>
                   Hi there, Hope you are doing well. I am Ratul. I am a MERN
-                  stack Web developer. I will Design and Develop your websites
-                  and web applications. Which will be super fast compatible and
-                  responsive in every type of devices. Bugs will never seen your
-                  website. I really love that work so I never feel bored when
-                  doing my projects.
+                  stack web developer. I love developing web and mobile
+                  applications. I have more than {myExperience} years of
+                  experinece as a web developer. I have Designed and Developed
+                  many websites, applications and some super simple games. I am
+                  pretty much comfortable doing these things. My coding is
+                  w3validated, bug free and SEO optimised.
                 </p>
                 <p>
-                  I have more than {myExperience} years of experinece as a
-                  Front-End Engineer. I have Designed and Developed many
-                  websites, applications and some super simple games. I have
-                  also a nice experience in web development. I use ReactJs to
-                  build the UI of websites. Which is very light and fast. I use
-                  sass, Css, Bootstrap and some other designing techs like Figma
-                  to design your website. Which will make your website
-                  resposnsive and compatible in every type of devices.
+                  I am a young guy. I am {myAge} years old. I have been coding
+                  since the end of 2019. I have a nice experience in Javascript.
+                  I really love Javascript. I have a pretty much nice skill on
+                  React Js. Most of my projects are done with React Js. I am
+                  also good in NodeJs, MongoDB, express, Sass, Redux and More.
                 </p>
                 <p>
-                  My Coding is w3validated, seo optimised and also hand coded.
-                  My Designs are simple fresh and Clean. My Coding is also bug
-                  free. I also work flexibly with the clients to fulfil their
-                  designing and development needs. Morever, I am aware of the
-                  projects deadline. I always try with my best to complete the
-                  projects in time. I am fluent in english which is very
-                  important for our communication. So if you are interested,
-                  please contact me to discuss further.
+                  I can make nice designs. Which will be responsive and pixel
+                  perfect. I can make useful functionalities which will be bug
+                  free and user friendly. I use all the modern, trending and
+                  powerful technologies for building projects. Which makes the
+                  application more faster and user friendly. And My designs are
+                  compatible in every type of browsers. Cause I use sass instead
+                  of writing only css. So hire me to create something which you
+                  are gonna be proud of!
                 </p>
               </div>
               <div data-aos="fade-left" id="AboutTable">

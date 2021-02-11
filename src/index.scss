@@ -25,6 +25,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-moz-selection {
+  background: rgb(255, 0, 140);
+  color: white;
+}
+::selection {
+  background: rgb(255, 0, 140);
+  color: white;
+}
 ::-webkit-scrollbar {
   width: 0px;
 }

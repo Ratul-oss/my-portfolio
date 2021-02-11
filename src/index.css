@@ -26,6 +26,16 @@
           box-sizing: border-box;
 }
 
+::-moz-selection {
+  background: #ff008c;
+  color: white;
+}
+
+::selection {
+  background: #ff008c;
+  color: white;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
