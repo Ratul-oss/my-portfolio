@@ -35,6 +35,7 @@ const Review = () => {
             {RData.map((data, index) => {
               return (
                 <SingleReview
+                  animation={data.animation}
                   key={index}
                   src={data.src}
                   title={data.title}
