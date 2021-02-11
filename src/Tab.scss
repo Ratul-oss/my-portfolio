@@ -2,6 +2,11 @@
   #Container {
     width: 750px !important;
   }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   nav {
     padding: 5px 10px;
   }
