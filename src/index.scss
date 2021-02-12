@@ -95,7 +95,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(to left, #bc01fbc2, #160316d3);
+  background: linear-gradient(to left, #d101fbc2, #310031d3);
   border-bottom: 1px solid rgb(90, 90, 90);
   #NavContentWrapper {
     display: flex;
@@ -154,7 +154,7 @@ header {
   height: 100vh;
   display: grid;
   align-items: center;
-  background: linear-gradient(to right, #00000056, #0000000a),
+  background: linear-gradient(to right, #0000005d, #00000000),
     url(./Components/img/HeaderBg.jpg);
   background-size: cover;
   background-position: center;

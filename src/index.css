@@ -110,8 +110,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background: -webkit-gradient(linear, right top, left top, from(#bc01fbc2), to(#160316d3));
-  background: linear-gradient(to left, #bc01fbc2, #160316d3);
+  background: -webkit-gradient(linear, right top, left top, from(#d101fbc2), to(#310031d3));
+  background: linear-gradient(to left, #d101fbc2, #310031d3);
   border-bottom: 1px solid #5a5a5a;
 }
 
@@ -200,8 +200,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(#00000056), to(#0000000a)), url(./Components/img/HeaderBg.jpg);
-  background: linear-gradient(to right, #00000056, #0000000a), url(./Components/img/HeaderBg.jpg);
+  background: -webkit-gradient(linear, left top, right top, from(#0000005d), to(#00000000)), url(./Components/img/HeaderBg.jpg);
+  background: linear-gradient(to right, #0000005d, #00000000), url(./Components/img/HeaderBg.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
