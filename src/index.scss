@@ -154,9 +154,9 @@ header {
   height: 100vh;
   display: grid;
   align-items: center;
-  background: linear-gradient(to right, #000000, #0000003d),
+  background: linear-gradient(to right, #00000056, #0000000a),
     url(./Components/img/HeaderBg.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   position: relative;
