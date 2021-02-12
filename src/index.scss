@@ -34,19 +34,19 @@
   color: white;
 }
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #fff6f600;
+  background: #ffffff;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(223, 223, 223, 0);
+  background: rgb(255, 0, 149);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(85, 85, 85, 0);
+  background: rgb(250, 0, 75);
 }
 body,
 html {
@@ -851,10 +851,9 @@ footer {
 }
 #Top {
   position: fixed;
-  bottom: 10%;
-  right: 5%;
+  bottom: 7%;
+  right: 2%;
   z-index: 7;
-  margin: 0px 10px;
   a {
     color: rgb(0, 255, 234);
     padding: 5px;

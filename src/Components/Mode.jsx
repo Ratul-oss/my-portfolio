@@ -33,7 +33,7 @@ const Mode = () => {
       <section id="Mode">
         <Button
           onClick={mode ? Light : Dark}
-          variant="outlined"
+          variant="contained"
           color="secondary"
         >
           {text ? <FlareIcon /> : <Brightness4Icon />}

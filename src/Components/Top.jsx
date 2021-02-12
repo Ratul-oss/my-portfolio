@@ -1,17 +1,21 @@
 import React from 'react'
 import EjectTwoToneIcon from '@material-ui/icons/EjectTwoTone'
+import Button from '@material-ui/core/Button'
 
 const Top = () => {
   return (
     <>
       <div id="Top">
-        <a
+        <Button
+          variant="outlined"
+          color="secondary"
+          style={{ padding: '10px 1px', borderWidth: '2px' }}
           onClick={() => {
             window.scrollTo(0, 0)
           }}
         >
-          <EjectTwoToneIcon style={{ fontSize: '2rem' }} />
-        </a>
+          <EjectTwoToneIcon style={{ fontSize: '1.7rem' }} />
+        </Button>
       </div>
     </>
   )

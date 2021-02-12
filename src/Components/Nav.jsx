@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Mode from './Mode'
 import Logo from './img/favicon.ico'
+import { Button } from '@material-ui/core'
 
 const Nav = () => {
   const Navfunc = () => {
