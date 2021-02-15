@@ -2,6 +2,8 @@ import Portfolio from './img/Portfolio.png'
 import AzamW from './img/AzamW.png'
 import Brigrate from './img/Brigrate.png'
 import NoteApp from './img/NoteApp.png'
+import MusicPlayer from './img/musicPlayer.png'
+import Quiz from './img/QuizApp.png'
 
 const SpData = [
   {
@@ -12,17 +14,17 @@ const SpData = [
     animate: 'fade-right',
   },
   {
-    title: 'Portfolio Project',
-    desc: 'This is a portfolio website project.',
-    link: 'https://golamazam.mrratul.repl.co',
-    src: AzamW,
+    title: 'Music Player',
+    desc: 'Ultimate music player made with pure Js',
+    link: 'https://github.com/Ratul-oss/javascript-music-player',
+    src: MusicPlayer,
     animate: 'fade-left',
   },
   {
-    title: 'Construction Project',
-    desc: 'This is a construction website.',
-    link: 'https://github.com/Ratul-oss/Simple-React-UI',
-    src: Brigrate,
+    title: 'Quiz App',
+    desc: 'A Quiz App made with pure Js',
+    link: 'https://github.com/Ratul-oss/quiz-app',
+    src: Quiz,
     animate: 'fade-right',
   },
   {

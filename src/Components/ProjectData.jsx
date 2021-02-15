@@ -9,6 +9,7 @@ import MusicUI from './img/MusicUI.png'
 import Quiz from './img/QuizApp.png'
 import Ide from './img/IDE.png'
 import Keep from './img/KeepApp.png'
+import MusicPlayer from './img/musicPlayer.png'
 
 const ProjectData = [
   {
@@ -18,6 +19,7 @@ const ProjectData = [
     src: Portfolio,
     animate: 'fade-right',
   },
+
   {
     title: 'Portfolio Project',
     desc: 'This is a portfolio website project.',
@@ -25,6 +27,7 @@ const ProjectData = [
     src: AzamW,
     animate: 'fade-left',
   },
+
   {
     title: 'Construction Project',
     desc: 'This is a construction website.',
@@ -87,6 +90,13 @@ const ProjectData = [
     link: 'https://github.com/Ratul-oss/dynamic-note-keeping-app',
     src: Keep,
     animate: 'fade-right',
+  },
+  {
+    title: 'Music Player',
+    desc: 'Ultimate music player made with pure Js',
+    link: 'https://github.com/Ratul-oss/javascript-music-player',
+    src: MusicPlayer,
+    animate: 'fade-left',
   },
 ]
 export default ProjectData
