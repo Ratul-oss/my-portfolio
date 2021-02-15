@@ -18,10 +18,7 @@ const Contact = () => {
     })
   }
   const ShowData = () => {
-    Swal.fire('Sent', `Thanks ${data.yourName} for the feedback.`, 'success')
-    // document.querySelector('#outputmessage').style.display = 'block'
-    // document.querySelector('#outputmessage').style.background = 'greenyellow'
-    // document.querySelector('#outputmessage').style.color = 'green'
+    Swal.fire('Sent', `Thanks ${data.yourName} for Sending.`, 'success')
   }
   document.title = 'DevR - Contact'
 
@@ -31,7 +28,7 @@ const Contact = () => {
         <div id="Container">
           <Title
             title="Contact Me"
-            desc="Write anything here. Please don't spam. I will reply you as soon as possible"
+            desc="Write anything here. I will reply you as soon as possible"
           />
           <div data-aos="fade-left" id="ContactContentWrapper">
             <form

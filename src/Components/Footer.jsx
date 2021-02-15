@@ -6,19 +6,6 @@ const Footer = () => {
     <>
       <section id="Footer">
         <div id="Container">
-          <div className="custom-shape-divider-top-1610786056">
-            <svg
-              data-name="Layer 1"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1200 120"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z"
-                className="shape-fill"
-              ></path>
-            </svg>
-          </div>
           <div data-aos="fade-in" id="FooterContentWrapper">
             <div data-aos="fade-right" id="FooterSingleCotent">
               <h2>Contact Me</h2>
@@ -34,11 +21,11 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://stackblitz.com/@Ratul-oss"
+                    href="https://codesandbox.io/u/Ratul-oss"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="far fa-folder"></i> StackBlitz
+                    <i className="far fa-folder"></i> SandBox
                   </a>
                 </li>
                 <li>

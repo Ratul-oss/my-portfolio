@@ -456,47 +456,13 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   transition: 0.5s;
 }
 
-.custom-shape-divider-top-1610786056 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1610786056 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 61px;
-}
-
-.custom-shape-divider-top-1610786056 .shape-fill {
-  fill: #ffffff;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .custom-shape-divider-top-1610786056 svg {
-    width: calc(100% + 1.3px);
-    height: 44px;
-  }
-}
-
-@media (max-width: 767px) {
-  .custom-shape-divider-top-1610786056 svg {
-    width: calc(100% + 1.3px);
-    height: 32px;
-  }
-}
-
 #Footer {
   position: relative;
-  padding: 150px 0px 100px 0px;
+  padding: 80px 0px;
   background: -webkit-gradient(linear, right top, left top, from(#0d1117da), to(#0d1117)), url(./Components/img/FooterBg.jpg);
   background: linear-gradient(to left, #0d1117da, #0d1117), url(./Components/img/FooterBg.jpg);
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -864,13 +830,8 @@ footer {
 }
 
 #ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
-}
-
-#ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc p {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 #ShortProjects #ProjectContentWrapper #SingleShortProject:hover #SingleShortProjectDesc a {
@@ -916,6 +877,8 @@ footer {
   color: cyan;
   text-shadow: 1px 2px 20px cyan;
   text-transform: capitalize;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 #ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc p {
@@ -924,18 +887,17 @@ footer {
   font-size: 1.2rem;
   width: 60%;
   text-align: center;
-  -webkit-transform: translateX(-150%);
-          transform: translateX(-150%);
   -webkit-transition: 1s;
   transition: 1s;
   text-transform: capitalize;
+  padding: 5px 0px 0px 0px;
 }
 
 #ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc a {
   color: white;
   display: inline-block;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  -webkit-transition: 1s;
+  transition: 1s;
   color: white;
 }
 
@@ -1199,7 +1161,7 @@ footer {
 }
 
 #Contact {
-  padding: 50px 0px;
+  padding: 60px 0px;
   border-bottom: none;
 }
 
@@ -1224,6 +1186,16 @@ footer {
   font-size: 1.3rem;
   -webkit-box-shadow: inset 2px 3px 5px -1px #ddd;
           box-shadow: inset 2px 3px 5px -1px #ddd;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Contact #ContactContentWrapper #InputFields input:focus,
+#Contact #ContactContentWrapper #InputFields textarea:focus {
+  -webkit-box-shadow: 2px 3px 10px #424242;
+          box-shadow: 2px 3px 10px #424242;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #Contact #ContactContentWrapper #InputFields button {
@@ -1521,8 +1493,8 @@ footer {
 }
 
 #Review #ReviewContentWrapper #SingleReview:hover {
-  -webkit-box-shadow: 1px 2px 10px #1b1b1b;
-          box-shadow: 1px 2px 10px #1b1b1b;
+  -webkit-box-shadow: 1px 2px 10px #1f1f1f;
+          box-shadow: 1px 2px 10px #1f1f1f;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
@@ -1874,7 +1846,6 @@ details > summary::-webkit-details-marker {
   fill: #ffffff;
 }
 
-/** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
   .custom-shape-divider-bottom-1612693670 svg {
     width: calc(100% + 1.3px);
@@ -1882,7 +1853,6 @@ details > summary::-webkit-details-marker {
   }
 }
 
-/** For mobile devices **/
 @media (max-width: 767px) {
   .custom-shape-divider-bottom-1612693670 svg {
     width: calc(100% + 1.3px);

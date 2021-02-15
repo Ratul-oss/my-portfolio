@@ -343,46 +343,13 @@ header {
     }
   }
 }
-.custom-shape-divider-top-1610786056 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1610786056 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 61px;
-}
-
-.custom-shape-divider-top-1610786056 .shape-fill {
-  fill: #ffffff;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .custom-shape-divider-top-1610786056 svg {
-    width: calc(100% + 1.3px);
-    height: 44px;
-  }
-}
-
-@media (max-width: 767px) {
-  .custom-shape-divider-top-1610786056 svg {
-    width: calc(100% + 1.3px);
-    height: 32px;
-  }
-}
 #Footer {
   position: relative;
-  padding: 150px 0px 100px 0px;
+  padding: 80px 0px;
   background: linear-gradient(to left, #0d1117da, #0d1117),
     url(./Components/img/FooterBg.jpg);
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   #FooterContentWrapper {
@@ -682,13 +649,9 @@ footer {
       img {
         width: 100%;
         transition: 0.3s;
-        // height: 450px;
       }
       &:hover #SingleShortProjectDesc {
-        transform: scaleY(1);
-      }
-      &:hover #SingleShortProjectDesc p {
-        transform: translateX(0);
+        transform: translateY(0);
       }
       &:hover #SingleShortProjectDesc a {
         transform: rotate(360deg);
@@ -717,6 +680,7 @@ footer {
           color: cyan;
           text-shadow: 1px 2px 20px cyan;
           text-transform: capitalize;
+          transition: 1s;
         }
         p {
           color: white;
@@ -724,14 +688,14 @@ footer {
           font-size: 1.2rem;
           width: 60%;
           text-align: center;
-          transform: translateX(-150%);
           transition: 1s;
           text-transform: capitalize;
+          padding: 5px 0px 0px 0px;
         }
         a {
           color: white;
           display: inline-block;
-          transition: 0.6s;
+          transition: 1s;
           color: rgb(255, 255, 255);
           &:hover {
             color: cyan;
@@ -918,7 +882,7 @@ footer {
   }
 }
 #Contact {
-  padding: 50px 0px;
+  padding: 60px 0px;
   border-bottom: none;
   #ContactContentWrapper {
     #InputFields {
@@ -940,6 +904,11 @@ footer {
         font-family: 'Yusei Magic', sans-serif;
         font-size: 1.3rem;
         box-shadow: inset 2px 3px 5px -1px #ddd;
+        transition: 0.3s;
+        &:focus {
+          box-shadow: 2px 3px 10px rgb(66, 66, 66);
+          transform: scale(1.05);
+        }
       }
       button {
         width: 100%;
@@ -1146,7 +1115,7 @@ footer {
       border: 0.1px dashed rgb(202, 202, 202);
       transition: 0.2s;
       &:hover {
-        box-shadow: 1px 2px 10px rgb(27, 27, 27);
+        box-shadow: 1px 2px 10px rgb(31, 31, 31);
         transform: translateY(-10px);
       }
       #ReviewImage {
@@ -1414,7 +1383,6 @@ details > summary::-webkit-details-marker {
   fill: #ffffff;
 }
 
-/** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
   .custom-shape-divider-bottom-1612693670 svg {
     width: calc(100% + 1.3px);
@@ -1422,7 +1390,6 @@ details > summary::-webkit-details-marker {
   }
 }
 
-/** For mobile devices **/
 @media (max-width: 767px) {
   .custom-shape-divider-bottom-1612693670 svg {
     width: calc(100% + 1.3px);
