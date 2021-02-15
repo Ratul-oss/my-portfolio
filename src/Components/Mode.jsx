@@ -9,9 +9,6 @@ const Mode = () => {
   const Dark = () => {
     document.querySelector('html').style.background = '#0D1117'
     document.querySelector('body').style.background = '#0D1117'
-    document.querySelector(
-      '.custom-shape-divider-top-1610786056',
-    ).style.display = 'none'
     document.querySelector('html').style.color = ' white '
     document.querySelector('body').style.color = ' white '
     setMode(!mode)
@@ -22,9 +19,6 @@ const Mode = () => {
     document.querySelector('body').style.background = ' #fff '
     document.querySelector('html').style.color = ' #000 '
     document.querySelector('body').style.color = ' #000 '
-    document.querySelector(
-      '.custom-shape-divider-top-1610786056',
-    ).style.display = 'block'
     setMode(!mode)
     settext(!text)
   }
