@@ -1283,7 +1283,7 @@ footer {
 }
 
 #Subscribe {
-  height: 65vh;
+  min-height: 65vh;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -1679,7 +1679,7 @@ kbd {
 
 #Error {
   padding: 50px 0px;
-  height: 100vh;
+  min-height: 100vh;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -1786,7 +1786,7 @@ details > summary::-webkit-details-marker {
 }
 
 #Loader {
-  height: 100vh;
+  min-height: 100vh;
   border-bottom: none;
   display: -webkit-box;
   display: -ms-flexbox;
