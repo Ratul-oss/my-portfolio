@@ -259,7 +259,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 }
 
 #About {
-  padding: 50px 0px;
+  padding: 80px 0px;
 }
 
 #About #AboutCOntentWrapper {
@@ -282,7 +282,8 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 
 #About #AboutCOntentWrapper #AboutDesc h2 {
   font-family: 'Raleway', sans-serif;
-  background: linear-gradient(45deg, #00a2b8, #00eeff);
+  background: -webkit-gradient(linear, right top, left top, from(#00fff2), to(#ff009d));
+  background: linear-gradient(to left, #00fff2, #ff009d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.7rem;
@@ -309,8 +310,8 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   cursor: pointer;
   text-decoration: none;
   border-radius: 2px;
-  color: purple;
-  border: 2px solid purple;
+  color: #ff0080;
+  border: 2px solid #ff0080;
   margin: 10px 0px;
 }
 
@@ -321,7 +322,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: purple;
+  background: #ff0080;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   z-index: -1;
@@ -688,8 +689,8 @@ footer {
   cursor: pointer;
   text-decoration: none;
   border-radius: 2px;
-  color: purple;
-  border: 2px solid purple;
+  color: #ff0080;
+  border: 2px solid #ff0080;
   margin: 10px 0px;
 }
 
@@ -700,7 +701,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: purple;
+  background: #ff0080;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   z-index: -1;

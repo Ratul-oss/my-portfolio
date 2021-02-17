@@ -207,7 +207,7 @@ header {
   }
 }
 #About {
-  padding: 50px 0px;
+  padding: 80px 0px;
   #AboutCOntentWrapper {
     display: flex;
     justify-content: space-between;
@@ -217,7 +217,7 @@ header {
       width: 570px;
       h2 {
         font-family: 'Raleway', sans-serif;
-        background: linear-gradient(45deg, #00a2b8, #00eeff);
+        background: linear-gradient(to left, #00fff2, #ff009d);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 1.7rem;
@@ -241,8 +241,8 @@ header {
         cursor: pointer;
         text-decoration: none;
         border-radius: 2px;
-        color: purple;
-        border: 2px solid purple;
+        color: rgb(255, 0, 128);
+        border: 2px solid rgb(255, 0, 128);
         margin: 10px 0px;
         &:before {
           content: '';
@@ -251,7 +251,7 @@ header {
           left: 0;
           width: 100%;
           height: 100%;
-          background: purple;
+          background: rgb(255, 0, 128);
           transform: translateX(-100%);
           z-index: -1;
           transition: 0.3s;
@@ -537,8 +537,8 @@ footer {
     cursor: pointer;
     text-decoration: none;
     border-radius: 2px;
-    color: purple;
-    border: 2px solid purple;
+    color: rgb(255, 0, 128);
+    border: 2px solid rgb(255, 0, 128);
     margin: 10px 0px;
     &:before {
       content: '';
@@ -547,7 +547,7 @@ footer {
       left: 0;
       width: 100%;
       height: 100%;
-      background: purple;
+      background: rgb(255, 0, 128);
       transform: translateX(-100%);
       z-index: -1;
       transition: 0.3s;
