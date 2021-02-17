@@ -151,7 +151,7 @@ nav {
 }
 header {
   padding: 50px 0px 30px 0px;
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   align-items: center;
   background: linear-gradient(to right, #000000e1, #0000000c),
