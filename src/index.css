@@ -98,10 +98,7 @@ img {
 }
 
 .active {
-  border-bottom: 3px solid white;
-  padding-bottom: 10px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  color: #00ffff !important;
 }
 
 nav {

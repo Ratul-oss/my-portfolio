@@ -2,14 +2,12 @@ import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Mode from './Mode'
 import Logo from './img/favicon.ico'
-import { Button } from '@material-ui/core'
 
 const Nav = () => {
   const Navfunc = () => {
     document.querySelector('#NavLink').classList.toggle('nav-active')
     document.querySelector('#Burger').classList.toggle('toogle')
   }
-  // nav()
   return (
     <>
       <nav data-aos="fade-in">
