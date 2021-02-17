@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Swal from 'sweetalert2'
 import Title from './Title'
 import Footer from './Footer'
+import Button from '@material-ui/core/Button'
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -80,22 +81,12 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div id="InputFields">
-                <button type="submit">Send</button>
+                <Button variant="contained" color="secondary" type="submit">
+                  Send
+                </Button>
               </div>
             </form>
           </div>
-          {/* <div
-            style={{
-              background: ' rgba(44, 187, 0, 0.685)',
-              color: 'rgba(0, 128, 85, 0.925)',
-            }}
-            id="outputmessage"
-          >
-            <h2> Your Name : {`${data.yourName}`} </h2>
-            <h2> Your Email : {`${data._replyto}`} </h2>
-            <h2> Your Subject : {`${data.subject}`}</h2>
-            <h2> Your Message : {`${data.message}`}</h2>
-          </div> */}
         </div>
       </section>
       <Footer />

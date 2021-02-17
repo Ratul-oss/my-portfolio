@@ -916,17 +916,17 @@ footer {
         padding: 5px 0px;
         outline: none;
         border: none;
-        background: url(./Components/img/Title.jpg);
-        background-position: center;
+        background: none;
         background-attachment: fixed;
-        color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        color: #f50057;
+        border: 2px solid #f50057;
         border-radius: 5px;
         font-family: 'Yusei Magic', sans-serif;
         margin: auto;
-        transition: 1s;
+        transition: 0.3s;
         &:hover {
-          background: cyan;
+          background: #f50057;
           color: white;
           transition: 1s;
         }
