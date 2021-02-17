@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
 import AboutPageImg from './img/AboutPage.png'
 import AboutWevDev from './img/AboutWebDev.png'
@@ -16,8 +16,10 @@ const AboutImg = () => {
   )
 }
 const About = () => {
-  document.title = ' DevR - About '
-  window.scrollTo(0, 0)
+  useEffect(() => {
+    document.title = ' DevR - About '
+    window.scrollTo(0, 0)
+  }, [])
   const year = new Date().getFullYear()
   const myExperience = year - 2020
   const myAge = year - 2005

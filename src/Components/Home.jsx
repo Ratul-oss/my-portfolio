@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './Header'
 import ShortAbout from './ShortAbout'
 import ShortService from './ShortService'
@@ -10,7 +10,10 @@ import Review from './Review'
 import Blog from './Blog'
 
 const Home = () => {
-  document.title = ' DevR - Home '
+  useEffect(() => {
+    document.title = ' DevR - Home '
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <Header />

@@ -1,22 +1,14 @@
-import React from 'react'
-// import LinkRoundedIcon from '@material-ui/icons/LinkRounded'
+import React, { useEffect } from 'react'
 import ProjectData from './ProjectData'
 import Title from './Title'
 import Footer from './Footer'
 import GitHubIcon from '@material-ui/icons/GitHub'
-// import Swal from 'sweetalert2'
-// import SwalImg from './img/WebDesign.png'
 
 const Project = () => {
-  // Swal.fire({
-  //   title: 'Welcome to Projects',
-  //   text: 'Reload This Page to have a better experience.',
-  //   imageUrl: SwalImg,
-  //   imageWidth: 400,
-  //   imageHeight: 200,
-  //   imageAlt: 'Custom image',
-  // })
-  window.scrollTo(0, 0)
+  useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = ' DevR - Projects '
+  }, [])
   const SingleProject = (prop) => {
     return (
       <>
@@ -35,7 +27,6 @@ const Project = () => {
       </>
     )
   }
-  document.title = ' DevR - Projects '
   return (
     <>
       <section id="Projects">

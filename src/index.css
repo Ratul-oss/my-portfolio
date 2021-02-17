@@ -112,7 +112,6 @@ nav {
   width: 100%;
   background: -webkit-gradient(linear, right top, left top, from(#d101fbc2), to(#310031d3));
   background: linear-gradient(to left, #d101fbc2, #310031d3);
-  border-bottom: 1px solid #5a5a5a;
 }
 
 nav #NavContentWrapper {

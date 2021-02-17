@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import SkillData from './SkillData'
 import Title from './Title'
 import Footer from './Footer'
@@ -6,8 +6,10 @@ import { CallMerge } from '@material-ui/icons'
 
 const Skills = () => {
   const [data, setData] = useState()
-  window.scrollTo(0, 0)
-  document.title = ' DevR - Skills '
+  useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = ' DevR - Skills '
+  }, [])
   const Filter = (val) => {
     setData(val.target.value)
   }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Swal from 'sweetalert2'
 import Title from './Title'
 import Footer from './Footer'
@@ -10,7 +10,10 @@ const Contact = () => {
     subject: '',
     message: '',
   })
-  window.scrollTo(0, 0)
+  useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = 'DevR - Contact'
+  }, [])
   const TakeData = (val) => {
     const { name, value } = val.target
     setData((preValue) => {
@@ -20,7 +23,6 @@ const Contact = () => {
   const ShowData = () => {
     Swal.fire('Sent', `Thanks ${data.yourName} for Sending.`, 'success')
   }
-  document.title = 'DevR - Contact'
 
   return (
     <>

@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ServiceData from './ServiceData'
 import Title from './Title'
 import Footer from './Footer'
 import Faq from './Faq'
 
 const Services = () => {
-  document.title = ' DevR - Services '
-  window.scrollTo(0, 0)
+  useEffect(() => {
+    document.title = ' DevR - Services '
+    window.scrollTo(0, 0)
+  }, [])
   const SingleService = (prop) => {
     return (
       <div id="SingleService" data-aos="fade-right">
