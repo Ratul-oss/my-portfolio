@@ -286,7 +286,6 @@ header {
   #AboutPageImage {
     width: 50%;
     margin: auto;
-    margin-bottom: 20px;
     img {
       width: 100%;
     }
@@ -306,8 +305,12 @@ header {
         font-size: 2.5rem;
         margin-bottom: 10px;
         font-family: 'Playfair Display', serif;
-        background: url(./Components/img/Title.jpg);
-        background-size: 20% 20%;
+        background: linear-gradient(
+          to right,
+          rgb(255, 0, 128),
+          rgb(0, 238, 255)
+        );
+        background-size: 100% 100%;
         background-attachment: fixed;
         background-position: center;
         -webkit-background-clip: text;

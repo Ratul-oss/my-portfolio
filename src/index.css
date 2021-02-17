@@ -378,7 +378,6 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #AboutPage #AboutPageImage {
   width: 50%;
   margin: auto;
-  margin-bottom: 20px;
 }
 
 #AboutPage #AboutPageImage img {
@@ -412,8 +411,9 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   font-size: 2.5rem;
   margin-bottom: 10px;
   font-family: 'Playfair Display', serif;
-  background: url(./Components/img/Title.jpg);
-  background-size: 20% 20%;
+  background: -webkit-gradient(linear, left top, right top, from(#ff0080), to(#00eeff));
+  background: linear-gradient(to right, #ff0080, #00eeff);
+  background-size: 100% 100%;
   background-attachment: fixed;
   background-position: center;
   -webkit-background-clip: text;
