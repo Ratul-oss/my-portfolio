@@ -29,10 +29,13 @@
       right: 0;
       width: 70%;
       min-height: 100vh;
+      max-height: 100vh;
+      padding: 85px 0px 20px 0px;
       background: linear-gradient(45deg, cyan, rgb(255, 0, 128));
       justify-content: center !important;
       transform: translate(100%);
       transition: 0.3s;
+      overflow-y: scroll;
       li {
         margin: 10px 0px !important;
         &:first-child {
