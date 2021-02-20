@@ -212,6 +212,7 @@ header {
     flex-wrap: wrap;
     #AboutDesc {
       width: 570px;
+      margin: 10px 0px;
       h2 {
         font-family: 'Raleway', sans-serif;
         background: linear-gradient(to left, #00fff2, #ff009d);
@@ -223,6 +224,7 @@ header {
       P {
         font-family: 'Yusei Magic', sans-serif;
         padding: 5px 0px;
+        text-align: justify;
       }
       a {
         font-family: 'Didact Gothic', sans-serif;
@@ -1160,9 +1162,7 @@ footer {
   margin: 0px 10px;
   z-index: 7;
   #HomeMenu {
-    // transform-origin: bottom;
     display: none;
-    // transform: scaleY(0);
     transition: 0.5s;
     background: linear-gradient(to left, #0077ffdc, #01b4fbe1);
     text-align: center;

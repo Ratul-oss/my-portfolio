@@ -275,6 +275,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 
 #About #AboutCOntentWrapper #AboutDesc {
   width: 570px;
+  margin: 10px 0px;
 }
 
 #About #AboutCOntentWrapper #AboutDesc h2 {
@@ -290,6 +291,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #About #AboutCOntentWrapper #AboutDesc P {
   font-family: 'Yusei Magic', sans-serif;
   padding: 5px 0px;
+  text-align: justify;
 }
 
 #About #AboutCOntentWrapper #AboutDesc a {

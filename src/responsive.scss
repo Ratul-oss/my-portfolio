@@ -17,7 +17,7 @@
   header {
     background: linear-gradient(to right, #000000, #00000063),
       url(./Components/img/mobileheaderbg.jpg);
-    background-size: 100% 100%;
+    background-size: cover !important;
     background-position: center;
     background-attachment: fixed;
   }
@@ -69,10 +69,9 @@
     align-items: center !important;
     #AboutDesc {
       width: 95% !important;
-      text-align: center !important;
     }
     #AboutImage {
-      width: 60% !important;
+      width: 90% !important;
       margin: auto;
       margin-bottom: 10px;
     }
@@ -138,6 +137,7 @@
     margin: 15px auto !important;
   }
   #BlogDesc {
+    padding: 10px !important;
     p {
       width: 100% !important;
     }
