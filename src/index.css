@@ -404,6 +404,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #AboutPage #AboutPageDesc #Desc p {
   font-family: 'Yusei Magic', sans-serif;
   padding: 5px 0px;
+  text-align: justify;
 }
 
 #AboutPage #AboutPageDesc #Desc h2 {
