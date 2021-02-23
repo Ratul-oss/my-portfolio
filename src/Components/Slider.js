@@ -1,7 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import SliderItem from "./SliderItem";
+import SliderData from "./SliderData";
 
-const Slider = () => {
+const SliderComponent = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -11,12 +15,22 @@ const Slider = () => {
   };
   return (
     <>
-      <Slider {...settings}>
-        <div>1</div>
-        <div>2</div>
-      </Slider>
+      <section id="Slider">
+        <Slider {...settings} id="mainSlider">
+          {SliderData.map((data, index) => {
+            return (
+              <SliderItem
+                key={index}
+                title={data.title}
+                desc={data.desc}
+                background={data.background}
+              />
+            );
+          })}
+        </Slider>
+      </section>
     </>
   );
 };
 
-export default Slider;
+export default SliderComponent;

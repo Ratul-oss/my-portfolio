@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Texturina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 
 * {
   margin: 0;
@@ -51,7 +51,7 @@
 }
 body,
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
   background: transparent;
@@ -111,7 +111,7 @@ nav {
         }
         a {
           text-decoration: none;
-          font-family: 'Poppins', sans-serif;
+          font-family: "Poppins", sans-serif;
           color: white;
           font-size: 1.1rem;
           transition: 0.3s;
@@ -123,7 +123,7 @@ nav {
     }
     #NavTitle {
       font-size: 2rem;
-      font-family: 'Orbitron', sans-serif;
+      font-family: "Orbitron", sans-serif;
       letter-spacing: 1px;
       word-spacing: 2px;
       background: linear-gradient(to left, rgb(0, 255, 170), rgb(0, 204, 255));
@@ -163,7 +163,7 @@ header {
       h1 {
         font-size: 3rem;
         margin-bottom: 5px;
-        font-family: 'Merriweather', serif;
+        font-family: "Merriweather", serif;
         background: url(./Components/img/H1.jpeg);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -172,14 +172,14 @@ header {
         font-size: 1.5rem;
         margin-bottom: 5px;
         color: #8d00b5;
-        font-family: 'Titillium Web', sans-serif;
+        font-family: "Titillium Web", sans-serif;
       }
       h3 {
         font-size: 1.1rem;
         margin-bottom: 10px;
         color: white;
         font-weight: 400;
-        font-family: 'Texturina', serif;
+        font-family: "Texturina", serif;
         letter-spacing: 1px;
         word-spacing: 2px;
       }
@@ -190,7 +190,7 @@ header {
         border-radius: 20px;
         transition: 0.2s;
         margin: 4px 0px;
-        font-family: 'Titillium Web', sans-serif;
+        font-family: "Titillium Web", sans-serif;
         color: cyan;
         display: inline-block;
         text-decoration: none;
@@ -214,7 +214,7 @@ header {
       width: 570px;
       margin: 10px 0px;
       h2 {
-        font-family: 'Raleway', sans-serif;
+        font-family: "Raleway", sans-serif;
         background: linear-gradient(to left, #00fff2, #ff009d);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -222,12 +222,12 @@ header {
         margin-bottom: 10px;
       }
       P {
-        font-family: 'Yusei Magic', sans-serif;
+        font-family: "Yusei Magic", sans-serif;
         padding: 5px 0px;
         text-align: justify;
       }
       a {
-        font-family: 'Didact Gothic', sans-serif;
+        font-family: "Didact Gothic", sans-serif;
         padding: 5px 30px;
         font-size: 1.5rem;
         border: none;
@@ -244,7 +244,7 @@ header {
         border: 2px solid rgb(255, 0, 128);
         margin: 10px 0px;
         &:before {
-          content: '';
+          content: "";
           position: absolute;
           top: 0;
           left: 0;
@@ -297,14 +297,14 @@ header {
     #Desc {
       width: 760px;
       p {
-        font-family: 'Yusei Magic', sans-serif;
+        font-family: "Yusei Magic", sans-serif;
         padding: 5px 0px;
         text-align: justify;
       }
       h2 {
         font-size: 2.5rem;
         margin-bottom: 10px;
-        font-family: 'Playfair Display', serif;
+        font-family: "Playfair Display", serif;
         background: linear-gradient(
           to right,
           rgb(255, 0, 128),
@@ -373,7 +373,7 @@ header {
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Lora', serif;
+        font-family: "Lora", serif;
       }
       ol,
       ul {
@@ -397,7 +397,7 @@ header {
             color: #7caeca;
             transition: 0.3s;
             letter-spacing: 1px;
-            font-family: 'Mukta', sans-serif;
+            font-family: "Mukta", sans-serif;
             font-size: 1.1rem;
           }
         }
@@ -420,7 +420,7 @@ footer {
   background: rgb(36, 36, 36);
   color: whitesmoke;
   letter-spacing: 2px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
 }
 #SectionTitle {
   text-align: center;
@@ -435,14 +435,14 @@ footer {
     display: inline-block;
     background-size: 100% 100%;
     background-attachment: fixed;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
     text-transform: capitalize;
   }
   p {
     width: 60%;
     margin: 5px auto 10px auto;
     font-weight: 900;
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     letter-spacing: 1px;
     text-transform: capitalize;
   }
@@ -493,7 +493,7 @@ footer {
           font-size: 1.8rem;
           text-transform: capitalize;
           margin: 5px 0px 10px 0px;
-          font-family: 'Raleway', sans-serif;
+          font-family: "Raleway", sans-serif;
           background: linear-gradient(
             to left,
             rgb(0, 217, 255),
@@ -504,7 +504,7 @@ footer {
         }
         P {
           text-transform: capitalize;
-          font-family: 'Maven Pro', sans-serif;
+          font-family: "Maven Pro", sans-serif;
           font-weight: 600;
           letter-spacing: 1px;
           word-spacing: 1px;
@@ -527,7 +527,7 @@ footer {
   margin: 20px 0px;
   text-align: center;
   a {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: "Didact Gothic", sans-serif;
     padding: 5px 30px;
     font-size: 1.5rem;
     border: none;
@@ -544,7 +544,7 @@ footer {
     border: 2px solid rgb(255, 0, 128);
     margin: 10px 0px;
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -608,7 +608,7 @@ footer {
           font-size: 1.8rem;
           text-transform: capitalize;
           margin: 5px 0px 10px 0px;
-          font-family: 'Raleway', sans-serif;
+          font-family: "Raleway", sans-serif;
           background: linear-gradient(
             to left,
             rgb(0, 217, 255),
@@ -619,7 +619,7 @@ footer {
         }
         P {
           text-transform: capitalize;
-          font-family: 'Maven Pro', sans-serif;
+          font-family: "Maven Pro", sans-serif;
           font-weight: 600;
           letter-spacing: 1px;
           word-spacing: 1px;
@@ -677,7 +677,7 @@ footer {
         transform: translateY(-100%);
         h2 {
           color: white;
-          font-family: 'Raleway', sans-serif;
+          font-family: "Raleway", sans-serif;
           font-size: 1.8rem;
           margin-bottom: 5px;
           color: cyan;
@@ -687,7 +687,7 @@ footer {
         }
         p {
           color: white;
-          font-family: 'Maven Pro', sans-serif;
+          font-family: "Maven Pro", sans-serif;
           font-size: 1.2rem;
           width: 60%;
           text-align: center;
@@ -751,7 +751,7 @@ footer {
         overflow: hidden;
         h2 {
           color: white;
-          font-family: 'Raleway', sans-serif;
+          font-family: "Raleway", sans-serif;
           font-size: 2rem;
           margin-bottom: 5px;
           color: cyan;
@@ -761,7 +761,7 @@ footer {
         }
         p {
           color: white;
-          font-family: 'Maven Pro', sans-serif;
+          font-family: "Maven Pro", sans-serif;
           font-size: 1.2rem;
           width: 60%;
           text-align: center;
@@ -874,10 +874,10 @@ footer {
           );
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-          font-family: 'Nanum Gothic', sans-serif;
+          font-family: "Nanum Gothic", sans-serif;
         }
         P {
-          font-family: 'Titillium Web', sans-serif;
+          font-family: "Titillium Web", sans-serif;
           font-weight: 600;
         }
       }
@@ -904,7 +904,7 @@ footer {
         border: 1px solid #ddd;
         resize: none;
         border-radius: 3px;
-        font-family: 'Yusei Magic', sans-serif;
+        font-family: "Yusei Magic", sans-serif;
         font-size: 1.3rem;
         box-shadow: inset 2px 3px 5px -1px #ddd;
         transition: 0.3s;
@@ -925,7 +925,7 @@ footer {
         color: #f50057;
         border: 2px solid #f50057;
         border-radius: 5px;
-        font-family: 'Yusei Magic', sans-serif;
+        font-family: "Yusei Magic", sans-serif;
         margin: auto;
         transition: 0.3s;
         &:hover {
@@ -950,7 +950,7 @@ footer {
   display: none;
   h2 {
     padding: 5px 0px;
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: "Yusei Magic", sans-serif;
   }
 }
 #NavButton {
@@ -963,7 +963,7 @@ footer {
   flex-wrap: wrap;
   select {
     padding: 5px 20px;
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: "Yusei Magic", sans-serif;
     outline: none;
     background: rgb(221, 221, 221);
     border-radius: 3px;
@@ -1001,7 +1001,7 @@ footer {
       font-size: 2.5rem;
       color: rgb(0, 247, 255);
       margin-bottom: 10px;
-      font-family: 'Orbitron', sans-serif;
+      font-family: "Orbitron", sans-serif;
       font-weight: 100;
       letter-spacing: 1px;
       word-spacing: 2px;
@@ -1023,7 +1023,7 @@ footer {
         color: rgb(255, 255, 255);
         border: 2px solid white;
         outline: none;
-        font-family: 'Yusei Magic', sans-serif;
+        font-family: "Yusei Magic", sans-serif;
         border-radius: 10px;
         margin: 10px 0px;
         transition: 0.5s;
@@ -1037,7 +1037,7 @@ footer {
       font-size: 2.5rem;
       color: cyan;
       margin-bottom: 10px;
-      font-family: 'Orbitron', sans-serif;
+      font-family: "Orbitron", sans-serif;
       font-weight: 100;
       letter-spacing: 1px;
       word-spacing: 2px;
@@ -1054,7 +1054,7 @@ footer {
         font-size: 1.2rem;
         background: transparent;
         border: 2px solid white;
-        font-family: 'Yusei Magic', sans-serif;
+        font-family: "Yusei Magic", sans-serif;
         color: white;
         transition: 0.5s;
         &:focus {
@@ -1084,7 +1084,7 @@ footer {
         width: 100%;
         padding: 10px 5px;
         font-size: 1.1rem;
-        font-family: 'Yusei Magic', sans-serif;
+        font-family: "Yusei Magic", sans-serif;
         background: transparent;
         color: white;
         outline: none;
@@ -1135,7 +1135,7 @@ footer {
       #ReviewDesc {
         width: 100%;
         h2 {
-          font-family: 'Nanum Gothic', sans-serif;
+          font-family: "Nanum Gothic", sans-serif;
           margin: 5px 0px 10px 0px;
         }
         h4 {
@@ -1143,7 +1143,7 @@ footer {
           font-size: 1.2rem;
         }
         p {
-          font-family: 'Yusei Magic', sans-serif;
+          font-family: "Yusei Magic", sans-serif;
         }
       }
       #ReviewRank {
@@ -1178,7 +1178,7 @@ footer {
         font-size: 1.4rem;
         color: rgb(255, 255, 255);
         transition: 0.3s;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         &:hover {
           color: cyan;
           text-shadow: 1px 2px 8px cyan;
@@ -1219,21 +1219,21 @@ footer {
         padding: 10px 20px;
         h3 {
           text-align: right;
-          font-family: 'PT Serif', serif;
+          font-family: "PT Serif", serif;
           color: rgb(119, 0, 255);
         }
         h2 {
           margin: 5px 0px;
-          font-family: 'Montserrat', sans-serif;
+          font-family: "Montserrat", sans-serif;
           color: rgb(255, 115, 0);
           font-size: 1.8rem;
           text-transform: capitalize;
         }
         p {
-          font-family: 'Yusei Magic', sans-serif;
+          font-family: "Yusei Magic", sans-serif;
         }
         a {
-          font-family: 'Yusei Magic', sans-serif;
+          font-family: "Yusei Magic", sans-serif;
           text-decoration: none;
           display: inline-block;
           margin: 10px 0px;
@@ -1258,7 +1258,7 @@ kbd {
   border-radius: 5px;
   z-index: 10;
   display: inline-block;
-  font-family: 'consolas', monospace;
+  font-family: "consolas", monospace;
   margin: 20px 10px;
   text-shadow: none;
 }
@@ -1282,7 +1282,7 @@ kbd {
     }
     h2 {
       font-size: 2rem;
-      font-family: 'Sriracha', cursive;
+      font-family: "Sriracha", cursive;
       color: red;
     }
   }
@@ -1303,7 +1303,7 @@ kbd {
       width: 60%;
       display: grid;
       place-items: center;
-      font-family: 'Dosis', sans-serif;
+      font-family: "Dosis", sans-serif;
       font-weight: 900;
       font-size: 1.3rem;
       #SingleFaq {
@@ -1395,5 +1395,47 @@ details > summary::-webkit-details-marker {
   .custom-shape-divider-bottom-1612693670 svg {
     width: calc(100% + 1.3px);
     height: 22px;
+  }
+}
+
+#Slider {
+  padding: 50px 0px;
+  .singleSliderItem {
+    position: relative;
+    width: 80%;
+    margin: 10px auto;
+    height: 40vh;
+    overflow: hidden;
+    &:hover img {
+      transform: scale(1.1);
+    }
+    img {
+      width: 100%;
+      transition: 0.3s;
+    }
+    .sliderDesc {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+      background: linear-gradient(
+        45deg,
+        rgba(0, 255, 255, 0.685),
+        rgba(255, 0, 119, 0.644)
+      );
+      color: white;
+      h2 {
+        padding: 10px 0px;
+        color: rgb(255, 0, 157);
+        text-shadow: 1px 1px 5px black;
+      }
+    }
   }
 }

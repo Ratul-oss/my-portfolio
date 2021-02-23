@@ -55,7 +55,7 @@
 
 body,
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
   background: transparent;
@@ -147,7 +147,7 @@ nav #NavContentWrapper #NavLink li:first-child {
 
 nav #NavContentWrapper #NavLink li a {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 1.1rem;
   -webkit-transition: 0.3s;
@@ -160,7 +160,7 @@ nav #NavContentWrapper #NavLink li a:hover {
 
 nav #NavContentWrapper #NavTitle {
   font-size: 2rem;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   letter-spacing: 1px;
   word-spacing: 2px;
   background: -webkit-gradient(linear, right top, left top, from(#00ffaa), to(#00ccff));
@@ -212,7 +212,7 @@ header #HeaderContentWrapper #HeaderDesc {
 header #HeaderContentWrapper #HeaderDesc h1 {
   font-size: 3rem;
   margin-bottom: 5px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   background: url(./Components/img/H1.jpeg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -222,7 +222,7 @@ header #HeaderContentWrapper #HeaderDesc p {
   font-size: 1.5rem;
   margin-bottom: 5px;
   color: #8d00b5;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 header #HeaderContentWrapper #HeaderDesc h3 {
@@ -230,7 +230,7 @@ header #HeaderContentWrapper #HeaderDesc h3 {
   margin-bottom: 10px;
   color: white;
   font-weight: 400;
-  font-family: 'Texturina', serif;
+  font-family: "Texturina", serif;
   letter-spacing: 1px;
   word-spacing: 2px;
 }
@@ -243,7 +243,7 @@ header #HeaderContentWrapper #HeaderDesc a {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   margin: 4px 0px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: cyan;
   display: inline-block;
   text-decoration: none;
@@ -279,7 +279,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 }
 
 #About #AboutCOntentWrapper #AboutDesc h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background: -webkit-gradient(linear, right top, left top, from(#00fff2), to(#ff009d));
   background: linear-gradient(to left, #00fff2, #ff009d);
   -webkit-background-clip: text;
@@ -289,13 +289,13 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 }
 
 #About #AboutCOntentWrapper #AboutDesc P {
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   padding: 5px 0px;
   text-align: justify;
 }
 
 #About #AboutCOntentWrapper #AboutDesc a {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   padding: 5px 30px;
   font-size: 1.5rem;
   border: none;
@@ -315,7 +315,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 }
 
 #About #AboutCOntentWrapper #AboutDesc a:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -402,7 +402,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 }
 
 #AboutPage #AboutPageDesc #Desc p {
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   padding: 5px 0px;
   text-align: justify;
 }
@@ -410,7 +410,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
 #AboutPage #AboutPageDesc #Desc h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   background: -webkit-gradient(linear, left top, right top, from(#ff0080), to(#00eeff));
   background: linear-gradient(to right, #ff0080, #00eeff);
   background-size: 100% 100%;
@@ -494,7 +494,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   background: linear-gradient(to left, #00ffea, #006eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 #Footer #FooterContentWrapper #FooterSingleCotent ol li,
@@ -530,7 +530,7 @@ header #HeaderContentWrapper #HeaderDesc a:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   letter-spacing: 1px;
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   font-size: 1.1rem;
 }
 
@@ -549,7 +549,7 @@ footer {
   background: #242424;
   color: whitesmoke;
   letter-spacing: 2px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
 }
 
 #SectionTitle {
@@ -567,7 +567,7 @@ footer {
   display: inline-block;
   background-size: 100% 100%;
   background-attachment: fixed;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   text-transform: capitalize;
 }
 
@@ -575,7 +575,7 @@ footer {
   width: 60%;
   margin: 5px auto 10px auto;
   font-weight: 900;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
@@ -641,7 +641,7 @@ footer {
   font-size: 1.8rem;
   text-transform: capitalize;
   margin: 5px 0px 10px 0px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background: -webkit-gradient(linear, right top, left top, from(#00d9ff), to(#ff0095));
   background: linear-gradient(to left, #00d9ff, #ff0095);
   -webkit-background-clip: text;
@@ -650,7 +650,7 @@ footer {
 
 #ShortService #ShortServiceContentWrapper #SingleShortService #ServiceShortDesc P {
   text-transform: capitalize;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -675,7 +675,7 @@ footer {
 }
 
 #LinkToMainPage a {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   padding: 5px 30px;
   font-size: 1.5rem;
   border: none;
@@ -695,7 +695,7 @@ footer {
 }
 
 #LinkToMainPage a:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -775,7 +775,7 @@ footer {
   font-size: 1.8rem;
   text-transform: capitalize;
   margin: 5px 0px 10px 0px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background: -webkit-gradient(linear, right top, left top, from(#00d9ff), to(#ff0095));
   background: linear-gradient(to left, #00d9ff, #ff0095);
   -webkit-background-clip: text;
@@ -784,7 +784,7 @@ footer {
 
 #Service #ServiceContentWrapper #SingleService #ServiceDesc P {
   text-transform: capitalize;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -872,7 +872,7 @@ footer {
 
 #ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc h2 {
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.8rem;
   margin-bottom: 5px;
   color: cyan;
@@ -884,7 +884,7 @@ footer {
 
 #ShortProjects #ProjectContentWrapper #SingleShortProject #SingleShortProjectDesc p {
   color: white;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 1.2rem;
   width: 60%;
   text-align: center;
@@ -979,7 +979,7 @@ footer {
 
 #Projects #ProjectContentWrapper #SingleProject #ProjectDesc h2 {
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 2rem;
   margin-bottom: 5px;
   color: cyan;
@@ -990,7 +990,7 @@ footer {
 
 #Projects #ProjectContentWrapper #SingleProject #ProjectDesc p {
   color: white;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 1.2rem;
   width: 60%;
   text-align: center;
@@ -1153,11 +1153,11 @@ footer {
   background: linear-gradient(to left, #00e1ff, #006eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 #SkillsPage #SkillPageContentWrapper #SingleSkillsInPage #SkillDesc P {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 600;
 }
 
@@ -1183,7 +1183,7 @@ footer {
   border: 1px solid #ddd;
   resize: none;
   border-radius: 3px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   font-size: 1.3rem;
   -webkit-box-shadow: inset 2px 3px 5px -1px #ddd;
           box-shadow: inset 2px 3px 5px -1px #ddd;
@@ -1211,7 +1211,7 @@ footer {
   color: #f50057;
   border: 2px solid #f50057;
   border-radius: 5px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1241,7 +1241,7 @@ footer {
 
 #outputmessage h2 {
   padding: 5px 0px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
 }
 
 #NavButton {
@@ -1264,7 +1264,7 @@ footer {
 
 #Filter select {
   padding: 5px 20px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   outline: none;
   background: #dddddd;
   border-radius: 3px;
@@ -1321,7 +1321,7 @@ footer {
   font-size: 2.5rem;
   color: #00f7ff;
   margin-bottom: 10px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-weight: 100;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -1344,7 +1344,7 @@ footer {
   color: white;
   border: 2px solid white;
   outline: none;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   border-radius: 10px;
   margin: 10px 0px;
   -webkit-transition: 0.5s;
@@ -1360,7 +1360,7 @@ footer {
   font-size: 2.5rem;
   color: cyan;
   margin-bottom: 10px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-weight: 100;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -1380,7 +1380,7 @@ footer {
   font-size: 1.2rem;
   background: transparent;
   border: 2px solid white;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1446,7 +1446,7 @@ footer {
   width: 100%;
   padding: 10px 5px;
   font-size: 1.1rem;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   background: transparent;
   color: white;
   outline: none;
@@ -1518,7 +1518,7 @@ footer {
 }
 
 #Review #ReviewContentWrapper #SingleReview #ReviewDesc h2 {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   margin: 5px 0px 10px 0px;
 }
 
@@ -1528,7 +1528,7 @@ footer {
 }
 
 #Review #ReviewContentWrapper #SingleReview #ReviewDesc p {
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
 }
 
 #Review #ReviewContentWrapper #SingleReview #ReviewRank {
@@ -1571,7 +1571,7 @@ footer {
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #HomeMe #HomeMenu li a:hover {
@@ -1632,24 +1632,24 @@ footer {
 
 #Blog #BlogContentWrapper #SingleBlog #BlogDesc h3 {
   text-align: right;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   color: #7700ff;
 }
 
 #Blog #BlogContentWrapper #SingleBlog #BlogDesc h2 {
   margin: 5px 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ff7300;
   font-size: 1.8rem;
   text-transform: capitalize;
 }
 
 #Blog #BlogContentWrapper #SingleBlog #BlogDesc p {
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
 }
 
 #Blog #BlogContentWrapper #SingleBlog #BlogDesc a {
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   text-decoration: none;
   display: inline-block;
   margin: 10px 0px;
@@ -1673,7 +1673,7 @@ kbd {
   border-radius: 5px;
   z-index: 10;
   display: inline-block;
-  font-family: 'consolas', monospace;
+  font-family: "consolas", monospace;
   margin: 20px 10px;
   text-shadow: none;
 }
@@ -1715,7 +1715,7 @@ kbd {
 
 #Error #ContentWrapper h2 {
   font-size: 2rem;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   color: red;
 }
 
@@ -1747,7 +1747,7 @@ kbd {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 900;
   font-size: 1.3rem;
 }
@@ -1859,5 +1859,59 @@ details > summary::-webkit-details-marker {
     width: calc(100% + 1.3px);
     height: 22px;
   }
+}
+
+#Slider {
+  padding: 50px 0px;
+}
+
+#Slider .singleSliderItem {
+  position: relative;
+  width: 80%;
+  margin: 10px auto;
+  height: 40vh;
+  overflow: hidden;
+}
+
+#Slider .singleSliderItem:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Slider .singleSliderItem img {
+  width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Slider .singleSliderItem .sliderDesc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(45deg, rgba(0, 255, 255, 0.685), rgba(255, 0, 119, 0.644));
+  color: white;
+}
+
+#Slider .singleSliderItem .sliderDesc h2 {
+  padding: 10px 0px;
+  color: #ff009d;
+  text-shadow: 1px 1px 5px black;
 }
 /*# sourceMappingURL=index.css.map */

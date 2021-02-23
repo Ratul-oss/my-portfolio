@@ -1,24 +1,26 @@
-import React, { useEffect } from 'react'
-import Header from './Header'
-import ShortAbout from './ShortAbout'
-import ShortService from './ShortService'
-import ShortProject from './ShortProject'
-import ShortSkill from './ShortSkill'
-import Footer from './Footer'
-import Subscribe from './Subscribe'
-import Review from './Review'
-import Blog from './Blog'
+import React, { useEffect } from "react";
+import Header from "./Header";
+import ShortAbout from "./ShortAbout";
+import ShortService from "./ShortService";
+import ShortProject from "./ShortProject";
+import ShortSkill from "./ShortSkill";
+import Footer from "./Footer";
+import Subscribe from "./Subscribe";
+import Review from "./Review";
+import Blog from "./Blog";
+import SliderComponent from "./Slider";
 
 const Home = () => {
   useEffect(() => {
-    document.title = ' DevR - Home '
-    window.scrollTo(0, 0)
-  }, [])
+    document.title = " DevR - Home ";
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header />
       <ShortAbout />
       <ShortProject />
+      <SliderComponent />
       <ShortSkill />
       <ShortService />
       <Review />
@@ -26,6 +28,6 @@ const Home = () => {
       <Blog />
       <Footer />
     </>
-  )
-}
-export default Home
+  );
+};
+export default Home;
